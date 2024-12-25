@@ -1,0 +1,1105 @@
+﻿Log file open, 12/13/24 09:33:40
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogProfilingDebugging: Loading WinPixEventRuntime.dll for PIX profiling (from ../../../Engine/Binaries/ThirdParty/Windows/WinPixEventRuntime/x64).
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogWindows: Started CrashReportClient (pid=20708)
+LogWindows: Custom abort handler registered for crash reporting.
+LogInit: Display: Running engine for game: MyProject
+LogCore: UTS: Unreal Trace Server launched successfully
+LogTrace: Initializing trace...
+LogCore: Display: Requested channels: 'cpu,gpu,frame,log,bookmark,screenshot,region'
+LogTrace: Finished trace initialization.
+LogCsvProfiler: Display: Metadata set : platform="Windows"
+LogCsvProfiler: Display: Metadata set : config="Development"
+LogCsvProfiler: Display: Metadata set : buildversion="++UE5+Release-5.4-CL-35576357"
+LogCsvProfiler: Display: Metadata set : engineversion="5.4.4-35576357+++UE5+Release-5.4"
+LogCsvProfiler: Display: Metadata set : os="Windows 10 (22H2) [10.0.19045.5131] "
+LogCsvProfiler: Display: Metadata set : cpu="GenuineIntel|Intel(R) Core(TM) i5-1035G1 CPU @ 1.00GHz"
+LogCsvProfiler: Display: Metadata set : pgoenabled="0"
+LogCsvProfiler: Display: Metadata set : pgoprofilingenabled="0"
+LogCsvProfiler: Display: Metadata set : ltoenabled="0"
+LogCsvProfiler: Display: Metadata set : asan="0"
+LogCsvProfiler: Display: Metadata set : commandline="" "C:/Users/Асер/Documents/Unreal Projects/MyProject 5.4/MyProject.uproject"""
+LogCsvProfiler: Display: Metadata set : loginid="be87df1d4587cfab16fa758781bd9a6a"
+LogCsvProfiler: Display: Metadata set : llm="0"
+LogStats: Stats thread started at 3.166849
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +5:00, Platform Override: ''
+LogInit: Session CrashGUID >====================================================
+         Session CrashGUID >   UECC-Windows-586345DE4D3F2B43F21B2DBB5478D48F
+         Session CrashGUID >====================================================
+LogConfig: No local boot hotfix file found at: [../../../../../../Users/Асер/Documents/Unreal Projects/MyProject 5.4/Saved/PersistentDownloadDir/HotfixForNextBoot.txt]
+LogConfig: Display: Loading Android ini files took 0.08 seconds
+LogConfig: Display: Loading IOS ini files took 0.09 seconds
+LogConfig: Display: Loading LinuxArm64 ini files took 0.15 seconds
+LogConfig: Display: Loading Linux ini files took 0.15 seconds
+LogConfig: Display: Loading Mac ini files took 0.08 seconds
+LogConfig: Display: Loading TVOS ini files took 0.11 seconds
+LogConfig: Display: Loading VulkanPC ini files took 0.08 seconds
+LogConfig: Display: Loading Unix ini files took 0.10 seconds
+LogConfig: Display: Loading Windows ini files took 0.10 seconds
+LogConfig: Display: Loading VisionOS ini files took 0.10 seconds
+LogPluginManager: Mounting Engine plugin Bridge
+LogPluginManager: Mounting Engine plugin ChaosCloth
+LogPluginManager: Mounting Engine plugin CmdLinkServer
+LogPluginManager: Mounting Engine plugin ChaosVD
+LogPluginManager: Found config from plugin[ChaosVD] Engine
+LogPluginManager: Mounting Engine plugin EnhancedInput
+LogPluginManager: Found config from plugin[EnhancedInput] Input
+LogPluginManager: Mounting Engine plugin FastBuildController
+LogPluginManager: Mounting Engine plugin MeshPainting
+LogPluginManager: Mounting Engine plugin RenderGraphInsights
+LogPluginManager: Mounting Engine plugin TraceUtilities
+LogPluginManager: Mounting Engine plugin WorldMetrics
+LogPluginManager: Mounting Engine plugin XGEController
+LogPluginManager: Mounting Engine plugin AISupport
+LogPluginManager: Mounting Engine plugin EnvironmentQueryEditor
+LogPluginManager: Mounting Engine plugin AnimationSharing
+LogPluginManager: Mounting Engine plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting Engine plugin CLionSourceCodeAccess
+LogPluginManager: Mounting Engine plugin DumpGPUServices
+LogPluginManager: Mounting Engine plugin GitSourceControl
+LogPluginManager: Mounting Engine plugin N10XSourceCodeAccess
+LogPluginManager: Mounting Engine plugin NullSourceCodeAccess
+LogPluginManager: Mounting Engine plugin PerforceSourceControl
+LogPluginManager: Mounting Engine plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting Engine plugin PixWinPlugin
+LogPluginManager: Mounting Engine plugin PlasticSourceControl
+LogPluginManager: Mounting Engine plugin PluginUtils
+LogPluginManager: Mounting Engine plugin PropertyAccessNode
+LogPluginManager: Mounting Engine plugin RenderDocPlugin
+LogPluginManager: Mounting Engine plugin RiderSourceCodeAccess
+LogPluginManager: Mounting Engine plugin SubversionSourceControl
+LogPluginManager: Mounting Engine plugin UObjectPlugin
+LogPluginManager: Mounting Engine plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting Engine plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting Engine plugin TextureFormatOodle
+LogPluginManager: Mounting Engine plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting Engine plugin InterchangeEditor
+LogPluginManager: Mounting Engine plugin Interchange
+LogPluginManager: Mounting Engine plugin ActorLayerUtilities
+LogPluginManager: Mounting Engine plugin AndroidFileServer
+LogPluginManager: Mounting Engine plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin AndroidMoviePlayer
+LogPluginManager: Mounting Engine plugin AndroidPermission
+LogPluginManager: Mounting Engine plugin TraceDataFilters
+LogPluginManager: Mounting Engine plugin AppleImageUtils
+LogPluginManager: Mounting Engine plugin AppleMoviePlayer
+LogPluginManager: Mounting Engine plugin ArchVisCharacter
+LogPluginManager: Mounting Engine plugin AssetTags
+LogPluginManager: Mounting Engine plugin AudioCapture
+LogPluginManager: Mounting Engine plugin AudioSynesthesia
+LogPluginManager: Mounting Engine plugin AudioWidgets
+LogPluginManager: Mounting Engine plugin CableComponent
+LogPluginManager: Mounting Engine plugin ChunkDownloader
+LogPluginManager: Mounting Engine plugin CustomMeshComponent
+LogPluginManager: Mounting Engine plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin GeometryProcessing
+LogPluginManager: Mounting Engine plugin GeometryCache
+LogPluginManager: Mounting Engine plugin GoogleCloudMessaging
+LogPluginManager: Mounting Engine plugin GooglePAD
+LogPluginManager: Mounting Engine plugin InputDebugging
+LogPluginManager: Found config from plugin[InputDebugging] Input
+LogPluginManager: Mounting Engine plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin LocationServicesBPLibrary
+LogPluginManager: Mounting Engine plugin MeshModelingToolset
+LogPluginManager: Mounting Engine plugin Metasound
+LogPluginManager: Mounting Engine plugin MobilePatchingUtils
+LogPluginManager: Mounting Engine plugin MsQuic
+LogPluginManager: Mounting Engine plugin ProceduralMeshComponent
+LogPluginManager: Mounting Engine plugin PropertyAccessEditor
+LogPluginManager: Mounting Engine plugin RigVM
+LogPluginManager: Mounting Engine plugin ResonanceAudio
+LogPluginManager: Mounting Engine plugin SignificanceManager
+LogPluginManager: Mounting Engine plugin SoundFields
+LogPluginManager: Mounting Engine plugin Synthesis
+LogPluginManager: Mounting Engine plugin WaveTable
+LogPluginManager: Mounting Engine plugin WebMMoviePlayer
+LogPluginManager: Mounting Engine plugin WindowsDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin WindowsMoviePlayer
+LogPluginManager: Mounting Engine plugin AnimationData
+LogPluginManager: Mounting Engine plugin AnimationModifierLibrary
+LogPluginManager: Mounting Engine plugin ACLPlugin
+LogPluginManager: Mounting Engine plugin ControlRig
+LogPluginManager: Mounting Engine plugin ControlRigModules
+LogPluginManager: Mounting Engine plugin BlendSpaceMotionAnalysis
+LogPluginManager: Mounting Engine plugin ControlRigSpline
+LogPluginManager: Mounting Engine plugin IKRig
+LogPluginManager: Mounting Engine plugin AlembicImporter
+LogPluginManager: Mounting Engine plugin LauncherChunkInstaller
+LogPluginManager: Mounting Engine plugin Niagara
+LogPluginManager: Mounting Engine plugin NiagaraSimCaching
+LogPluginManager: Mounting Engine plugin OnlineBase
+LogPluginManager: Mounting Engine plugin OnlineServices
+LogPluginManager: Mounting Engine plugin OnlineSubsystem
+LogPluginManager: Mounting Engine plugin OnlineSubsystemNull
+LogPluginManager: Mounting Engine plugin OnlineSubsystemUtils
+LogPluginManager: Mounting Engine plugin AutomationUtils
+LogPluginManager: Mounting Engine plugin BackChannel
+LogPluginManager: Mounting Engine plugin ChaosCaching
+LogPluginManager: Mounting Engine plugin ChaosEditor
+LogPluginManager: Mounting Engine plugin ChaosUserDataPT
+LogPluginManager: Mounting Engine plugin ChaosSolverPlugin
+LogPluginManager: Mounting Engine plugin ChaosNiagara
+LogPluginManager: Mounting Engine plugin CharacterAI
+LogPluginManager: Mounting Engine plugin Dataflow
+LogPluginManager: Mounting Engine plugin Fracture
+LogPluginManager: Mounting Engine plugin FullBodyIK
+LogPluginManager: Mounting Engine plugin GeometryCollectionPlugin
+LogPluginManager: Mounting Engine plugin GeometryFlow
+LogPluginManager: Mounting Engine plugin LocalizableMessage
+LogPluginManager: Mounting Engine plugin MeshModelingToolsetExp
+LogPluginManager: Mounting Engine plugin OpenImageDenoise
+LogPluginManager: Mounting Engine plugin PlanarCut
+LogPluginManager: Mounting Engine plugin PlatformCrypto
+LogPluginManager: Mounting Engine plugin PythonScriptPlugin
+LogPluginManager: Mounting Engine plugin SkeletalReduction
+LogPluginManager: Mounting Engine plugin StructUtils
+LogPluginManager: Mounting Engine plugin StudioTelemetry
+LogPluginManager: Mounting Engine plugin ToolPresets
+LogPluginManager: Mounting Engine plugin OodleNetwork
+LogPluginManager: Mounting Engine plugin GLTFExporter
+LogPluginManager: Mounting Engine plugin DatasmithContent
+LogPluginManager: Mounting Engine plugin VariantManager
+LogPluginManager: Mounting Engine plugin AssetManagerEditor
+LogPluginManager: Mounting Engine plugin UdpMessaging
+LogPluginManager: Mounting Engine plugin TcpMessaging
+LogPluginManager: Mounting Engine plugin VariantManagerContent
+LogPluginManager: Mounting Engine plugin BlueprintHeaderView
+LogPluginManager: Mounting Engine plugin ChangelistReview
+LogPluginManager: Mounting Engine plugin CryptoKeys
+LogPluginManager: Mounting Engine plugin CurveEditorTools
+LogPluginManager: Mounting Engine plugin EditorDebugTools
+LogPluginManager: Mounting Engine plugin DataValidation
+LogPluginManager: Mounting Engine plugin EditorScriptingUtilities
+LogPluginManager: Mounting Engine plugin FacialAnimation
+LogPluginManager: Mounting Engine plugin GeometryMode
+LogPluginManager: Mounting Engine plugin EngineAssetDefinitions
+LogPluginManager: Mounting Engine plugin MacGraphicsSwitching
+LogPluginManager: Mounting Engine plugin MeshLODToolset
+LogPluginManager: Mounting Engine plugin MaterialAnalyzer
+LogPluginManager: Mounting Engine plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting Engine plugin ModelingToolsEditorMode
+LogPluginManager: Mounting Engine plugin PluginBrowser
+LogPluginManager: Mounting Engine plugin ProxyLODPlugin
+LogPluginManager: Mounting Engine plugin GameplayTagsEditor
+LogPluginManager: Mounting Engine plugin SequencerAnimTools
+LogPluginManager: Mounting Engine plugin SpeedTreeImporter
+LogPluginManager: Mounting Engine plugin UVEditor
+LogPluginManager: Mounting Engine plugin WorldPartitionHLODUtilities
+LogPluginManager: Mounting Engine plugin ActorSequence
+LogPluginManager: Mounting Engine plugin LevelSequenceEditor
+LogPluginManager: Mounting Engine plugin SequencerScripting
+LogPluginManager: Mounting Engine plugin TemplateSequence
+LogPluginManager: Mounting Engine plugin Takes
+LogPluginManager: Mounting Engine plugin Paper2D
+LogPluginManager: Mounting Engine plugin CameraShakePreviewer
+LogPluginManager: Mounting Engine plugin GameplayCameras
+LogPluginManager: Mounting Engine plugin AndroidMedia
+LogPluginManager: Mounting Engine plugin AvfMedia
+LogPluginManager: Mounting Engine plugin ImgMedia
+LogPluginManager: Mounting Engine plugin MediaCompositing
+LogPluginManager: Mounting Engine plugin MediaPlayerEditor
+LogPluginManager: Mounting Engine plugin MediaPlate
+LogPluginManager: Mounting Engine plugin WebMMedia
+LogPluginManager: Mounting Engine plugin WmfMedia
+LogPluginManager: Mounting Engine plugin InterchangeTests
+LogPluginManager: Mounting Engine plugin OnlineSubsystemIOS
+LogPluginManager: Mounting Engine plugin MetaHumanProjectUtilities
+LogPluginManager: Mounting Engine plugin ContentBrowserAssetDataSource
+LogPluginManager: Mounting Engine plugin PortableObjectFileDataSource
+LogPluginManager: Mounting Engine plugin ContentBrowserFileDataSource
+LogPluginManager: Mounting Engine plugin ContentBrowserClassDataSource
+LogPluginManager: Mounting Engine plugin XInputDevice
+LogPluginManager: Mounting Engine plugin BaseCharacterFXEditor
+LogPluginManager: Mounting Engine plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting Engine plugin LightMixer
+LogPluginManager: Mounting Engine plugin ObjectMixer
+SourceControl: Revision control is disabled
+SourceControl: Revision control is disabled
+SourceControl: Revision control is disabled
+LogWindows: Failed to load 'WinPixGpuCapturer.dll' (GetLastError=126)
+LogWindows: File 'WinPixGpuCapturer.dll' does not exist
+PixWinPlugin: PIX capture plugin failed to initialize! Check that the process is launched from PIX.
+LogConfig: Applying CVar settings from Section [/Script/RenderDocPlugin.RenderDocPluginSettings] File [Engine]
+RenderDocPlugin: Display: RenderDoc plugin will not be loaded. Use '-AttachRenderDoc' on the cmd line or enable 'renderdoc.AutoAttach' in the plugin settings.
+LogInit: Using libcurl 8.4.0
+LogInit:  - built for Windows
+LogInit:  - supports SSL with OpenSSL/1.1.1t
+LogInit:  - supports HTTP deflate (compression) using libz 1.3
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: CreateHttpThread using FCurlHttpThread
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: Created online subsystem instance for: NULL
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for type [NULL]
+LogStudioTelemetry: Display: Starting StudioTelemetry Module
+LogStudioTelemetry: Display: Created an analytics provider LogAnalytics from module AnalyticsLog configuration Engine [StudioTelemetry.Log]
+LogStudioTelemetry: Started StudioTelemetry Session
+LogInit: ExecutableName: UnrealEditor.exe
+LogInit: Build: ++UE5+Release-5.4-CL-35576357
+LogInit: Platform=WindowsEditor
+LogInit: MachineId=be87df1d4587cfab16fa758781bd9a6a
+LogInit: DeviceId=
+LogInit: Engine Version: 5.4.4-35576357+++UE5+Release-5.4
+LogInit: Compatible Engine Version: 5.4.0-33043543+++UE5+Release-5.4
+LogInit: Net CL: 33043543
+LogInit: OS: Windows 10 (22H2) [10.0.19045.5131] (), CPU: Intel(R) Core(TM) i5-1035G1 CPU @ 1.00GHz, GPU: Intel(R) UHD Graphics
+LogInit: Compiled (64-bit): Aug 16 2024 04:10:34
+LogInit: Architecture: x64
+LogInit: Compiled with Visual C++: 19.38.33130.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE5+Release-5.4
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_5.4/Engine/Binaries/Win64/
+LogInit: Allocator: Mimalloc
+LogInit: Installed Engine Build: 1
+LogInit: This binary is optimized with LTO: no, PGO: no, instrumented for PGO data collection: no
+LogDevObjectVersion: Number of dev versions registered: 36
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 40
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 3
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 20
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 48
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 13
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 15
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 134
+LogDevObjectVersion:   FortniteValkyrie (8DBC2C5B-54A7-43E0-A768-FCBB7DA29060): 8
+LogDevObjectVersion:   FortniteSeason (5B4C06B7-2463-4AF8-805B-BF70CDF5D0DD): 12
+LogDevObjectVersion:   FortniteRelease (E7086368-6B23-4C58-8439-1B7016265E91): 13
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 41
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogDevObjectVersion:   Dev-VirtualProduction (64F58936-FD1B-42BA-BA96-7289D5D0FA4E): 1
+LogDevObjectVersion:   UE5-Main (697DD581-E64F-41AB-AA4A-51ECBEB7B628): 119
+LogDevObjectVersion:   UE5-Release (D89B5E42-24BD-4D46-8412-ACA8DF641779): 51
+LogDevObjectVersion:   UE5-PrivateFrosty (59DA5D52-1232-4948-B878-597870B8E98B): 8
+LogDevObjectVersion:   UE5-Dev-Cooker (26075A32-730F-4708-88E9-8C32F1599D05): 0
+LogDevObjectVersion:   Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
+LogDevObjectVersion:   UE5-Dev-LWCRendering (30D58BE3-95EA-4282-A6E3-B159D8EBB06A): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Set CVar [[con.DebugEarlyDefault:1]]
+LogConfig: CVar [[con.DebugLateDefault:1]] deferred - dummy variable created
+LogConfig: CVar [[con.DebugLateCheat:1]] deferred - dummy variable created
+LogConfig: CVar [[LogNamedEventFilters:Frame *]] deferred - dummy variable created
+LogConfig: Set CVar [[r.setres:1280x720]]
+LogConfig: CVar [[framepro.ScopeMinTimeMicroseconds:10]] deferred - dummy variable created
+LogConfig: CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]] deferred - dummy variable created
+LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
+LogConfig: CVar [[r.Occlusion.SingleRHIThreadStall:1]] deferred - dummy variable created
+LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
+LogConfig: CVar [[D3D12.Bindless.ResourceDescriptorHeapSize:100000]] deferred - dummy variable created
+LogConfig: CVar [[D3D12.Bindless.SamplerDescriptorHeapSize:2048]] deferred - dummy variable created
+[2024.12.13-04.33.42:771][  0]LogConfig: Set CVar [[r.VSync:0]]
+[2024.12.13-04.33.42:771][  0]LogConfig: Set CVar [[r.RHICmdBypass:0]]
+[2024.12.13-04.33.42:771][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [Engine]
+[2024.12.13-04.33.42:771][  0]LogConfig: CVar [[VisualizeCalibrationColorMaterialPath:/Engine/EngineMaterials/PPM_DefaultCalibrationColor.PPM_DefaultCalibrationColor]] deferred - dummy variable created
+[2024.12.13-04.33.42:771][  0]LogConfig: CVar [[VisualizeCalibrationGrayscaleMaterialPath:/Engine/EngineMaterials/PPM_DefaultCalibrationGrayscale.PPM_DefaultCalibrationGrayscale]] deferred - dummy variable created
+[2024.12.13-04.33.42:771][  0]LogConfig: Set CVar [[r.GPUCrashDebugging:0]]
+[2024.12.13-04.33.42:771][  0]LogConfig: CVar [[MaxSkinBones:(Default=65536,PerPlatform=(("Mobile", 256)))]] deferred - dummy variable created
+[2024.12.13-04.33.42:771][  0]LogConfig: Set CVar [[r.Mobile.ShadingPath:0]]
+[2024.12.13-04.33.42:771][  0]LogConfig: Set CVar [[r.Mobile.SupportGPUScene:0]]
+[2024.12.13-04.33.42:771][  0]LogConfig: Set CVar [[r.Mobile.AntiAliasing:1]]
+[2024.12.13-04.33.42:771][  0]LogConfig: Set CVar [[r.Mobile.FloatPrecisionMode:0]]
+[2024.12.13-04.33.42:771][  0]LogConfig: Set CVar [[r.Mobile.AllowDitheredLODTransition:0]]
+[2024.12.13-04.33.42:771][  0]LogConfig: Set CVar [[r.Mobile.VirtualTextures:0]]
+[2024.12.13-04.33.42:771][  0]LogConfig: Set CVar [[r.DiscardUnusedQuality:0]]
+[2024.12.13-04.33.42:771][  0]LogConfig: CVar [[r.Shaders.CompressionFormat:2]] deferred - dummy variable created
+[2024.12.13-04.33.42:771][  0]LogConfig: Set CVar [[r.AllowOcclusionQueries:1]]
+[2024.12.13-04.33.42:771][  0]LogConfig: Set CVar [[r.MinScreenRadiusForLights:0.030000]]
+[2024.12.13-04.33.42:771][  0]LogConfig: Set CVar [[r.MinScreenRadiusForDepthPrepass:0.030000]]
+[2024.12.13-04.33.42:772][  0]LogConfig: Set CVar [[r.MinScreenRadiusForCSMDepth:0.010000]]
+[2024.12.13-04.33.42:772][  0]LogConfig: Set CVar [[r.PrecomputedVisibilityWarning:0]]
+[2024.12.13-04.33.42:772][  0]LogConfig: Set CVar [[r.TextureStreaming:1]]
+[2024.12.13-04.33.42:772][  0]LogConfig: Set CVar [[Compat.UseDXT5NormalMaps:0]]
+[2024.12.13-04.33.42:772][  0]LogConfig: Set CVar [[r.VirtualTextures:0]]
+[2024.12.13-04.33.42:772][  0]LogConfig: Set CVar [[r.VT.EnableAutoImport:1]]
+[2024.12.13-04.33.42:772][  0]LogConfig: Set CVar [[r.VirtualTexturedLightmaps:0]]
+[2024.12.13-04.33.42:772][  0]LogConfig: Set CVar [[r.VT.AnisotropicFiltering:0]]
+[2024.12.13-04.33.42:772][  0]LogConfig: CVar [[bEnableVirtualTextureOpacityMask:0]] deferred - dummy variable created
+[2024.12.13-04.33.42:772][  0]LogConfig: Set CVar [[r.VT.TileSize:128]]
+[2024.12.13-04.33.42:772][  0]LogConfig: Set CVar [[r.VT.TileBorderSize:4]]
+[2024.12.13-04.33.42:772][  0]LogConfig: Set CVar [[r.vt.FeedbackFactor:16]]
+[2024.12.13-04.33.42:772][  0]LogConfig: CVar [[WorkingColorSpaceChoice:sRGB]] deferred - dummy variable created
+[2024.12.13-04.33.42:772][  0]LogConfig: CVar [[RedChromaticityCoordinate:(X=0.640000,Y=0.330000)]] deferred - dummy variable created
+[2024.12.13-04.33.42:772][  0]LogConfig: CVar [[GreenChromaticityCoordinate:(X=0.300000,Y=0.600000)]] deferred - dummy variable created
+[2024.12.13-04.33.42:772][  0]LogConfig: CVar [[BlueChromaticityCoordinate:(X=0.150000,Y=0.060000)]] deferred - dummy variable created
+[2024.12.13-04.33.42:772][  0]LogConfig: CVar [[WhiteChromaticityCoordinate:(X=0.312700,Y=0.329000)]] deferred - dummy variable created
+[2024.12.13-04.33.42:772][  0]LogConfig: Set CVar [[r.ClearCoatNormal:0]]
+[2024.12.13-04.33.42:772][  0]LogConfig: Set CVar [[r.DynamicGlobalIlluminationMethod:1]]
+[2024.12.13-04.33.42:772][  0]LogConfig: Set CVar [[r.ReflectionMethod:1]]
+[2024.12.13-04.33.42:772][  0]LogConfig: Set CVar [[r.ReflectionCaptureResolution:128]]
+[2024.12.13-04.33.42:772][  0]LogConfig: Set CVar [[r.ReflectionEnvironmentLightmapMixBasedOnRoughness:1]]
+[2024.12.13-04.33.42:772][  0]LogConfig: Set CVar [[r.Lumen.HardwareRayTracing:0]]
+[2024.12.13-04.33.42:772][  0]LogConfig: Set CVar [[r.Lumen.HardwareRayTracing.LightingMode:0]]
+[2024.12.13-04.33.42:772][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyReflections.FrontLayer.EnableForProject:0]]
+[2024.12.13-04.33.42:772][  0]LogConfig: Set CVar [[r.Lumen.TraceMeshSDFs:0]]
+[2024.12.13-04.33.42:772][  0]LogConfig: Set CVar [[r.Shadow.Virtual.Enable:1]]
+[2024.12.13-04.33.42:772][  0]LogConfig: Set CVar [[r.RayTracing:0]]
+[2024.12.13-04.33.42:772][  0]LogConfig: Set CVar [[r.RayTracing.Shadows:0]]
+[2024.12.13-04.33.42:772][  0]LogConfig: Set CVar [[r.RayTracing.Skylight:0]]
+[2024.12.13-04.33.42:772][  0]LogConfig: Set CVar [[r.RayTracing.UseTextureLod:0]]
+[2024.12.13-04.33.42:772][  0]LogConfig: Set CVar [[r.PathTracing:1]]
+[2024.12.13-04.33.42:772][  0]LogConfig: Set CVar [[r.GenerateMeshDistanceFields:1]]
+[2024.12.13-04.33.42:772][  0]LogConfig: Set CVar [[r.DistanceFields.DefaultVoxelDensity:0.200000]]
+[2024.12.13-04.33.42:772][  0]LogConfig: Set CVar [[r.Nanite.ProjectEnabled:1]]
+[2024.12.13-04.33.42:772][  0]LogConfig: Set CVar [[r.AllowStaticLighting:1]]
+[2024.12.13-04.33.42:772][  0]LogConfig: Set CVar [[r.NormalMapsForStaticLighting:0]]
+[2024.12.13-04.33.42:772][  0]LogConfig: Set CVar [[r.ForwardShading:0]]
+[2024.12.13-04.33.42:772][  0]LogConfig: Set CVar [[r.VertexFoggingForOpaque:1]]
+[2024.12.13-04.33.42:772][  0]LogConfig: Set CVar [[r.SeparateTranslucency:1]]
+[2024.12.13-04.33.42:772][  0]LogConfig: Set CVar [[r.TranslucentSortPolicy:0]]
+[2024.12.13-04.33.42:772][  0]LogConfig: CVar [[TranslucentSortAxis:(X=0.000000,Y=-1.000000,Z=0.000000)]] deferred - dummy variable created
+[2024.12.13-04.33.42:772][  0]LogConfig: CVar [[vr.VRS.HMDFixedFoveationLevel:0]] deferred - dummy variable created
+[2024.12.13-04.33.42:772][  0]LogConfig: CVar [[vr.VRS.HMDFixedFoveationDynamic:0]] deferred - dummy variable created
+[2024.12.13-04.33.42:773][  0]LogConfig: Set CVar [[r.CustomDepth:1]]
+[2024.12.13-04.33.42:773][  0]LogConfig: Set CVar [[r.CustomDepthTemporalAAJitter:1]]
+[2024.12.13-04.33.42:773][  0]LogConfig: Set CVar [[r.PostProcessing.PropagateAlpha:0]]
+[2024.12.13-04.33.42:773][  0]LogConfig: Set CVar [[r.DefaultFeature.Bloom:1]]
+[2024.12.13-04.33.42:773][  0]LogConfig: Set CVar [[r.DefaultFeature.AmbientOcclusion:1]]
+[2024.12.13-04.33.42:773][  0]LogConfig: Set CVar [[r.DefaultFeature.AmbientOcclusionStaticFraction:1]]
+[2024.12.13-04.33.42:773][  0]LogConfig: Set CVar [[r.DefaultFeature.AutoExposure:0]]
+[2024.12.13-04.33.42:773][  0]LogConfig: Set CVar [[r.DefaultFeature.AutoExposure.Method:0]]
+[2024.12.13-04.33.42:773][  0]LogConfig: Set CVar [[r.DefaultFeature.AutoExposure.Bias:1.000000]]
+[2024.12.13-04.33.42:773][  0]LogConfig: Set CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2024.12.13-04.33.42:773][  0]LogConfig: Set CVar [[r.DefaultFeature.MotionBlur:0]]
+[2024.12.13-04.33.42:773][  0]LogConfig: Set CVar [[r.DefaultFeature.LensFlare:0]]
+[2024.12.13-04.33.42:773][  0]LogConfig: Set CVar [[r.TemporalAA.Upsampling:1]]
+[2024.12.13-04.33.42:773][  0]LogConfig: Set CVar [[r.AntiAliasingMethod:0]]
+[2024.12.13-04.33.42:773][  0]LogConfig: Set CVar [[r.MSAACount:4]]
+[2024.12.13-04.33.42:773][  0]LogConfig: Set CVar [[r.DefaultFeature.LightUnits:1]]
+[2024.12.13-04.33.42:773][  0]LogConfig: Set CVar [[r.DefaultBackBufferPixelFormat:4]]
+[2024.12.13-04.33.42:773][  0]LogConfig: Set CVar [[r.Shadow.UnbuiltPreviewInGame:1]]
+[2024.12.13-04.33.42:773][  0]LogConfig: Set CVar [[r.StencilForLODDither:0]]
+[2024.12.13-04.33.42:774][  0]LogConfig: Set CVar [[r.EarlyZPass:3]]
+[2024.12.13-04.33.42:774][  0]LogConfig: Set CVar [[r.EarlyZPassOnlyMaterialMasking:0]]
+[2024.12.13-04.33.42:774][  0]LogConfig: Set CVar [[r.Shadow.CSMCaching:0]]
+[2024.12.13-04.33.42:774][  0]LogConfig: Set CVar [[r.DBuffer:1]]
+[2024.12.13-04.33.42:774][  0]LogConfig: Set CVar [[r.ClearSceneMethod:1]]
+[2024.12.13-04.33.42:774][  0]LogConfig: Set CVar [[r.VelocityOutputPass:1]]
+[2024.12.13-04.33.42:774][  0]LogConfig: Set CVar [[r.Velocity.EnableVertexDeformation:2]]
+[2024.12.13-04.33.42:774][  0]LogConfig: Set CVar [[r.SelectiveBasePassOutputs:0]]
+[2024.12.13-04.33.42:774][  0]LogConfig: CVar [[bDefaultParticleCutouts:0]] deferred - dummy variable created
+[2024.12.13-04.33.42:774][  0]LogConfig: Set CVar [[fx.GPUSimulationTextureSizeX:1024]]
+[2024.12.13-04.33.42:774][  0]LogConfig: Set CVar [[fx.GPUSimulationTextureSizeY:1024]]
+[2024.12.13-04.33.42:774][  0]LogConfig: Set CVar [[r.AllowGlobalClipPlane:0]]
+[2024.12.13-04.33.42:774][  0]LogConfig: Set CVar [[r.GBufferFormat:1]]
+[2024.12.13-04.33.42:774][  0]LogConfig: Set CVar [[r.MorphTarget.Mode:1]]
+[2024.12.13-04.33.42:774][  0]LogConfig: Set CVar [[vr.InstancedStereo:0]]
+[2024.12.13-04.33.42:774][  0]LogConfig: Set CVar [[r.MobileHDR:1]]
+[2024.12.13-04.33.42:774][  0]LogConfig: Set CVar [[vr.MobileMultiView:0]]
+[2024.12.13-04.33.42:774][  0]LogConfig: Set CVar [[r.Mobile.UseHWsRGBEncoding:0]]
+[2024.12.13-04.33.42:774][  0]LogConfig: Set CVar [[vr.RoundRobinOcclusion:0]]
+[2024.12.13-04.33.42:774][  0]LogConfig: Set CVar [[r.MeshStreaming:0]]
+[2024.12.13-04.33.42:774][  0]LogConfig: Set CVar [[r.HeterogeneousVolumes:1]]
+[2024.12.13-04.33.42:774][  0]LogConfig: Set CVar [[r.WireframeCullThreshold:5.000000]]
+[2024.12.13-04.33.42:774][  0]LogConfig: Set CVar [[r.SupportStationarySkylight:1]]
+[2024.12.13-04.33.42:774][  0]LogConfig: Set CVar [[r.SupportLowQualityLightmaps:1]]
+[2024.12.13-04.33.42:774][  0]LogConfig: Set CVar [[r.SupportPointLightWholeSceneShadows:1]]
+[2024.12.13-04.33.42:774][  0]LogConfig: Set CVar [[r.SupportSkyAtmosphere:1]]
+[2024.12.13-04.33.42:774][  0]LogConfig: Set CVar [[r.SupportSkyAtmosphereAffectsHeightFog:1]]
+[2024.12.13-04.33.42:774][  0]LogConfig: Set CVar [[r.SupportCloudShadowOnForwardLitTranslucent:0]]
+[2024.12.13-04.33.42:774][  0]LogConfig: Set CVar [[r.Shadow.TranslucentPerObject.ProjectEnabled:0]]
+[2024.12.13-04.33.42:774][  0]LogConfig: Set CVar [[r.Water.SingleLayerWater.SupportCloudShadow:0]]
+[2024.12.13-04.33.42:774][  0]LogConfig: Set CVar [[r.Substrate:0]]
+[2024.12.13-04.33.42:774][  0]LogConfig: Set CVar [[r.Substrate.OpaqueMaterialRoughRefraction:0]]
+[2024.12.13-04.33.42:774][  0]LogConfig: Set CVar [[r.Substrate.Debug.AdvancedVisualizationShaders:0]]
+[2024.12.13-04.33.42:774][  0]LogConfig: Set CVar [[r.Material.RoughDiffuse:0]]
+[2024.12.13-04.33.42:774][  0]LogConfig: Set CVar [[r.Material.EnergyConservation:0]]
+[2024.12.13-04.33.42:774][  0]LogConfig: Set CVar [[r.OIT.SortedPixels:0]]
+[2024.12.13-04.33.42:774][  0]LogConfig: Set CVar [[r.SkinCache.CompileShaders:0]]
+[2024.12.13-04.33.42:774][  0]LogConfig: Set CVar [[r.SkinCache.SkipCompilingGPUSkinVF:0]]
+[2024.12.13-04.33.42:774][  0]LogConfig: Set CVar [[r.SkinCache.DefaultBehavior:1]]
+[2024.12.13-04.33.42:774][  0]LogConfig: Set CVar [[r.SkinCache.SceneMemoryLimitInMB:128.000000]]
+[2024.12.13-04.33.42:774][  0]LogConfig: Set CVar [[r.Mobile.EnableStaticAndCSMShadowReceivers:1]]
+[2024.12.13-04.33.42:774][  0]LogConfig: Set CVar [[r.Mobile.EnableMovableLightCSMShaderCulling:1]]
+[2024.12.13-04.33.42:774][  0]LogConfig: Set CVar [[r.Mobile.Forward.EnableLocalLights:1]]
+[2024.12.13-04.33.42:774][  0]LogConfig: Set CVar [[r.Mobile.Forward.EnableClusteredReflections:0]]
+[2024.12.13-04.33.42:774][  0]LogConfig: Set CVar [[r.Mobile.EnableNoPrecomputedLightingCSMShader:1]]
+[2024.12.13-04.33.42:774][  0]LogConfig: Set CVar [[r.Mobile.AllowDistanceFieldShadows:1]]
+[2024.12.13-04.33.42:774][  0]LogConfig: Set CVar [[r.Mobile.AllowMovableDirectionalLights:1]]
+[2024.12.13-04.33.42:774][  0]LogConfig: Set CVar [[r.Mobile.EnableMovableSpotlightsShadow:0]]
+[2024.12.13-04.33.42:774][  0]LogConfig: Set CVar [[r.GPUSkin.Support16BitBoneIndex:0]]
+[2024.12.13-04.33.42:774][  0]LogConfig: Set CVar [[r.GPUSkin.Limit2BoneInfluences:0]]
+[2024.12.13-04.33.42:774][  0]LogConfig: Set CVar [[r.SupportDepthOnlyIndexBuffers:1]]
+[2024.12.13-04.33.42:774][  0]LogConfig: Set CVar [[r.SupportReversedIndexBuffers:1]]
+[2024.12.13-04.33.42:774][  0]LogConfig: Set CVar [[r.Mobile.AmbientOcclusion:0]]
+[2024.12.13-04.33.42:774][  0]LogConfig: Set CVar [[r.GPUSkin.UnlimitedBoneInfluences:0]]
+[2024.12.13-04.33.42:775][  0]LogConfig: Set CVar [[r.GPUSkin.UnlimitedBoneInfluencesThreshold:8]]
+[2024.12.13-04.33.42:775][  0]LogConfig: CVar [[DefaultBoneInfluenceLimit:(Default=0,PerPlatform=())]] deferred - dummy variable created
+[2024.12.13-04.33.42:775][  0]LogConfig: Set CVar [[r.Mobile.PlanarReflectionMode:0]]
+[2024.12.13-04.33.42:775][  0]LogConfig: Set CVar [[r.Mobile.SupportsGen4TAA:1]]
+[2024.12.13-04.33.42:775][  0]LogConfig: CVar [[bStreamSkeletalMeshLODs:(Default=False,PerPlatform=())]] deferred - dummy variable created
+[2024.12.13-04.33.42:775][  0]LogConfig: CVar [[bDiscardSkeletalMeshOptionalLODs:(Default=False,PerPlatform=())]] deferred - dummy variable created
+[2024.12.13-04.33.42:775][  0]LogConfig: CVar [[VisualizeCalibrationCustomMaterialPath:None]] deferred - dummy variable created
+[2024.12.13-04.33.42:775][  0]LogConfig: Set CVar [[r.Shaders.RemoveUnusedInterpolators:1]]
+[2024.12.13-04.33.42:775][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [Engine]
+[2024.12.13-04.33.42:775][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [Engine]
+[2024.12.13-04.33.42:775][  0]LogConfig: Set CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2024.12.13-04.33.42:775][  0]LogConfig: Set CVar [[s.AsyncLoadingThreadEnabled:1]]
+[2024.12.13-04.33.42:775][  0]LogConfig: Set CVar [[s.EventDrivenLoaderEnabled:1]]
+[2024.12.13-04.33.42:775][  0]LogConfig: Set CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2024.12.13-04.33.42:775][  0]LogConfig: Set CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2024.12.13-04.33.42:775][  0]LogConfig: Set CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2024.12.13-04.33.42:775][  0]LogConfig: Set CVar [[s.UseBackgroundLevelStreaming:1]]
+[2024.12.13-04.33.42:775][  0]LogConfig: Set CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2024.12.13-04.33.42:775][  0]LogConfig: Set CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2024.12.13-04.33.42:775][  0]LogConfig: Set CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2024.12.13-04.33.42:775][  0]LogConfig: Set CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2024.12.13-04.33.42:775][  0]LogConfig: Set CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2024.12.13-04.33.42:775][  0]LogConfig: Set CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2024.12.13-04.33.42:775][  0]LogConfig: CVar [[s.MaxPackageSummarySize:16384]] deferred - dummy variable created
+[2024.12.13-04.33.42:775][  0]LogConfig: Set CVar [[s.FlushStreamingOnExit:1]]
+[2024.12.13-04.33.42:775][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__SoundBase]] deferred - dummy variable created
+[2024.12.13-04.33.42:775][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__MaterialInterface]] deferred - dummy variable created
+[2024.12.13-04.33.42:775][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__DeviceProfileManager]] deferred - dummy variable created
+[2024.12.13-04.33.42:775][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [Engine]
+[2024.12.13-04.33.42:775][  0]LogConfig: Set CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2024.12.13-04.33.42:775][  0]LogConfig: Set CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2024.12.13-04.33.42:775][  0]LogConfig: Set CVar [[gc.FlushStreamingOnGC:0]]
+[2024.12.13-04.33.42:775][  0]LogConfig: Set CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2024.12.13-04.33.42:775][  0]LogConfig: Set CVar [[gc.AllowParallelGC:1]]
+[2024.12.13-04.33.42:775][  0]LogConfig: Set CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2024.12.13-04.33.42:775][  0]LogConfig: Set CVar [[gc.MaxObjectsInEditor:25165824]]
+[2024.12.13-04.33.42:775][  0]LogConfig: Set CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2024.12.13-04.33.42:775][  0]LogConfig: Set CVar [[gc.CreateGCClusters:1]]
+[2024.12.13-04.33.42:775][  0]LogConfig: Set CVar [[gc.MinGCClusterSize:5]]
+[2024.12.13-04.33.42:775][  0]LogConfig: Set CVar [[gc.AssetClustreringEnabled:0]]
+[2024.12.13-04.33.42:775][  0]LogConfig: Set CVar [[gc.ActorClusteringEnabled:0]]
+[2024.12.13-04.33.42:775][  0]LogConfig: Set CVar [[gc.UseDisregardForGCOnDedicatedServers:1]]
+[2024.12.13-04.33.42:775][  0]LogConfig: Set CVar [[gc.MultithreadedDestructionEnabled:1]]
+[2024.12.13-04.33.42:775][  0]LogConfig: Set CVar [[gc.VerifyUObjectsAreNotFGCObjects:0]]
+[2024.12.13-04.33.42:775][  0]LogConfig: Set CVar [[gc.GarbageEliminationEnabled:1]]
+[2024.12.13-04.33.42:775][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [Engine]
+[2024.12.13-04.33.42:775][  0]LogConfig: CVar [[NetworkEmulationProfiles:(ProfileName="Average",ToolTip="Simulates average internet conditions")]] deferred - dummy variable created
+[2024.12.13-04.33.42:775][  0]LogConfig: CVar [[NetworkEmulationProfiles:(ProfileName="Bad",ToolTip="Simulates laggy internet conditions")]] deferred - dummy variable created
+[2024.12.13-04.33.42:775][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [Engine]
+[2024.12.13-04.33.42:775][  0]LogConfig: CVar [[DefaultASTCQualityBySpeed:2]] deferred - dummy variable created
+[2024.12.13-04.33.42:775][  0]LogConfig: CVar [[DefaultASTCQualityBySize:3]] deferred - dummy variable created
+[2024.12.13-04.33.42:775][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:WidgetBlueprint]] deferred - dummy variable created
+[2024.12.13-04.33.42:775][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:GroupActor]] deferred - dummy variable created
+[2024.12.13-04.33.42:775][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:MetaData]] deferred - dummy variable created
+[2024.12.13-04.33.42:775][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ObjectRedirector]] deferred - dummy variable created
+[2024.12.13-04.33.42:775][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NavMeshRenderingComponent]] deferred - dummy variable created
+[2024.12.13-04.33.42:775][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ReflectionCaptureComponent]] deferred - dummy variable created
+[2024.12.13-04.33.42:775][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:TextRenderComponent]] deferred - dummy variable created
+[2024.12.13-04.33.42:775][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:Font]] deferred - dummy variable created
+[2024.12.13-04.33.42:775][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:InterpCurveEdSetup]] deferred - dummy variable created
+[2024.12.13-04.33.42:775][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:MaterialExpression]] deferred - dummy variable created
+[2024.12.13-04.33.42:775][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NiagaraEmitter]] deferred - dummy variable created
+[2024.12.13-04.33.42:775][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NiagaraScript]] deferred - dummy variable created
+[2024.12.13-04.33.42:775][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleEmitter]] deferred - dummy variable created
+[2024.12.13-04.33.42:775][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleLODLevel]] deferred - dummy variable created
+[2024.12.13-04.33.42:776][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleModule]] deferred - dummy variable created
+[2024.12.13-04.33.42:776][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:SubUVAnimation]] deferred - dummy variable created
+[2024.12.13-04.33.42:776][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:SoundNode]] deferred - dummy variable created
+[2024.12.13-04.33.42:776][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:GameplayEffectUIData]] deferred - dummy variable created
+[2024.12.13-04.33.42:776][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:WidgetBlueprint]] deferred - dummy variable created
+[2024.12.13-04.33.42:776][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:GroupActor]] deferred - dummy variable created
+[2024.12.13-04.33.42:776][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:MetaData]] deferred - dummy variable created
+[2024.12.13-04.33.42:776][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:ObjectRedirector]] deferred - dummy variable created
+[2024.12.13-04.33.42:776][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:InterpCurveEdSetup]] deferred - dummy variable created
+[2024.12.13-04.33.42:776][  0]LogConfig: CVar [[VersionedIntRValues:r.AllowStaticLighting]] deferred - dummy variable created
+[2024.12.13-04.33.42:776][  0]LogConfig: CVar [[VersionedIntRValues:r.MaterialEditor.LWCTruncateMode]] deferred - dummy variable created
+[2024.12.13-04.33.42:776][  0]LogConfig: CVar [[VersionedIntRValues:r.GBuffer]] deferred - dummy variable created
+[2024.12.13-04.33.42:776][  0]LogConfig: CVar [[VersionedIntRValues:r.VelocityOutputPass]] deferred - dummy variable created
+[2024.12.13-04.33.42:776][  0]LogConfig: CVar [[VersionedIntRValues:r.SelectiveBasePassOutputs]] deferred - dummy variable created
+[2024.12.13-04.33.42:776][  0]LogConfig: CVar [[VersionedIntRValues:r.DBuffer]] deferred - dummy variable created
+[2024.12.13-04.33.42:776][  0]LogConfig: CVar [[VersionedIntRValues:r.Mobile.DBuffer]] deferred - dummy variable created
+[2024.12.13-04.33.42:776][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.Symbols]] deferred - dummy variable created
+[2024.12.13-04.33.42:776][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.GenerateSymbols]] deferred - dummy variable created
+[2024.12.13-04.33.42:776][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.WriteSymbols]] deferred - dummy variable created
+[2024.12.13-04.33.42:776][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.AllowUniqueSymbols]] deferred - dummy variable created
+[2024.12.13-04.33.42:776][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.ExtraData]] deferred - dummy variable created
+[2024.12.13-04.33.42:776][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.Optimize]] deferred - dummy variable created
+[2024.12.13-04.33.42:776][  0]LogConfig: CVar [[VersionedIntRValues:r.CompileShadersForDevelopment]] deferred - dummy variable created
+[2024.12.13-04.33.42:776][  0]LogConfig: CVar [[VersionedIntRValues:r.MobileHDR]] deferred - dummy variable created
+[2024.12.13-04.33.42:776][  0]LogConfig: CVar [[VersionedIntRValues:r.UsePreExposure]] deferred - dummy variable created
+[2024.12.13-04.33.42:783][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [Scalability]
+[2024.12.13-04.33.42:783][  0]LogConfig: Set CVar [[r.SkeletalMeshLODBias:0]]
+[2024.12.13-04.33.42:783][  0]LogConfig: Set CVar [[r.ViewDistanceScale:1.0]]
+[2024.12.13-04.33.42:783][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [Scalability]
+[2024.12.13-04.33.42:783][  0]LogConfig: Set CVar [[r.FXAA.Quality:4]]
+[2024.12.13-04.33.42:784][  0]LogConfig: Set CVar [[r.TemporalAA.Quality:2]]
+[2024.12.13-04.33.42:784][  0]LogConfig: Set CVar [[r.TSR.History.R11G11B10:1]]
+[2024.12.13-04.33.42:784][  0]LogConfig: Set CVar [[r.TSR.History.ScreenPercentage:200]]
+[2024.12.13-04.33.42:784][  0]LogConfig: Set CVar [[r.TSR.History.UpdateQuality:3]]
+[2024.12.13-04.33.42:784][  0]LogConfig: Set CVar [[r.TSR.ShadingRejection.Flickering:1]]
+[2024.12.13-04.33.42:784][  0]LogConfig: Set CVar [[r.TSR.RejectionAntiAliasingQuality:2]]
+[2024.12.13-04.33.42:784][  0]LogConfig: Set CVar [[r.TSR.Resurrection:1]]
+[2024.12.13-04.33.42:784][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [Scalability]
+[2024.12.13-04.33.42:784][  0]LogConfig: Set CVar [[r.LightFunctionQuality:1]]
+[2024.12.13-04.33.42:784][  0]LogConfig: Set CVar [[r.ShadowQuality:5]]
+[2024.12.13-04.33.42:784][  0]LogConfig: Set CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2024.12.13-04.33.42:784][  0]LogConfig: Set CVar [[r.Shadow.MaxResolution:2048]]
+[2024.12.13-04.33.42:784][  0]LogConfig: Set CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2024.12.13-04.33.42:784][  0]LogConfig: Set CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2024.12.13-04.33.42:784][  0]LogConfig: Set CVar [[r.Shadow.DistanceScale:1.0]]
+[2024.12.13-04.33.42:784][  0]LogConfig: Set CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2024.12.13-04.33.42:784][  0]LogConfig: Set CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2024.12.13-04.33.42:784][  0]LogConfig: Set CVar [[r.DistanceFieldShadowing:1]]
+[2024.12.13-04.33.42:784][  0]LogConfig: Set CVar [[r.VolumetricFog:1]]
+[2024.12.13-04.33.42:784][  0]LogConfig: Set CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2024.12.13-04.33.42:784][  0]LogConfig: Set CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2024.12.13-04.33.42:784][  0]LogConfig: Set CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2024.12.13-04.33.42:784][  0]LogConfig: Set CVar [[r.LightMaxDrawDistanceScale:1]]
+[2024.12.13-04.33.42:784][  0]LogConfig: Set CVar [[r.CapsuleShadows:1]]
+[2024.12.13-04.33.42:784][  0]LogConfig: Set CVar [[r.Shadow.Virtual.MaxPhysicalPages:4096]]
+[2024.12.13-04.33.42:784][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasDirectional:-1.5]]
+[2024.12.13-04.33.42:784][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasDirectionalMoving:-1.5]]
+[2024.12.13-04.33.42:784][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasLocal:0.0]]
+[2024.12.13-04.33.42:784][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasLocalMoving:1.0]]
+[2024.12.13-04.33.42:784][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountDirectional:8]]
+[2024.12.13-04.33.42:784][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.SamplesPerRayDirectional:4]]
+[2024.12.13-04.33.42:784][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountLocal:8]]
+[2024.12.13-04.33.42:784][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.SamplesPerRayLocal:4]]
+[2024.12.13-04.33.42:784][  0]LogConfig: Applying CVar settings from Section [GlobalIlluminationQuality@3] File [Scalability]
+[2024.12.13-04.33.42:784][  0]LogConfig: Set CVar [[r.DistanceFieldAO:1]]
+[2024.12.13-04.33.42:784][  0]LogConfig: Set CVar [[r.AOQuality:2]]
+[2024.12.13-04.33.42:784][  0]LogConfig: Set CVar [[r.Lumen.DiffuseIndirect.Allow:1]]
+[2024.12.13-04.33.42:784][  0]LogConfig: Set CVar [[r.LumenScene.Radiosity.ProbeSpacing:4]]
+[2024.12.13-04.33.42:784][  0]LogConfig: Set CVar [[r.LumenScene.Radiosity.HemisphereProbeResolution:4]]
+[2024.12.13-04.33.42:784][  0]LogConfig: Set CVar [[r.Lumen.TraceMeshSDFs.Allow:1]]
+[2024.12.13-04.33.42:784][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.RadianceCache.ProbeResolution:32]]
+[2024.12.13-04.33.42:784][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.RadianceCache.NumProbesToTraceBudget:300]]
+[2024.12.13-04.33.42:784][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.DownsampleFactor:16]]
+[2024.12.13-04.33.42:784][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.TracingOctahedronResolution:8]]
+[2024.12.13-04.33.42:784][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.IrradianceFormat:0]]
+[2024.12.13-04.33.42:784][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.StochasticInterpolation:0]]
+[2024.12.13-04.33.42:784][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.FullResolutionJitterWidth:1]]
+[2024.12.13-04.33.42:784][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.TwoSidedFoliageBackfaceDiffuse:1]]
+[2024.12.13-04.33.42:785][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.ScreenTraces.HZBTraversal.FullResDepth:1]]
+[2024.12.13-04.33.42:785][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.ShortRangeAO.HardwareRayTracing:0]]
+[2024.12.13-04.33.42:785][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.GridPixelSize:32]]
+[2024.12.13-04.33.42:785][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.TraceFromVolume:1]]
+[2024.12.13-04.33.42:785][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.TracingOctahedronResolution:3]]
+[2024.12.13-04.33.42:785][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.RadianceCache.ProbeResolution:8]]
+[2024.12.13-04.33.42:785][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.RadianceCache.NumProbesToTraceBudget:200]]
+[2024.12.13-04.33.42:785][  0]LogConfig: Set CVar [[r.SkyLight.RealTimeReflectionCapture:1]]
+[2024.12.13-04.33.42:785][  0]LogConfig: Applying CVar settings from Section [ReflectionQuality@3] File [Scalability]
+[2024.12.13-04.33.42:785][  0]LogConfig: Set CVar [[r.SSR.Quality:3]]
+[2024.12.13-04.33.42:785][  0]LogConfig: Set CVar [[r.SSR.HalfResSceneColor:0]]
+[2024.12.13-04.33.42:785][  0]LogConfig: Set CVar [[r.Lumen.Reflections.Allow:1]]
+[2024.12.13-04.33.42:785][  0]LogConfig: Set CVar [[r.Lumen.Reflections.DownsampleFactor:1]]
+[2024.12.13-04.33.42:785][  0]LogConfig: Set CVar [[r.Lumen.Reflections.MaxRoughnessToTraceForFoliage:0.4]]
+[2024.12.13-04.33.42:785][  0]LogConfig: Set CVar [[r.Lumen.Reflections.ScreenSpaceReconstruction.TonemapStrength:0]]
+[2024.12.13-04.33.42:785][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyReflections.FrontLayer.Allow:1]]
+[2024.12.13-04.33.42:785][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyReflections.FrontLayer.Enable:0]]
+[2024.12.13-04.33.42:785][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [Scalability]
+[2024.12.13-04.33.42:785][  0]LogConfig: Set CVar [[r.MotionBlurQuality:4]]
+[2024.12.13-04.33.42:785][  0]LogConfig: Set CVar [[r.MotionBlur.HalfResGather:0]]
+[2024.12.13-04.33.42:785][  0]LogConfig: Set CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2024.12.13-04.33.42:785][  0]LogConfig: Set CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2024.12.13-04.33.42:785][  0]LogConfig: Set CVar [[r.AmbientOcclusionLevels:-1]]
+[2024.12.13-04.33.42:785][  0]LogConfig: Set CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2024.12.13-04.33.42:785][  0]LogConfig: Set CVar [[r.DepthOfFieldQuality:2]]
+[2024.12.13-04.33.42:785][  0]LogConfig: Set CVar [[r.RenderTargetPoolMin:400]]
+[2024.12.13-04.33.42:785][  0]LogConfig: Set CVar [[r.LensFlareQuality:2]]
+[2024.12.13-04.33.42:785][  0]LogConfig: Set CVar [[r.SceneColorFringeQuality:1]]
+[2024.12.13-04.33.42:785][  0]LogConfig: Set CVar [[r.EyeAdaptationQuality:2]]
+[2024.12.13-04.33.42:785][  0]LogConfig: Set CVar [[r.BloomQuality:5]]
+[2024.12.13-04.33.42:785][  0]LogConfig: Set CVar [[r.Bloom.ScreenPercentage:50.000]]
+[2024.12.13-04.33.42:785][  0]LogConfig: Set CVar [[r.FastBlurThreshold:100]]
+[2024.12.13-04.33.42:785][  0]LogConfig: Set CVar [[r.Upscale.Quality:3]]
+[2024.12.13-04.33.42:785][  0]LogConfig: Set CVar [[r.LightShaftQuality:1]]
+[2024.12.13-04.33.42:785][  0]LogConfig: Set CVar [[r.Filter.SizeScale:1]]
+[2024.12.13-04.33.42:785][  0]LogConfig: Set CVar [[r.Tonemapper.Quality:5]]
+[2024.12.13-04.33.42:785][  0]LogConfig: Set CVar [[r.DOF.Gather.ResolutionDivisor:2         ; lower gathering resolution]]
+[2024.12.13-04.33.42:785][  0]LogConfig: Set CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2024.12.13-04.33.42:785][  0]LogConfig: Set CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2024.12.13-04.33.42:785][  0]LogConfig: Set CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2024.12.13-04.33.42:785][  0]LogConfig: Set CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2024.12.13-04.33.42:785][  0]LogConfig: Set CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2024.12.13-04.33.42:785][  0]LogConfig: Set CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2024.12.13-04.33.42:785][  0]LogConfig: Set CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2024.12.13-04.33.42:785][  0]LogConfig: Set CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2024.12.13-04.33.42:785][  0]LogConfig: Set CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2024.12.13-04.33.42:785][  0]LogConfig: Set CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2024.12.13-04.33.42:785][  0]LogConfig: Set CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2024.12.13-04.33.42:786][  0]LogConfig: Set CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2024.12.13-04.33.42:786][  0]LogConfig: Set CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2024.12.13-04.33.42:786][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [Scalability]
+[2024.12.13-04.33.42:786][  0]LogConfig: Set CVar [[r.Streaming.MipBias:0]]
+[2024.12.13-04.33.42:786][  0]LogConfig: Set CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2024.12.13-04.33.42:786][  0]LogConfig: Set CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2024.12.13-04.33.42:786][  0]LogConfig: Set CVar [[r.Streaming.Boost:1]]
+[2024.12.13-04.33.42:786][  0]LogConfig: Set CVar [[r.MaxAnisotropy:8]]
+[2024.12.13-04.33.42:786][  0]LogConfig: Set CVar [[r.VT.MaxAnisotropy:8]]
+[2024.12.13-04.33.42:786][  0]LogConfig: Set CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2024.12.13-04.33.42:786][  0]LogConfig: Set CVar [[r.Streaming.PoolSize:1000]]
+[2024.12.13-04.33.42:786][  0]LogConfig: Set CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2024.12.13-04.33.42:786][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [Scalability]
+[2024.12.13-04.33.42:786][  0]LogConfig: Set CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2024.12.13-04.33.42:786][  0]LogConfig: Set CVar [[r.RefractionQuality:2]]
+[2024.12.13-04.33.42:786][  0]LogConfig: Set CVar [[r.SceneColorFormat:4]]
+[2024.12.13-04.33.42:786][  0]LogConfig: Set CVar [[r.DetailMode:3]]
+[2024.12.13-04.33.42:786][  0]LogConfig: Set CVar [[r.TranslucencyVolumeBlur:1]]
+[2024.12.13-04.33.42:786][  0]LogConfig: Set CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2024.12.13-04.33.42:786][  0]LogConfig: Set CVar [[r.SSS.Scale:1]]
+[2024.12.13-04.33.42:786][  0]LogConfig: Set CVar [[r.SSS.SampleSet:2]]
+[2024.12.13-04.33.42:786][  0]LogConfig: Set CVar [[r.SSS.Quality:1]]
+[2024.12.13-04.33.42:786][  0]LogConfig: Set CVar [[r.SSS.HalfRes:0]]
+[2024.12.13-04.33.42:786][  0]LogConfig: Set CVar [[r.SSGI.Quality:3]]
+[2024.12.13-04.33.42:786][  0]LogConfig: Set CVar [[r.EmitterSpawnRateScale:1.0]]
+[2024.12.13-04.33.42:786][  0]LogConfig: Set CVar [[r.ParticleLightQuality:2]]
+[2024.12.13-04.33.42:786][  0]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2024.12.13-04.33.42:786][  0]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2024.12.13-04.33.42:786][  0]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2024.12.13-04.33.42:786][  0]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2024.12.13-04.33.42:786][  0]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2024.12.13-04.33.42:786][  0]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2024.12.13-04.33.42:786][  0]LogConfig: Set CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2024.12.13-04.33.42:786][  0]LogConfig: Set CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2024.12.13-04.33.42:786][  0]LogConfig: Set CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2024.12.13-04.33.42:786][  0]LogConfig: Set CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2024.12.13-04.33.42:786][  0]LogConfig: Set CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2024.12.13-04.33.42:786][  0]LogConfig: CVar [[fx.Niagara.QualityLevel:3]] deferred - dummy variable created
+[2024.12.13-04.33.42:786][  0]LogConfig: Set CVar [[r.Refraction.OffsetQuality:1]]
+[2024.12.13-04.33.42:786][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [Scalability]
+[2024.12.13-04.33.42:786][  0]LogConfig: Set CVar [[foliage.DensityScale:1.0]]
+[2024.12.13-04.33.42:786][  0]LogConfig: Set CVar [[grass.DensityScale:1.0]]
+[2024.12.13-04.33.42:786][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [Scalability]
+[2024.12.13-04.33.42:786][  0]LogConfig: Set CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2024.12.13-04.33.42:786][  0]LogConfig: Set CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2024.12.13-04.33.42:786][  0]LogConfig: Set CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2024.12.13-04.33.42:786][  0]LogConfig: Set CVar [[r.AnisotropicMaterials:1]]
+[2024.12.13-04.33.42:786][  0]LogConfig: Applying CVar settings from Section [LandscapeQuality@3] File [Scalability]
+[2024.12.13-04.33.42:800][  0]LogRHI: Using Default RHI: D3D12
+[2024.12.13-04.33.42:800][  0]LogRHI: Using Highest Feature Level of D3D12: SM6
+[2024.12.13-04.33.42:800][  0]LogRHI: Loading RHI module D3D12RHI
+[2024.12.13-04.33.42:849][  0]LogD3D12RHI: Aftermath initialized
+[2024.12.13-04.33.42:849][  0]LogD3D12RHI: Loading WinPixEventRuntime.dll for PIX profiling (from ../../../Engine/Binaries/ThirdParty/Windows/WinPixEventRuntime/x64).
+[2024.12.13-04.33.42:850][  0]LogRHI: Checking if RHI D3D12 with Feature Level SM6 is supported by your system.
+[2024.12.13-04.33.42:870][  0]LogD3D12RHI: Failed to load Intel Extensions Library (App Discovery)
+[2024.12.13-04.33.43:061][  0]LogD3D12RHI: Failed to load Intel Extensions Library
+[2024.12.13-04.33.43:061][  0]LogD3D12RHI: Intel Extensions Framework not supported by driver. Please check if a driver update is available.
+[2024.12.13-04.33.43:068][  0]LogD3D12RHI: Found D3D12 adapter 0: Intel(R) UHD Graphics (VendorId: 8086, DeviceId: 8a56, SubSysId: 136d1025, Revision: 0007
+[2024.12.13-04.33.43:068][  0]LogD3D12RHI:   Max supported Feature Level 12_1, shader model 6.6, binding tier 3, wave ops supported, atomic64 unsupported
+[2024.12.13-04.33.43:068][  0]LogD3D12RHI:   Adapter has 128MB of dedicated video memory, 0MB of dedicated system memory, and 3981MB of shared system memory, 1 output[s]
+[2024.12.13-04.33.43:070][  0]LogD3D12RHI:   Driver Version: 27.20.100.9415 (internal:27.20.100.9415, unified:100.9415)
+[2024.12.13-04.33.43:070][  0]LogD3D12RHI:      Driver Date: 3-22-2021
+[2024.12.13-04.33.43:099][  0]LogD3D12RHI: Found D3D12 adapter 1: Microsoft Basic Render Driver (VendorId: 1414, DeviceId: 008c, SubSysId: 0000, Revision: 0000
+[2024.12.13-04.33.43:099][  0]LogD3D12RHI:   Max supported Feature Level 12_1, shader model 6.2, binding tier 3, wave ops supported, atomic64 unsupported
+[2024.12.13-04.33.43:099][  0]LogD3D12RHI:   Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 3981MB of shared system memory, 0 output[s]
+[2024.12.13-04.33.43:099][  0]LogD3D12RHI: DirectX Agility SDK runtime found.
+[2024.12.13-04.33.43:099][  0]LogD3D12RHI: Chosen D3D12 Adapter Id = 0
+[2024.12.13-04.33.43:099][  0]LogD3D12RHI: Adapter only supports up to Feature Level 'SM5', requested Feature Level was 'SM6'
+[2024.12.13-04.33.43:099][  0]LogRHI: RHI D3D12 with Feature Level SM6 is not supported on your system, attempting to fall back to RHI D3D11 with Feature Level SM5
+[2024.12.13-04.33.43:099][  0]LogRHI: Loading RHI module D3D11RHI
+[2024.12.13-04.33.43:117][  0]LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+[2024.12.13-04.33.43:117][  0]LogRHI: Checking if RHI D3D11 with Feature Level SM5 is supported by your system.
+[2024.12.13-04.33.43:118][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2024.12.13-04.33.43:118][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_1
+[2024.12.13-04.33.43:118][  0]LogD3D11RHI: D3D11 adapters:
+[2024.12.13-04.33.43:118][  0]LogD3D11RHI: Testing D3D11 Adapter 0:
+[2024.12.13-04.33.43:118][  0]LogD3D11RHI:     Description : Intel(R) UHD Graphics
+[2024.12.13-04.33.43:118][  0]LogD3D11RHI:     VendorId    : 8086
+[2024.12.13-04.33.43:118][  0]LogD3D11RHI:     DeviceId    : 8a56
+[2024.12.13-04.33.43:118][  0]LogD3D11RHI:     SubSysId    : 136d1025
+[2024.12.13-04.33.43:118][  0]LogD3D11RHI:     Revision    : 0007
+[2024.12.13-04.33.43:118][  0]LogD3D11RHI:     DedicatedVideoMemory : 134217728 bytes
+[2024.12.13-04.33.43:118][  0]LogD3D11RHI:     DedicatedSystemMemory : 0 bytes
+[2024.12.13-04.33.43:118][  0]LogD3D11RHI:     SharedSystemMemory : 4175294464 bytes
+[2024.12.13-04.33.43:118][  0]LogD3D11RHI:     AdapterLuid : 0 82986
+[2024.12.13-04.33.43:376][  0]LogD3D11RHI:    0. 'Intel(R) UHD Graphics' (Feature Level 11_1)
+[2024.12.13-04.33.43:376][  0]LogD3D11RHI:       128/0/3981 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2024.12.13-04.33.43:377][  0]LogD3D11RHI: Testing D3D11 Adapter 1:
+[2024.12.13-04.33.43:377][  0]LogD3D11RHI:     Description : Microsoft Basic Render Driver
+[2024.12.13-04.33.43:377][  0]LogD3D11RHI:     VendorId    : 1414
+[2024.12.13-04.33.43:377][  0]LogD3D11RHI:     DeviceId    : 008c
+[2024.12.13-04.33.43:377][  0]LogD3D11RHI:     SubSysId    : 0000
+[2024.12.13-04.33.43:377][  0]LogD3D11RHI:     Revision    : 0000
+[2024.12.13-04.33.43:377][  0]LogD3D11RHI:     DedicatedVideoMemory : 0 bytes
+[2024.12.13-04.33.43:377][  0]LogD3D11RHI:     DedicatedSystemMemory : 0 bytes
+[2024.12.13-04.33.43:377][  0]LogD3D11RHI:     SharedSystemMemory : 4175294464 bytes
+[2024.12.13-04.33.43:377][  0]LogD3D11RHI:     AdapterLuid : 0 83570
+[2024.12.13-04.33.43:389][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_1)
+[2024.12.13-04.33.43:389][  0]LogD3D11RHI:       0/0/3981 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2024.12.13-04.33.43:389][  0]LogD3D11RHI: Chosen D3D11 Adapter:
+[2024.12.13-04.33.43:389][  0]LogD3D11RHI:     Description : Intel(R) UHD Graphics
+[2024.12.13-04.33.43:389][  0]LogD3D11RHI:     VendorId    : 8086
+[2024.12.13-04.33.43:389][  0]LogD3D11RHI:     DeviceId    : 8a56
+[2024.12.13-04.33.43:389][  0]LogD3D11RHI:     SubSysId    : 136d1025
+[2024.12.13-04.33.43:389][  0]LogD3D11RHI:     Revision    : 0007
+[2024.12.13-04.33.43:389][  0]LogD3D11RHI:     DedicatedVideoMemory : 134217728 bytes
+[2024.12.13-04.33.43:389][  0]LogD3D11RHI:     DedicatedSystemMemory : 0 bytes
+[2024.12.13-04.33.43:389][  0]LogD3D11RHI:     SharedSystemMemory : 4175294464 bytes
+[2024.12.13-04.33.43:389][  0]LogD3D11RHI:     AdapterLuid : 0 82986
+[2024.12.13-04.33.43:389][  0]LogRHI: RHI D3D11 with Feature Level SM5 is supported and will be used.
+[2024.12.13-04.33.43:389][  0]LogInit: Selected Device Profile: [WindowsEditor]
+[2024.12.13-04.33.43:389][  0]LogHAL: Display: Platform has ~ 8 GB [8350588928 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2024.12.13-04.33.43:389][  0]LogDeviceProfileManager: Going up to parent DeviceProfile [Windows]
+[2024.12.13-04.33.43:389][  0]LogDeviceProfileManager: Going up to parent DeviceProfile []
+[2024.12.13-04.33.43:390][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2024.12.13-04.33.43:391][  0]LogConfig: Set CVar [[r.DumpShaderDebugInfo:2]]
+[2024.12.13-04.33.43:391][  0]LogConfig: Set CVar [[r.Shaders.WarningsAsErrors:0 ;; 0: off, 1: global shaders, 2: all]]
+[2024.12.13-04.33.43:392][  0]LogConfig: Set CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2024.12.13-04.33.43:392][  0]LogConfig: Set CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2024.12.13-04.33.43:392][  0]LogConfig: Applying CVar settings from Section [Startup_Windows] File [../../../Engine/Config/ConsoleVariables.ini]
+[2024.12.13-04.33.43:392][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [Engine]
+[2024.12.13-04.33.43:392][  0]LogConfig: Set CVar [[memory.MemoryPressureCriticalThresholdMB:512]]
+[2024.12.13-04.33.43:392][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Асер/Documents/Unreal Projects/MyProject 5.4/Saved/Config/WindowsEditor/Editor.ini]
+[2024.12.13-04.33.43:392][  0]LogInit: Computer: LAPTOP-MHNN54IQ
+[2024.12.13-04.33.43:392][  0]LogInit: User: Асер
+[2024.12.13-04.33.43:392][  0]LogInit: CPU Page size=4096, Cores=4
+[2024.12.13-04.33.43:392][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2024.12.13-04.33.43:666][  0]LogMemory: Process is running as part of a Windows Job with separate resource limits
+[2024.12.13-04.33.43:666][  0]LogMemory: Memory total: Physical=7.8GB (8GB approx) Virtual=24.5GB
+[2024.12.13-04.33.43:666][  0]LogMemory: Platform Memory Stats for WindowsEditor
+[2024.12.13-04.33.43:666][  0]LogMemory: Process Physical Memory: 486.71 MB used, 494.98 MB peak
+[2024.12.13-04.33.43:666][  0]LogMemory: Process Virtual Memory: 445.14 MB used, 445.14 MB peak
+[2024.12.13-04.33.43:666][  0]LogMemory: Physical Memory: 7534.96 MB used,  428.78 MB free, 7963.74 MB total
+[2024.12.13-04.33.43:666][  0]LogMemory: Virtual Memory: 14974.19 MB used,  10079.23 MB free, 25053.42 MB total
+[2024.12.13-04.33.43:666][  0]LogCsvProfiler: Display: Metadata set : extradevelopmentmemorymb="0"
+[2024.12.13-04.33.43:678][  0]LogWindows: WindowsPlatformFeatures enabled
+[2024.12.13-04.33.43:709][  0]LogInit: Physics initialised using underlying interface: Chaos
+[2024.12.13-04.33.43:712][  0]LogInit: Using OS detected language (en-GB).
+[2024.12.13-04.33.43:712][  0]LogInit: Using OS detected locale (kk-KZ).
+[2024.12.13-04.33.43:797][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so 'en' will be used for the language.
+[2024.12.13-04.33.43:798][  0]LogInit: Setting process to per monitor DPI aware
+[2024.12.13-04.33.44:891][  0]LogWindowsTextInputMethodSystem: Available input methods:
+[2024.12.13-04.33.44:891][  0]LogWindowsTextInputMethodSystem:   - English (United Kingdom) - (Keyboard).
+[2024.12.13-04.33.44:891][  0]LogWindowsTextInputMethodSystem:   - Russian (Kazakhstan) - (Keyboard).
+[2024.12.13-04.33.44:891][  0]LogWindowsTextInputMethodSystem:   - Kazakh (Kazakhstan) - (Keyboard).
+[2024.12.13-04.33.44:891][  0]LogWindowsTextInputMethodSystem:   - Kazakh (Kazakhstan) - Touch Input Correction (TSF IME).
+[2024.12.13-04.33.44:891][  0]LogWindowsTextInputMethodSystem: Activated input method: English (United Kingdom) - (Keyboard).
+[2024.12.13-04.33.44:945][  0]LogSlate: New Slate User Created. Platform User Id 0, User Index 0, Is Virtual User: 0
+[2024.12.13-04.33.44:945][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2024.12.13-04.33.45:828][  0]LogRHI: Using Default RHI: D3D12
+[2024.12.13-04.33.45:828][  0]LogRHI: Using Highest Feature Level of D3D12: SM6
+[2024.12.13-04.33.45:828][  0]LogRHI: Loading RHI module D3D12RHI
+[2024.12.13-04.33.45:828][  0]LogRHI: Checking if RHI D3D12 with Feature Level SM6 is supported by your system.
+[2024.12.13-04.33.45:828][  0]LogD3D12RHI: Adapter only supports up to Feature Level 'SM5', requested Feature Level was 'SM6'
+[2024.12.13-04.33.45:828][  0]LogRHI: RHI D3D12 with Feature Level SM6 is not supported on your system, attempting to fall back to RHI D3D11 with Feature Level SM5
+[2024.12.13-04.33.45:828][  0]LogRHI: Loading RHI module D3D11RHI
+[2024.12.13-04.33.45:828][  0]LogRHI: Checking if RHI D3D11 with Feature Level SM5 is supported by your system.
+[2024.12.13-04.33.45:828][  0]LogRHI: RHI D3D11 with Feature Level SM5 is supported and will be used.
+[2024.12.13-04.33.45:831][  0]LogWindows: Attached monitors:
+[2024.12.13-04.33.45:831][  0]LogWindows:     resolution: 1920x1080, work area: (0, 0) -> (1920, 1080), device: '\\.\DISPLAY1' [PRIMARY]
+[2024.12.13-04.33.45:831][  0]LogWindows: Found 1 attached monitors.
+[2024.12.13-04.33.45:831][  0]LogWindows: Gathering driver information using Windows Setup API
+[2024.12.13-04.33.45:832][  0]LogRHI: RHI Adapter Info:
+[2024.12.13-04.33.45:832][  0]LogRHI:             Name: Intel(R) UHD Graphics
+[2024.12.13-04.33.45:832][  0]LogRHI:   Driver Version: 27.20.100.9415 (internal:27.20.100.9415, unified:100.9415)
+[2024.12.13-04.33.45:832][  0]LogRHI:      Driver Date: 3-22-2021
+[2024.12.13-04.33.45:833][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2024.12.13-04.33.45:833][  0]LogD3D11RHI:     GPU DeviceId: 0x8a56 (for the marketing name, search the web for "GPU Device Id")
+[2024.12.13-04.33.45:833][  0]LogRHI: Texture pool is 1483 MB (70% of 2118 MB)
+[2024.12.13-04.33.45:833][  0]LogD3D11RHI: Creating D3DDevice using adapter:
+[2024.12.13-04.33.45:833][  0]LogD3D11RHI:     Description : Intel(R) UHD Graphics
+[2024.12.13-04.33.45:833][  0]LogD3D11RHI:     VendorId    : 8086
+[2024.12.13-04.33.45:833][  0]LogD3D11RHI:     DeviceId    : 8a56
+[2024.12.13-04.33.45:833][  0]LogD3D11RHI:     SubSysId    : 136d1025
+[2024.12.13-04.33.45:833][  0]LogD3D11RHI:     Revision    : 0007
+[2024.12.13-04.33.45:833][  0]LogD3D11RHI:     DedicatedVideoMemory : 134217728 bytes
+[2024.12.13-04.33.45:833][  0]LogD3D11RHI:     DedicatedSystemMemory : 0 bytes
+[2024.12.13-04.33.45:833][  0]LogD3D11RHI:     SharedSystemMemory : 4175294464 bytes
+[2024.12.13-04.33.45:833][  0]LogD3D11RHI:     AdapterLuid : 0 82986
+[2024.12.13-04.33.45:919][  0]LogD3D11RHI: Failed to load Intel Extensions Library
+[2024.12.13-04.33.45:919][  0]LogD3D11RHI: RHI does not have support for 64 bit atomics
+[2024.12.13-04.33.45:919][  0]LogD3D11RHI: Async texture creation enabled
+[2024.12.13-04.33.45:919][  0]LogD3D11RHI: D3D11_MAP_WRITE_NO_OVERWRITE for dynamic buffer SRVs is supported
+[2024.12.13-04.33.45:919][  0]LogD3D11RHI: Array index from any shader is supported
+[2024.12.13-04.33.45:947][  0]LogVRS: Current RHI does not support Variable Rate Shading
+[2024.12.13-04.33.45:960][  0]LogD3D11RHI: GPU Timing Frequency: 19.200000 (Debug: 2 0)
+[2024.12.13-04.33.45:962][  0]LogInit: Initializing FReadOnlyCVARCache
+[2024.12.13-04.33.45:986][  0]LogTurnkeySupport: Running Turnkey SDK detection: ' -ScriptsForProject="C:/Users/Асер/Documents/Unreal Projects/MyProject 5.4/MyProject.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="C:/Users/Асер/Documents/Unreal Projects/MyProject 5.4/Intermediate/TurnkeyReport_0.log" -log="C:/Users/Асер/Documents/Unreal Projects/MyProject 5.4/Intermediate/TurnkeyLog_0.log" -project="C:/Users/Асер/Documents/Unreal Projects/MyProject 5.4/MyProject.uproject"  -platform=all'
+[2024.12.13-04.33.45:987][  0]LogMonitoredProcess: Running Serialized UAT: [ cmd.exe /c ""C:/Program Files/Epic Games/UE_5.4/Engine/Build/BatchFiles/RunUAT.bat"  -ScriptsForProject="C:/Users/Асер/Documents/Unreal Projects/MyProject 5.4/MyProject.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="C:/Users/Асер/Documents/Unreal Projects/MyProject 5.4/Intermediate/TurnkeyReport_0.log" -log="C:/Users/Асер/Documents/Unreal Projects/MyProject 5.4/Intermediate/TurnkeyLog_0.log" -project="C:/Users/Асер/Documents/Unreal Projects/MyProject 5.4/MyProject.uproject"  -platform=all" ]
+[2024.12.13-04.33.46:198][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatASTC
+[2024.12.13-04.33.46:198][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatDXT
+[2024.12.13-04.33.46:198][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatETC2
+[2024.12.13-04.33.46:198][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatIntelISPCTexComp
+[2024.12.13-04.33.46:198][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatUncompressed
+[2024.12.13-04.33.46:198][  0]LogTextureFormatOodle: Display: Oodle Texture TFO init; latest sdk version = 2.9.12
+[2024.12.13-04.33.46:198][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.12.dll
+[2024.12.13-04.33.46:200][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.5.dll
+[2024.12.13-04.33.46:203][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatOodle
+[2024.12.13-04.33.46:260][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2024.12.13-04.33.46:260][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2024.12.13-04.33.46:260][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2024.12.13-04.33.46:260][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2024.12.13-04.33.46:260][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2024.12.13-04.33.46:260][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2024.12.13-04.33.46:260][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2024.12.13-04.33.46:260][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2024.12.13-04.33.46:260][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2024.12.13-04.33.46:260][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2024.12.13-04.33.46:269][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2024.12.13-04.33.46:269][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2024.12.13-04.33.46:278][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2024.12.13-04.33.46:278][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxEditor'
+[2024.12.13-04.33.46:278][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2024.12.13-04.33.46:278][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2024.12.13-04.33.46:286][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64'
+[2024.12.13-04.33.46:286][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64Server'
+[2024.12.13-04.33.46:286][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64Client'
+[2024.12.13-04.33.46:294][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Mac'
+[2024.12.13-04.33.46:294][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacEditor'
+[2024.12.13-04.33.46:294][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacServer'
+[2024.12.13-04.33.46:294][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacClient'
+[2024.12.13-04.33.46:301][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2024.12.13-04.33.46:301][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2024.12.13-04.33.46:317][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2024.12.13-04.33.46:317][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsEditor'
+[2024.12.13-04.33.46:317][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2024.12.13-04.33.46:317][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2024.12.13-04.33.46:317][  0]LogTargetPlatformManager: Display: Building Assets For WindowsEditor
+[2024.12.13-04.33.46:355][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2024.12.13-04.33.46:600][  0]LogTargetPlatformManager: Unable to find shader format SF_METAL from hinted modules, loading all potential format modules to find it
+[2024.12.13-04.33.46:609][  0]LogTargetPlatformManager: Loaded format module MetalShaderFormat
+[2024.12.13-04.33.46:609][  0]LogTargetPlatformManager:   SF_METAL
+[2024.12.13-04.33.46:609][  0]LogTargetPlatformManager:   SF_METAL_MRT
+[2024.12.13-04.33.46:609][  0]LogTargetPlatformManager:   SF_METAL_TVOS
+[2024.12.13-04.33.46:609][  0]LogTargetPlatformManager:   SF_METAL_MRT_TVOS
+[2024.12.13-04.33.46:609][  0]LogTargetPlatformManager:   SF_METAL_SM5
+[2024.12.13-04.33.46:609][  0]LogTargetPlatformManager:   SF_METAL_SM6
+[2024.12.13-04.33.46:609][  0]LogTargetPlatformManager:   SF_METAL_SIM
+[2024.12.13-04.33.46:609][  0]LogTargetPlatformManager:   SF_METAL_MACES3_1
+[2024.12.13-04.33.46:609][  0]LogTargetPlatformManager:   SF_METAL_MRT_MAC
+[2024.12.13-04.33.46:609][  0]LogTargetPlatformManager: Loaded format module ShaderFormatD3D
+[2024.12.13-04.33.46:609][  0]LogTargetPlatformManager:   PCD3D_SM6
+[2024.12.13-04.33.46:609][  0]LogTargetPlatformManager:   PCD3D_SM5
+[2024.12.13-04.33.46:609][  0]LogTargetPlatformManager:   PCD3D_ES31
+[2024.12.13-04.33.46:609][  0]LogTargetPlatformManager: Loaded format module ShaderFormatOpenGL
+[2024.12.13-04.33.46:609][  0]LogTargetPlatformManager:   GLSL_150_ES31
+[2024.12.13-04.33.46:609][  0]LogTargetPlatformManager:   GLSL_ES3_1_ANDROID
+[2024.12.13-04.33.46:609][  0]LogTargetPlatformManager: Loaded format module ShaderFormatVectorVM
+[2024.12.13-04.33.46:609][  0]LogTargetPlatformManager:   VVM_1_0
+[2024.12.13-04.33.46:609][  0]LogTargetPlatformManager: Loaded format module VulkanShaderFormat
+[2024.12.13-04.33.46:609][  0]LogTargetPlatformManager:   SF_VULKAN_SM5
+[2024.12.13-04.33.46:610][  0]LogTargetPlatformManager:   SF_VULKAN_ES31_ANDROID
+[2024.12.13-04.33.46:610][  0]LogTargetPlatformManager:   SF_VULKAN_ES31
+[2024.12.13-04.33.46:610][  0]LogTargetPlatformManager:   SF_VULKAN_SM5_ANDROID
+[2024.12.13-04.33.46:610][  0]LogTargetPlatformManager:   SF_VULKAN_SM6
+[2024.12.13-04.33.46:610][  0]LogRendererCore: Ray tracing is disabled. Reason: disabled through project setting (r.RayTracing=0).
+[2024.12.13-04.33.46:615][  0]LogDerivedDataCache: Display: Memory: Max Cache Size: -1 MB
+[2024.12.13-04.33.46:615][  0]LogDerivedDataCache: FDerivedDataBackendGraph: Pak pak cache file ../../../../../../Users/Асер/Documents/Unreal Projects/MyProject 5.4/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2024.12.13-04.33.46:615][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchy Hierarchy.
+[2024.12.13-04.33.46:615][  0]LogDerivedDataCache: FDerivedDataBackendGraph: CompressedPak pak cache file ../../../../../../Users/Асер/Documents/Unreal Projects/MyProject 5.4/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2024.12.13-04.33.46:615][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchy Hierarchy.
+[2024.12.13-04.33.46:687][  0]LogDerivedDataCache: Display: ../../../Engine/DerivedDataCache/Compressed.ddp: Opened pak cache for reading. (2464 MiB)
+[2024.12.13-04.33.46:687][  0]LogDerivedDataCache: FDerivedDataBackendGraph: EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2024.12.13-04.33.46:687][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchy Hierarchy.
+[2024.12.13-04.33.46:690][  0]LogZenServiceInstance: Found Zen config default=C:/Users/Асер/AppData/Local/UnrealEngine/Common/Zen/Data
+[2024.12.13-04.33.46:693][  0]LogZenServiceInstance: InTree version at 'C:/Program Files/Epic Games/UE_5.4/Engine/Binaries/Win64/zenserver.exe' is '5.4.5-202405102234-windows-x64-release-373e58b'
+[2024.12.13-04.33.46:694][  0]LogZenServiceInstance: Installed version at 'C:/Users/Асер/AppData/Local/UnrealEngine/Common/Zen/Install/zenserver.exe' is '5.4.5-202405102234-windows-x64-release-373e58b'
+[2024.12.13-04.33.46:698][  0]LogZenServiceInstance: Found existing instance running on port 8558 matching our settings, no actions needed
+[2024.12.13-04.33.46:715][  0]LogZenServiceInstance: Display: Unreal Zen Storage Server HTTP service at [::1]:8558 status: OK!.
+[2024.12.13-04.33.46:741][  0]LogDerivedDataCache: Display: ZenLocal: Using ZenServer HTTP service at http://[::1]:8558/ with namespace ue.ddc status: OK!.
+[2024.12.13-04.33.46:765][  0]LogDerivedDataCache: C:/Users/Асер/AppData/Local/UnrealEngine/Common/DerivedDataCache: Speed tests took 0.02 seconds.
+[2024.12.13-04.33.46:765][  0]LogDerivedDataCache: Display: C:/Users/Асер/AppData/Local/UnrealEngine/Common/DerivedDataCache: Performance: Latency=0.28ms. RandomReadSpeed=110.60MBs, RandomWriteSpeed=92.00MBs. Assigned SpeedClass 'Local'
+[2024.12.13-04.33.46:766][  0]LogDerivedDataCache: Local: Using data cache path C:/Users/Асер/AppData/Local/UnrealEngine/Common/DerivedDataCache: DeleteOnly
+[2024.12.13-04.33.46:766][  0]LogDerivedDataCache: ZenShared: Disabled because Host is set to 'None'
+[2024.12.13-04.33.46:766][  0]LogDerivedDataCache: Unable to find inner node ZenShared for hierarchy Hierarchy.
+[2024.12.13-04.33.46:766][  0]LogDerivedDataCache: Shared: Disabled because no path is configured.
+[2024.12.13-04.33.46:766][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchy Hierarchy.
+[2024.12.13-04.33.46:766][  0]LogDerivedDataCache: Cloud: Disabled because Host is set to 'None'
+[2024.12.13-04.33.46:766][  0]LogDerivedDataCache: Unable to find inner node Cloud for hierarchy Hierarchy.
+[2024.12.13-04.33.46:775][  0]LogShaderCompilers: Guid format shader working directory is -24 characters bigger than the processId version (../../../../../../Users/Асер/Documents/Unreal Projects/MyProject 5.4/Intermediate/Shaders/WorkingDirectory/16912/).
+[2024.12.13-04.33.46:775][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Асер/AppData/Local/Temp/UnrealShaderWorkingDir/7B78820340AE2B0457A537B676169933/'.
+[2024.12.13-04.33.46:775][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2024.12.13-04.33.46:775][  0]LogShaderCompilers: Display: Using Local Shader Compiler with 5 workers.
+[2024.12.13-04.33.46:779][  0]LogShaderCompilers: Display: Compiling shader autogen file: ../../../../../../Users/Асер/Documents/Unreal Projects/MyProject 5.4/Intermediate/ShaderAutogen/PCD3D_SM5/AutogenShaderHeaders.ush
+[2024.12.13-04.33.46:780][  0]LogShaderCompilers: Display: Failed to delete old shader autogen file: ../../../../../../Users/Асер/Documents/Unreal Projects/MyProject 5.4/Intermediate/ShaderAutogen/PCD3D_SM5/AutogenShaderHeaders.ush
+[2024.12.13-04.33.46:781][  0]LogShaderCompilers: Display: Shader autogen file written: ../../../../../../Users/Асер/Documents/Unreal Projects/MyProject 5.4/Intermediate/ShaderAutogen/PCD3D_SM5/AutogenShaderHeaders.ush
+[2024.12.13-04.33.49:456][  0]LogTurnkeySupport: Completed SDK detection: ExitCode = 0
+[2024.12.13-04.33.51:505][  0]LogSlate: Using FreeType 2.10.0
+[2024.12.13-04.33.51:507][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2024.12.13-04.33.51:514][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/Developer/PlasticSourceControl/Resources/Icon128.png' error.
+[2024.12.13-04.33.51:514][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/Developer/PlasticSourceControl/Resources/Icon128.png
+[2024.12.13-04.33.51:523][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_24x.png' error.
+[2024.12.13-04.33.51:523][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_24x.png
+[2024.12.13-04.33.51:523][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_128x.png' error.
+[2024.12.13-04.33.51:523][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_128x.png
+[2024.12.13-04.33.51:563][  0]LogAssetRegistry: FAssetRegistry took 0.0041 seconds to start up
+[2024.12.13-04.33.51:568][  0]LogEditorDomain: Display: EditorDomain is Disabled
+[2024.12.13-04.33.51:574][  0]LogAssetRegistry: Display: AssetDataGatherer spent 0.000s loading caches ../../../../../../Users/Асер/Documents/Unreal Projects/MyProject 5.4/Intermediate/CachedAssetRegistry_*.bin.
+[2024.12.13-04.33.52:259][  0]LogTextureEncodingSettings: Display: Texture Encode Speed: FinalIfAvailable (editor).
+[2024.12.13-04.33.52:259][  0]LogTextureEncodingSettings: Display: Oodle Texture Encode Speed settings: Fast: RDO Off Lambda=0, Effort=Normal Final: RDO Off Lambda=0, Effort=Normal
+[2024.12.13-04.33.52:259][  0]LogTextureEncodingSettings: Display: Shared linear texture encoding: Disabled
+[2024.12.13-04.33.52:268][  0]LogDeviceProfileManager: Display: Deviceprofile LinuxArm64Editor not found.
+[2024.12.13-04.33.52:268][  0]LogDeviceProfileManager: Display: Deviceprofile LinuxArm64 not found.
+[2024.12.13-04.33.52:408][  0]LogDeviceProfileManager: Active device profile: [000006A66ED40200][000006A638530000 66] WindowsEditor
+[2024.12.13-04.33.52:408][  0]LogCsvProfiler: Display: Metadata set : deviceprofile="WindowsEditor"
+[2024.12.13-04.33.52:408][  0]LogShaderCompilers: Display: Compiling shader autogen file: ../../../../../../Users/Асер/Documents/Unreal Projects/MyProject 5.4/Intermediate/ShaderAutogen/PCD3D_SM6/AutogenShaderHeaders.ush
+[2024.12.13-04.33.52:411][  0]LogShaderCompilers: Display: Failed to delete old shader autogen file: ../../../../../../Users/Асер/Documents/Unreal Projects/MyProject 5.4/Intermediate/ShaderAutogen/PCD3D_SM6/AutogenShaderHeaders.ush
+[2024.12.13-04.33.52:412][  0]LogShaderCompilers: Display: Shader autogen file written: ../../../../../../Users/Асер/Documents/Unreal Projects/MyProject 5.4/Intermediate/ShaderAutogen/PCD3D_SM6/AutogenShaderHeaders.ush
+[2024.12.13-04.33.52:414][  0]LogTurnkeySupport: Turnkey Platform: Win64: (Status=Invalid, MinAllowed_Sdk=10.0.18362.0, MaxAllowed_Sdk=10.9.99999.0, Current_Sdk=, Allowed_AutoSdk=10.0.19041.0, Current_AutoSdk=, Flags="Platform_ValidHostPrerequisites")
+[2024.12.13-04.33.52:428][  0]LogTurnkeySupport: Running Turnkey device detection: ' -ScriptsForProject="C:/Users/Асер/Documents/Unreal Projects/MyProject 5.4/MyProject.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="C:/Users/Асер/Documents/Unreal Projects/MyProject 5.4/Intermediate/TurnkeyReport_1.log" -log="C:/Users/Асер/Documents/Unreal Projects/MyProject 5.4/Intermediate/TurnkeyLog_1.log" -project="C:/Users/Асер/Documents/Unreal Projects/MyProject 5.4/MyProject.uproject"  -Device=Win64@LAPTOP-MHNN54IQ'
+[2024.12.13-04.33.52:428][  0]LogMonitoredProcess: Running Serialized UAT: [ cmd.exe /c ""C:/Program Files/Epic Games/UE_5.4/Engine/Build/BatchFiles/RunUAT.bat"  -ScriptsForProject="C:/Users/Асер/Documents/Unreal Projects/MyProject 5.4/MyProject.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="C:/Users/Асер/Documents/Unreal Projects/MyProject 5.4/Intermediate/TurnkeyReport_1.log" -log="C:/Users/Асер/Documents/Unreal Projects/MyProject 5.4/Intermediate/TurnkeyLog_1.log" -project="C:/Users/Асер/Documents/Unreal Projects/MyProject 5.4/MyProject.uproject"  -Device=Win64@LAPTOP-MHNN54IQ" -nocompile -nocompileuat ]
+[2024.12.13-04.33.53:581][  0]LogMaterial: Display: WorldGridMaterial-SM5-Default: MATSM_F352F674A0D503790A5235582FBA6412_PCD3D_SM5_-467229472__BC5N_NoCCBN_NoIris_DEV_SL_LWC2_GV_PreExp_DBuf_UnInt_DXC0_VFO_LFV_LTRRT_SKYATM_SKYHF_SLWSMDLT_STRDSTRIP_gs1_sdct_VRS_VT-0-0-1-0_MIN_PJC_DF_VED_Aniso-1_ComprOodle_Compr2_Lev4_ExclNonPipSh-1_LWC-2097152_3016135758_SKPassThrough0DB6FCC63A5C44EA751315CBC3EF5DDED_Num_SM5_FL_0000000d_MFA_00000008_V_B6A0A753ED62499D8F30931E61FCAB05_0_DB3E993F4E2E98B305AD13B92D8C5DA5_9107FBCE4C95329989F3AF1F988A1B948D5415DB___TShadowDepthPSPixelShadowDepth_PerspectiveCorrect0_0_0CB36D3FF889448F8B237B521CD40A9CAFF0F305EC42029D3A7877F6520B43A3D0406C57469EABB8F_FLumenCardPS<false>0_0_0F31CA91D2D9C10888E02903F313DEF51435E13B3C4CE29BE25F7A4B1586CA4C1685BCF80731FE636_TShadowDepthPSPixelShadowDepth_NonPerspectiveCorrect0_0_0CB36D3FF889448F8B237B521CD40A9CAFF0F305E9FC66713AD9ABF570AFA2305B93FC5C738D84F68_TShadowDepthVSVertexShadowDepth_OutputDepthPositionOnly0_0_0C33C9E80592BAA0E8B89BC015218985DD13B9FACBB459A7F0DBAC5232AC3C6813D7A1C9C1E037A6F_TLightMapDensityPSTLightMapPolicyHQ0_0_03FF8D37097F59DDDC6B97BA7CEB471E9BB3698CEAA270EEF413621E0C116C79AC656F988F24413AF_TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight0_0_0C53FC42088FF8FBE7F86BC676FFBE76EDB6E2D331885C6BD5C13C615A2D1CC7B629C1649D7904633_TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight1_0_0C53FC42088FF8FBE7F86BC676FFBE76EDB6E2D331885C6BD5C13C615A2D1CC7B629C1649D7904633_TBasePassPSTLightMapPolicyLQSkylight0_0_0C53FC42088FF8FBE7F86BC676FFBE76EDB6E2D335B3BB4576FCE1858D2FA513C5CF3DFFA9D6231E6_TBasePassPSTLightMapPolicyLQSkylight1_0_0C53FC42088FF8FBE7F86BC676FFBE76EDB6E2D335B3BB4576FCE1858D2FA513C5CF3DFFA9D6231E6_FLandscapeGrassWeightVS0_0_0570717B31CAB3F792310108066707D218DFF5C301F4AE6CD573C588EA0E0A5701A067C736DB871F2_TLightMapDensityVSFNoLightMapPolicy0_0_03FF8D37097F59DDDC6B97BA7CEB471E9BB3698CEE68740D56C01795CB8F3A41716DC323A4B0E4A02_TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQ0_0_0C53FC42088FF8FBE7F86BC676FFBE76EDB6E2D3358C0ACF387F70E172DF585AA01C84B8418428E2B_TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQ1_0_0C53FC42088FF8FBE7F86BC676FFBE76EDB6E2D3358C0ACF387F70E172DF585AA01C84B8418428E2B_FHitProxyVS0_0_0D93FFEA6DB4113E00AB893CF9D077C4179DA5F58B310836A0A5C4DC6F9C6787D82A95787504887EA_FHitProxyPS0_0_0E31BB05378B889A3516D4C567808CC007459923698FD96E02A532D7E415E04CB58A1437B3DE55B9E_FLandscapeGrassWeightPS0_0_0570717B31CAB3F792310108066707D218DFF5C3006AC8289474264FCB183613EA9196A3F141417F9_TBasePassPSFNoLightMapPolicy0_0_0C53FC42088FF8FBE7F86BC676FFBE76EDB6E2D3379B90F6A1A762E35DCA6B7044315B042B3A9DE8B_TBasePassPSFNoLightMapPolicy1_0_0C53FC42088FF8FBE7F86BC676FFBE76EDB6E2D3379B90F6A1A762E35DCA6B7044315B042B3A9DE8B_TShadowDepthVSVertexShadowDepth_OutputDepth0_0_0C33C9E80592BAA0E8B89BC015218985DD13B9FACD282FE23662B6F8212138E16FD40FFF30C979CA0_TDepthOnlyVS<true>0_0_02D0DA733E6CDE968D0BFE7536C1B7F1557A4E540BE22A860DB786AA9A7DE7C711953CC3F484404A4_FLandscapePhysicalMaterialPS0_0_011E4DA2F64885A429A943C3CABE8C4E895288559989E524D02800C279740896F656A4B888BE14513_TLightMapDensityVSFDummyLightMapPolicy0_0_03FF8D37097F59DDDC6B97BA7CEB471E9BB3698CE18803B83B28CDED9C48845B0B2ABC57FE549565C_FLumenCardVS0_0_01A6D883191EF0A9C3A27F244911CF5C2765B494CABD0E94E9F2FDE303EA0054320ED4096AB87BEA7_TBasePassVSFPrecomputedVolumetricLightmapLightingPolicy0_0_0454F57ABD8B62F7915E205F866B3933FD8034B2C68F0B29CECEC60752AD4E2F4479E3479A9544217_TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQSkylight0_0_0C53FC42088FF8FBE7F86BC676FFBE76EDB6E2D33D125B9380CFE1C82C03BB907DBE95DE267E4AA1F_TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQSkylight1_0_0C53FC42088FF8FBE7F86BC676FFBE76EDB6E2D33D125B9380CFE1C82C03BB907DBE95DE267E4AA1F_TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy0_0_0C53FC42088FF8FBE7F86BC676FFBE76EDB6E2D33CA38D76CBB88E8E35C9A8EC7B1CB5EB263A39605_TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy1_0_0C53FC42088FF8FBE7F86BC676FFBE76EDB6E2D33CA38D76CBB88E8E35C9A8EC7B1CB5EB263A39605_TBasePassPSTLightMapPolicyHQ0_0_0C53FC42088FF8FBE7F86BC676FFBE76EDB6E2D33804894D114BDC7D7CCA483C383426229EB505ECB_TBasePassPSTLightMapPolicyHQ1_0_0C53FC42088FF8FBE7F86BC676FFBE76EDB6E2D33804894D114BDC7D7CCA483C383426229EB505ECB_TLightMapDensityPSFDummyLightMapPolicy0_0_03FF8D37097F59DDDC6B97BA7CEB471E9BB3698CE155D979E9D1F3559A69AB78660BE10F9E4ABAB2D_TBasePassPSFCachedPointIndirectLightingPolicySkylight0_0_0C53FC42088FF8FBE7F86BC676FFBE76EDB6E2D33CBB5826133D9E53D0E6872AEE7FE4451B5DA3340_TBasePassPSFCachedPointIndirectLightingPolicySkylight1_0_0C53FC42088FF8FBE7F86BC676FFBE76EDB6E2D33CBB5826133D9E53D0E6872AEE7FE4451B5DA3340_FTranslucentLightingInjectPS0_0_080445DA3DBDF36B9F91D3CAA1E5908D1321067891C6338A978F9356F36802E13F8A3E50683C0C140_FTranslucentLightingInjectPS1_0_080445DA3DBDF36B9F91D3CAA1E5908D1321067891C6338A978F9356F36802E13F8A3E50683C0C140_FTranslucentLightingInjectPS2_0_080445DA3DBDF36B9F91D3CAA1E5908D1321067891C6338A978F9356F36802E13F8A3E50683C0C140_FTranslucentLightingInjectPS3_0_080445DA3DBDF36B9F91D3CAA1E5908D1321067891C6338A978F9356F36802E13F8A3E50683C0C140_FTranslucentLightingInjectPS4_0_080445DA3DBDF36B9F91D3CAA1E5908D1321067891C6338A978F9356F36802E13F8A3E50683C0C140_FTranslucentLightingInjectPS5_0_080445DA3DBDF36B9F91D3CAA1E5908D1321067891C6338A978F9356F36802E13F8A3E50683C0C140_FTranslucentLightingInjectPS6_0_080445DA3DBDF36B9F91D3CAA1E5908D1321067891C6338A978F9356F36802E13F8A3E50683C0C140_FTranslucentLightingInjectPS7_0_080445DA3DBDF36B9F91D3CAA1E5908D1321067891C6338A978F9356F36802E13F8A3E50683C0C140_FTranslucentLightingInjectPS8_0_080445DA3DBDF36B9F91D3CAA1E5908D1321067891C6338A978F9356F36802E13F8A3E50683C0C140_FTranslucentLightingInjectPS9_0_080445DA3DBDF36B9F91D3CAA1E5908D1321067891C6338A978F9356F36802E13F8A3E50683C0C140_FTranslucentLightingInjectPS10_0_080445DA3DBDF36B9F91D3CAA1E5908D1321067891C6338A978F9356F36802E13F8A3E50683C0C140_FTranslucentLightingInjectPS11_0_080445DA3DBDF36B9F91D3CAA1E5908D1321067891C6338A978F9356F36802E13F8A3E50683C0C140_FTranslucentLightingInjectPS12_0_080445DA3DBDF36B9F91D3CAA1E5908D1321067891C6338A978F9356F36802E13F8A3E50683C0C140_FTranslucentLightingInjectPS13_0_080445DA3DBDF36B9F91D3CAA1E5908D1321067891C6338A978F9356F36802E13F8A3E50683C0C140_FTranslucentLightingInjectPS14_0_080445DA3DBDF36B9F91D3CAA1E5908D1321067891C6338A978F9356F36802E13F8A3E50683C0C140_FTranslucentLightingInjectPS15_0_080445DA3DBDF36B9F91D3CAA1E5908D1321067891C6338A978F9356F36802E13F8A3E50683C0C140_FTranslucentLightingInjectPS16_0_080445DA3DBDF36B9F91D3CAA1E5908D1321067891C6338A978F9356F36802E13F8A3E50683C0C140_FTranslucentLightingInjectPS17_0_080445DA3DBDF36B9F91D3CAA1E5908D1321067891C6338A978F9356F36802E13F8A3E50683C0C140_FTranslucentLightingInjectPS18_0_080445DA3DBDF36B9F91D3CAA1E5908D1321067891C6338A978F9356F36802E13F8A3E50683C0C140_FTranslucentLightingInjectPS19_0_080445DA3DBDF36B9F91D3CAA1E5908D1321067891C6338A978F9356F36802E13F8A3E50683C0C140_FTranslucentLightingInjectPS20_0_080445DA3DBDF36B9F91D3CAA1E5908D1321067891C6338A978F9356F36802E13F8A3E50683C0C140_FTranslucentLightingInjectPS21_0_080445DA3DBDF36B9F91D3CAA1E5908D1321067891C6338A978F9356F36802E13F8A3E50683C0C140_FTranslucentLightingInjectPS22_0_080445DA3DBDF36B9F91D3CAA1E5908D1321067891C6338A978F9356F36802E13F8A3E50683C0C140_FTranslucentLightingInjectPS23_0_080445DA3DBDF36B9F91D3CAA1E5908D1321067891C6338A978F9356F36802E13F8A3E50683C0C140_FTranslucentLightingInjectPS24_0_080445DA3DBDF36B9F91D3CAA1E5908D1321067891C6338A978F9356F36802E13F8A3E50683C0C140_FTranslucentLightingInjectPS25_0_080445DA3DBDF36B9F91D3CAA1E5908D1321067891C6338A978F9356F36802E13F8A3E50683C0C140_FTranslucentLightingInjectPS26_0_080445DA3DBDF36B9F91D3CAA1E5908D1321067891C6338A978F9356F36802E13F8A3E50683C0C140_FTranslucentLightingInjectPS27_0_080445DA3DBDF36B9F91D3CAA1E5908D1321067891C6338A978F9356F36802E13F8A3E50683C0C140_FTranslucentLightingInjectPS28_0_080445DA3DBDF36B9F91D3CAA1E5908D1321067891C6338A978F9356F36802E13F8A3E50683C0C140_FTranslucentLightingInjectPS29_0_080445DA3DBDF36B9F91D3CAA1E5908D1321067891C6338A978F9356F36802E13F8A3E50683C0C140_FTranslucentLightingInjectPS30_0_080445DA3DBDF36B9F91D3CAA1E5908D1321067891C6338A978F9356F36802E13F8A3E50683C0C140_FTranslucentLightingInjectPS31_0_080445DA3DBDF36B9F91D3CAA1E5908D1321067891C6338A978F9356F36802E13F8A3E50683C0C140_TBasePassVSFCachedPointIndirectLightingPolicy0_0_0454F57ABD8B62F7915E205F866B3933FD8034B2CBC455CF5461179D683FC22723024276683512BF2_TBasePassPSFCachedPointIndirectLightingPolicy0_0_0C53FC42088FF8FBE7F86BC676FFBE76EDB6E2D33567497BE8A730EE9D61E10D7F18B32D891846AC8_TBasePassPSFCachedPointIndirectLightingPolicy1_0_0C53FC42088FF8FBE7F86BC676FFBE76EDB6E2D33567497BE8A730EE9D61E10D7F18B32D891846AC8_FVelocityPS0_0_0B114E4F1F710132CA9B74222EB12812CE48DFBA071766E222D75D9042433F7E54424227CD4AF7F85_TBasePassPSFCachedVolumeIndirectLightingPolicy0_0_0C53FC42088FF8FBE7F86BC676FFBE76EDB6E2D33E8E63E50D815609BA40DD40A8C088E2387FA3BF0_TBasePassPSFCachedVolumeIndirectLightingPolicy1_0_0C53FC42088FF8FBE7F86BC676FFBE76EDB6E2D33E8E63E50D815609BA40DD40A8C088E2387FA3BF0_TShadowDepthVSVertexShadowDepth_PerspectiveCorrect0_0_0C33C9E80592BAA0E8B89BC015218985DD13B9FAC7188663C9C337316BBABCDC605C6F3CE449BB27D_TBasePassPSFCachedVolumeIndirectLightingPolicySkylight0_0_0C53FC42088FF8FBE7F86BC676FFBE76EDB6E2D3327C2A77E6D84B54989B82D51CEC865B004FB6010_TBasePassPSFCachedVolumeIndirectLightingPolicySkylight1_0_0C53FC42088FF8FBE7F86BC676FFBE76EDB6E2D3327C2A77E6D84B54989B82D51CEC865B004FB6010_TLightMapDensityPSFNoLightMapPolicy0_0_03FF8D37097F59DDDC6B97BA7CEB471E9BB3698CE76F07DBCFA0AC7DA5684426030FD7E2B83F8BFEB_TLightMapDensityVSTLightMapPolicyLQ0_0_03FF8D37097F59DDDC6B97BA7CEB471E9BB3698CEAEC27E29B9DAB2C6DACEED2C9FEB36BF92895105_TBasePassVSTLightMapPolicyHQ0_0_0454F57ABD8B62F7915E205F866B3933FD8034B2C5F272A7585E9FFDC79C7571A81C3C439883833B4_FLandscapePhysicalMaterialVS0_0_011E4DA2F64885A429A943C3CABE8C4E89528855930384436A244F15C2A1AC2311008523E497AAEF3_TBasePassPSFNoLightMapPolicySkylight0_0_0C53FC42088FF8FBE7F86BC676FFBE76EDB6E2D33BA5E9450E4A86AA1AF225295A8E1A3A9DBADD643_TBasePassPSFNoLightMapPolicySkylight1_0_0C53FC42088FF8FBE7F86BC676FFBE76EDB6E2D33BA5E9450E4A86AA1AF225295A8E1A3A9DBADD643_TBasePassVSFCachedVolumeIndirectLightingPolicy0_0_0454F57ABD8B62F7915E205F866B3933FD8034B2C131E76D986983209B45EA2D142B5BD6EC0D7641E_TShadowDepthPSPixelShadowDepth_OnePassPointLight0_0_0CB36D3FF889448F8B237B521CD40A9CAFF0F305E3C048F707CE1A01E3684B1A19B1BE149828CE519_TShadowDepthVSVertexShadowDepth_PerspectiveCorrectPositionOnly0_0_0C33C9E80592BAA0E8B89BC015218985DD13B9FAC6F63A2867FA005A1D9974353C1F05C64FB02CAA1_TBasePassVSTDistanceFieldShadowsAndLightMapPolicyHQ0_0_0454F57ABD8B62F7915E205F866B3933FD8034B2CBB50094D0051C52FF7242BC71DAD0BEFD0CC10E9_TShadowDepthVSVertexShadowDepth_OnePassPointLight0_0_0C33C9E80592BAA0E8B89BC015218985DD13B9FAC79BBC5F9C26CAC4ECD0A28D008BDC971EA966340_TBasePassPSTLightMapPolicyLQ0_0_0C53FC42088FF8FBE7F86BC676FFBE76EDB6E2D33BB2FAE6C3703A6FD3741EA0B7E1660D21FC30A92_TBasePassPSTLightMapPolicyLQ1_0_0C53FC42088FF8FBE7F86BC676FFBE76EDB6E2D33BB2FAE6C3703A6FD3741EA0B7E1660D21FC30A92_TLightMapDensityPSTLightMapPolicyLQ0_0_03FF8D37097F59DDDC6B97BA7CEB471E9BB3698CE5D8ED7FF1587BDFFD7ADCB8D75DD623ADF66D618_TBasePassVSTLightMapPolicyLQ0_0_0454F57ABD8B62F7915E205F866B3933FD8034B2C78D60CAF7896988BA3EE748764C473DF7D87A225_TLightMapDensityVSTLightMapPolicyHQ0_0_03FF8D37097F59DDDC6B97BA7CEB471E9BB3698CED34D34F5B8BAE168699B8A5F94ABC294AED01E82_FDebugViewModePS0_0_0AF518775CBE18C95133DF230DE3E18D39D4C17DADF0CA379DEB49D5A761AF88AFBFA2D788472C2A8_TBasePassPSTLightMapPolicyHQSkylight0_0_0C53FC42088FF8FBE7F86BC676FFBE76EDB6E2D337EB3FD4458D6647359B2220BD6EF34740007D430_TBasePassPSTLightMapPolicyHQSkylight1_0_0C53FC42088FF8FBE7F86BC676FFBE76EDB6E2D337EB3FD4458D6647359B2220BD6EF34740007D430_TDepthOnlyVS<false>0_0_0E210E1EC970B3CC6484473802F6B33746BFF80E4B3153FF105D7471808BB3B136D47DA9F9C9D7EB3_FVelocityVS0_0_0B114E4F1F710132CA9B74222EB12812CE48DFBA0C5B3590AE58B27781A1B627B03D72564730B8C51_FDebugViewModeVS0_0_07C8DCE768825CD09AAC2AFF5FBFE2B715BF75E8D98A189555FB5DFA3B16EC9000FC35B7613C050B9_TShadowDepthVSVertexShadowDepth_OnePassPointLightPositionOnly0_0_0C33C9E80592BAA0E8B89BC015218985DD13B9FAC4449D1779A17BA029521B676974C013CAD4F1D63_TBasePassVSFNoLightMapPolicy0_0_0454F57ABD8B62F7915E205F866B3933FD8034B2C2FFFCF4957148C3B70889CC78A43EF8951CBB13C_DepthPosOnlyNoPixelPipeline2D0DA733E6CDE968D0BFE7536C1B7F1557A4E540_VelocityPipeline25AB141D1357A5BC52CEC55362C017D8AA58BD3B_DepthNoPixelPipelineE210E1EC970B3CC6484473802F6B33746BFF80E4_FGPUSpriteVertexFactory245FB466A2A94E1A1436B691BFD0A7AD3AAB15226F4AA5ED14228FB7E8DA60EA4B587BD3239FAD94B9CA513CCBA4F1E3AF7D9556DD0F2FF45E951E1A_FNiagaraRibbonVertexFactoryD19292AE439B9BA2AF405539D8C979D72ADDB9DAA5C2BD7C8E1CB8C2C0438E13767AF67A0D5B5966DE03DD13CEAD2D60503F2AAC85D4762994EF4025A5C2BD7C8E1CB8C2C0438E13767AF67A0D5B5966A5C2BD7C8E1CB8C2C0438E13767AF67A0D5B5966_TGPUSkinAPEXClothVertexFactoryDefault0F340724BA3C76DE470CCD6BD08D3B137D0CF9D7BBEDF5F2F99060D3A4E705A02AFC0D4CFF550703_FParticleSpriteVertexFactory50F1F3C21861C59B390701CCEFB63753852D229FF99E1B0FB635933CEEAC41CF9441DF5EA4A994CA9DAE5A7C55936FD50BC3B20BD063C1832A4D4247_TGPUSkinVertexFactoryUnlimited0F340724BA3C76DE470CCD6BD08D3B137D0CF9D7180376A7171B50BD465E9983F32BCB5A07542FE7_FVectorFieldVisualizationVertexFactory36404C380DD96CD0872E9BBEDDFAD1A6E72AA01DCC854D8E74FEAEF90804D69AF6B78BD07A141ACC_FNiagaraMeshVertexFactory986E5942402E11F2078809FA08B7B208E2ECF4884B3A20E0CA93D5CA5A60C16EF2EB14EA073FC9571BD81B2CBA1F364F28A837532353718EB814537B4B3A20E0CA93D5CA5A60C16EF2EB14EA073FC9574B3A20E0CA93D5CA5A60C16EF2EB14EA073FC957_FParticleBeamTrailVertexFactory9B4864381849C227417F59C2CD595ADF65DE8972378BBDDEC2CEAC35A309C357B38D702E7981D5D3_TGPUSkinVertexFactoryDefault0F340724BA3C76DE470CCD6BD08D3B137D0CF9D7180376A7171B50BD465E9983F32BCB5A07542FE7_TGPUSkinAPEXClothVertexFactoryUnlimited0F340724BA3C76DE470CCD6BD08D3B137D0CF9D7BBEDF5F2F99060D3A4E705A02AFC0D4CFF550703_FGeometryCollectionVertexFactory74DF12C20858E13A6E65317951D0E79E184025DB49D716CAD02F0AC031CC93ACB2AFCB9C42E7DC4149D716CAD02F0AC031CC93ACB2AFCB9C42E7DC4149D716CAD02F0AC031CC93ACB2AFCB9C42E7DC41_FLandscapeXYOffsetVertexFactory9C72E626AD265877B69662468B699912974F6255B1684FBEF19B946A8709F4309D7CC4E5FC6044ADEBA49461CECB1EA5D21E2BF8918B91C7C3994DCEB1684FBEF19B946A8709F4309D7CC4E5FC6044ADB1684FBEF19B946A8709F4309D7CC4E5FC6044AD_FMeshParticleVertexFactory8E5462CD108F3ACF9C2D93B79DB64B3906833D1AF773920348F231C490A74B1A551F8CE3ABF04791_FInstancedStaticMeshVertexFactory1808145E713BFCB3CC3257922C12D5C1B321869739A00A3AF8434811E9EA9890B934C37C364D15CD39A00A3AF8434811E9EA9890B934C37C364D15CD39A00A3AF8434811E9EA9890B934C37C364D15CD39A00A3AF8434811E9EA9890B934C37C364D15CD_FSplineMeshVertexFactory1808145E713BFCB3CC3257922C12D5C1B3218697A747D67BD07743C1BEA1DE549F682B82EB7B9965A747D67BD07743C1BEA1DE549F682B82EB7B9965A747D67BD07743C1BEA1DE549F682B82EB7B9965_FLocalVertexFactory1808145E713BFCB3CC3257922C12D5C1B321869781418F8992AC49B8E2AFD31AF3B57530A23E085E81418F8992AC49B8E2AFD31AF3B57530A23E085E81418F8992AC49B8E2AFD31AF3B57530A23E085E_FLandscapeVertexFactory9C72E626AD265877B69662468B699912974F6255B1684FBEF19B946A8709F4309D7CC4E5FC6044ADEBA49461CECB1EA5D21E2BF8918B91C7C3994DCEB1684FBEF19B946A8709F4309D7CC4E5FC6044ADB1684FBEF19B946A8709F4309D7CC4E5FC6044AD_FNiagaraSpriteVertexFactoryACB1629DF3CA3124277348B8C5E6DFA8BCE4390C5957CFEE095AEFFBA7F83F09F020F15CF6555718EFF166204144512228FF7A163011544EEF3FD2265957CFEE095AEFFBA7F83F09F020F15CF65557185957CFEE095AEFFBA7F83F09F020F15CF6555718_FGeometryCacheVertexVertexFactory74ADC0A3F4354AA5B6F6B8CDE88F0843E005C5DD76143182082C57C6F98756E7AE927ED26DD4479A76143182082C57C6F98756E7AE927ED26DD4479A_FLandscapeFixedGridVertexFactory9C72E626AD265877B69662468B699912974F62553F5F45F5620EF6411E27211E3D675CEA50B38DFBEBA49461CECB1EA5D21E2BF8918B91C7C3994DCE3F5F45F5620EF6411E27211E3D675CEA50B38DFB3F5F45F5620EF6411E27211E3D675CEA50B38DFB_FLandscapeTileVertexFactory9C72E626AD265877B69662468B699912974F6255B1684FBEF19B946A8709F4309D7CC4E5FC6044ADEBA49461CECB1EA5D21E2BF8918B91C7C3994DCESPM_d0dd0cfdf09b3e581937333562ee3ff1fabbcfe52ef2e02d62fb52ae9e62c317SPM_89d2e11bbb81b3f9ca7deb28b92d425dba5b46b2826ca1b3f62062fb141a9055SPM_4313f3f49766b482d25abee0729864e2637caaa2c8359ca9a5ec5e52b19a4a74SPM_9ad64688c87d417670bf84d9164b7ff0c7fd5648d64f90605d4f5ccd62b1582fSPM_2c57d0a836509d36c7c166415bfeb15e0ef573dcd9b4603cf1538f7314f9243dSPM_6317586e85ff33e53f3e2a8924a75b9a477bf2856e71b76add6e9afa5b77a4b4SPM_e6cac58906497aa6a3240ec32a5b52a2e9e97391b9a24e44a022e67fcade440bSPM_86d0c84beb6cce721197426e35f24a231b8d3b3dcfaad4ac7e7cb5869ec16cb2SPM_ff7b878748b7492a8bfbb1d213e0de922e7d1ad4e5c007d89539a25e116fe2a5SPM_f246e4150b5da0c4990d8d9cde3e7bc9ee28109026282556e7079fb5bfdac477SPM_aa661c84dbf8f659fa074577f1cbf28605bf282f383c32fbea060da3d871c48bSPM_54a1312cf73db2c90c5ed5f36724cf7f386b575e0cdac7da6333551840860f28SPM_b902cb58365a597ab0b6fe8cf87ae04d551e6747d32c37d928b8157fd3eba5c0SPM_8067665b18a33a3fe76b4d2cb7efaae4a7d5d674bfcd16014ec75d22aa43e477SPM_e2f081515cc3d0ef0996e2c8f9e1a75166b3cc6cdf0f28a7851d4ec175056c74SPM_36d1d796bf3fb73ccd892afb1b779f503d696f05fd480468b72f5ef66020825cSPM_83dbf399e330e02ba06c94ef9626063f802e7dad4acecf70bd8dc6046d1c22bbSPM_4a9d07239f86cc5310d60e8af0f25edf06a7d9ea4a2cac6d8cec6a1602c017a9SPM_16580fe885dc965c263d5eaad54b525a074fe46b65804a2a9a8eeb6c60d81eccSPM_1da6a996912903dde41c496fbb90ab8b7a56a37d91e64fd22c93b23c3291cf38SPM_39378479a4394fe666719b48f96d91dd0fee16fbd4d833039c8057d35bfe994eSPM_117e6119542e172878eb8d8df821dc98b3b1a14df286a76bb6d7944757abb01cSPM_1abdcf528b27ee15ea112606f7deb0e2bf1615c76e72788521d73027ce1f58d5SPM_d7362c400bb066129c0a26e9fd812e883f0c4289c0407b8538c36ce3ffffc6beSPM_558881d4ac12138fcbcdfe48514387b4d97e3917d7af9d06e82d66a738436156SPM_c950e2748d33543963b877521828efae284bd631b6d3208cb86d15e3d6ac302fSPM_9cdc2e108d4933f77f45b419a1ff9766781d1e07d02f2ea021820a33f42561adSPM_8f2515f426db488db7287a059c05dc2cec22cfd7015d224934fbfbdf45e2c2fdSPM_555ae49bc0bf3433782cfddb991b9368a60e332df25860d228a3a8a615d5a301SPM_555ae49bc0bf3433782cfddb991b9368a60e332df25860d228a3a8a615d5a301SPM_eb8cf9f28765a64d7c29571f94e23818d215aa32f207f5e51332108f6fb34b41SPM_9429704e8be195f35baecc89e09a1d838ba2a5bd5531c47e77f0c1021d0ea3faSPM_f848405a4bb32d0fbb35c92b345a9c5ffbd711de556a9112d23792383b0ae532SPM_44cfd7856989e0d50b86ae467107f8cb1927d4c4ac69e4400cc83861f7c2587fSPM_5ba0c5b7c5677cfc80f9c206abf3f2281b0c59cf7534bc2c0c3040647bc959d3SPM_0f404960686934579767c414c4832022399bdada3fdee85648dd5ddc66cdc18bSPM_32f96e6e78e74918b7a804031de07f41b26a0f4e028cfbf2d1f67a366b3b4653SPM_35ddf07c29b7ba174b82f284a0659e75175dffbdb1e5bcfbb8be87ef8e1351f9SPM_1cb9f91b85bc88250891e97b8ee57a007548ecc77f178fd11b011f742ada03c3SPM_3b8fafd4358c1af5a086884104678b1dfd2e193bfae2d80ab85be9b6ad7bd2f2SPM_8668a6a7bc90628c6b9b7bc642165f78499f54c0bad7054bd40be5d5b16027a9SPM_1b6a9f1a9b735e886581d6d6dcf008a2c7fc72bafbf9099d1f86d7fbd8c9844cSPM_d325b6eff66cabe6e04198f43035cf6635b9b462dff8ae44df5c0cbe3de6cf30SPM_039985d77c1c1471b03049c2bf8ef2d29fea7464cb33519e9049b37ddcda731fSPM_2379ae40c9a93d1354f571759773506590e9bd6d2be3b959dc2ab0dca7e60fe4SPM_f6481c86c24d5e8e86b711ed96952ba756b1b40357dd9cadb41c22ae0d52834bSPM_a2ca952d5d0c16a12b0eca91df068d9ce926000b17be062f97ba31ac64039a67SPM_e99122b96c86762ba069e73393d36dd9e7886cd1e40a4c23c10949dc4144ff77SPM_c4fd33b245ca554105394a55a3b11ebe5ab14de075817620e79925a15f1d4e79SPM_43a005e78e6f2c8487fe442a8b0f2ecb2a8396fdd0dd05d0d6830486fa5280c9SPM_debd3b9cc3bd312d9214df237fa1d9744029bd0edcad0840bb3b5c8029fcd238SPM_729f279cb55c14a86674481c57e40fb61e9dd97072c662bfef60a2a568940f4eSPM_bb4e74f7221fb542e41cb3df0f9f9e4a99fd5f726e8d57fbd7664cc2c2b4d227SPM_212dd557778bf53736b95bebf4695b9895831af7743bf4f024d9b511e0c2d54bSPM_c1b18e33b7dee0ef9484fb4cee1d3ba679afd1eda5bbd346e54a3cd3e78c744aSPM_48630cd959fe3e36f7956b88e42d315bae59f4c944e73ebc00038e7f30cdd0b2SPM_8aba731ad44e3a707b51569410dec477ae09100f5bc6b0ad01ae6ac470b3876aSPM_caf44f3686659bb5161b05d968c1b10a21cd0bf51ac06bc73dc9d1492630313bSPM_5ca6927bd2331ea4a166686786263efa114a15c4a923633fb1e6b2fbca1005f0SPM_7a8859af6bf08dbff30fc6fcf3aa44eae2b5708485554da1535146f5ab7d1e6cSPM_1abeee29937f4f1f7bcbd889e379941b812ccb972f89fc23883577de1d19934eSPM_79a3f872f11713ceb40a20a8ae2879efe8627b56b619c57fe7eaba8446f9cb7aSPM_83c91dc56084b394948dc5f6a1c235b7d1705b51e910473043ea3e465b2aebc6SPM_8917a03e1e52e3b2c09594c402821ccaaabba029aebfa0f444faeb2c184f9501SPM_98e11b36ef3d6e4dc166bfc6020842cb5ad6481ef73003a086fd4cdf34885068SPM_b1aea2149ccb4b0d4c0ab0341778dc129f23e5e950bac882f27aec0133e7868aSPM_9495972c6977dcdfbe9b612c8d4675322b440b71427e749eb2ec568af89d8126SPM_dab238b1b2d52a66c17a2ac261384aaf7ace7ffc6cecacd7b12495131d73b305SPM_db11416980d7f513dc0e1e08a8df85b346a02b99b3dfcc1a6c49176898f046c7SPM_541c1655b0d68ad383b066d35023f38d7a2cce3fb8721a555664c6c209d5210bSPM_ff1dbf153d71c358113cfa5bf6cb96774cf6bd6258a13262cea51a28b5b08912433AFC833894B7681A1D3DDBA35F7F5A9509A899DA39A3EE5E6B4B0D3255BFEF95601890AFD8070900000000000000000000000000000000000000006E2AD9D86FE73F9DF5783D7E68BD0915331357DA_101_101_5;
+_MatTransl_3B7A55D3409170328211A060FC2E3BB1E263C720_BBD650804D314CE7A44ADF9BB4F3F5F9_
+[2024.12.13-04.33.53:582][  0]LogMaterial: Display: Missing cached shadermap for WorldGridMaterial in PCD3D_SM5, Default, SM5, Editor (DDC key hash: ed09f33e19aecbc9879993cf25408287dc94fc47), compiling. Is special engine material.
+[2024.12.13-04.33.53:848][  0]LogMaterial: Display: Missing cached shadermap for DefaultDeferredDecalMaterial in PCD3D_SM5, Default, SM5, Editor (DDC key hash: 9184204155f763f21f499f71f50455fabd2c76fd), compiling. 
+[2024.12.13-04.33.53:913][  0]LogMaterial: Display: Missing cached shadermap for DefaultLightFunctionMaterial in PCD3D_SM5, Default, SM5, Editor (DDC key hash: 0e610fe59522d6c530db08e77be5af4a2d498a4c), compiling. 
+[2024.12.13-04.33.56:771][  0]LogTurnkeySupport: Completed device detection: Code = 0
+[2024.12.13-04.34.56:963][  0]LogShaderCompilers: Display: Worker (5/5) finished batch of 10 jobs in 60.270s, FRenderSkyAtmospherePS [WorkerTime=13.760s], FVolumetricFogLightScatteringCS [WorkerTime=13.573s], FRenderSkyAtmospherePS [WorkerTime=10.530s], FRenderSkyAtmospherePS [WorkerTime=7.059s], FRenderSkyAtmospherePS [WorkerTime=6.262s], FRenderSkyAtmospherePS [WorkerTime=5.793s], FRenderSkyAtmospherePS [WorkerTime=2.261s], FRenderSkyAtmospherePS [WorkerTime=0.496s], FWaterInfoTextureMergePS [WorkerTime=0.314s], FWriteToBoundingSphereVS [WorkerTime=0.038s]
+[2024.12.13-04.34.58:909][  0]LogShaderCompilers: Display: Worker (2/5) finished batch of 10 jobs in 63.247s, FVolumetricFogLightScatteringCS [WorkerTime=16.681s], FVolumetricFogLightScatteringCS [WorkerTime=11.828s], FVolumetricFogLightScatteringCS [WorkerTime=9.521s], FVolumetricFogLightScatteringCS [WorkerTime=8.470s], FVolumetricFogLightScatteringCS [WorkerTime=4.929s], FInjectShadowedLocalLightPS [WorkerTime=3.825s], FVolumetricFogLightScatteringCS [WorkerTime=3.203s], FInjectShadowedLocalLightPS [WorkerTime=2.326s], FInjectShadowedLocalLightPS [WorkerTime=1.690s], FWaterInfoTextureBlurPS [WorkerTime=0.632s]
+[2024.12.13-04.35.13:600][  0]LogShaderCompilers: Display: Worker (3/5) finished batch of 10 jobs in 77.826s, FVolumetricFogLightScatteringCS [WorkerTime=13.600s], FVolumetricFogLightScatteringCS [WorkerTime=11.080s], FVolumetricFogLightScatteringCS [WorkerTime=10.946s], FVolumetricFogLightScatteringCS [WorkerTime=10.159s], FVolumetricFogLightScatteringCS [WorkerTime=9.087s], FInjectShadowedLocalLightPS [WorkerTime=8.547s], FInjectShadowedLocalLightPS [WorkerTime=7.691s], FVolumetricFogLightScatteringCS [WorkerTime=5.044s], FInjectShadowedLocalLightPS [WorkerTime=1.298s], FWaterInfoTextureBlurPS [WorkerTime=0.038s]
+[2024.12.13-04.35.13:838][  0]LogShaderCompilers: Display: Worker (4/5) finished batch of 10 jobs in 78.189s, FVolumetricFogLightScatteringCS [WorkerTime=33.982s], FInjectShadowedLocalLightPS [WorkerTime=12.377s], FVolumetricFogLightScatteringCS [WorkerTime=10.117s], FInjectShadowedLocalLightPS [WorkerTime=5.108s], FInjectShadowedLocalLightPS [WorkerTime=4.151s], FInjectShadowedLocalLightPS [WorkerTime=3.526s], FInjectShadowedLocalLightPS [WorkerTime=3.024s], FInjectShadowedLocalLightPS [WorkerTime=2.740s], FInjectShadowedLocalLightPS [WorkerTime=2.529s], FWideCustomResolveVS [WorkerTime=0.009s]
+[2024.12.13-04.35.46:776][  0]LogDerivedDataCache: C:/Users/Асер/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.007 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2024.12.13-04.36.02:031][  0]LogShaderCompilers: Display: Worker (2/5) finished batch of 10 jobs in 63.121s, FGSTwoForOneTransformCS [WorkerTime=33.006s], FClusteredShadingPS [WorkerTime=14.854s], FCapsuleShadowingCS [WorkerTime=5.574s], FDistanceFieldShadowingCS [WorkerTime=2.859s], FCapsuleShadowingCS [WorkerTime=1.946s], FReconstructVolumetricRenderTargetPS [WorkerTime=1.737s], FDistanceFieldShadowingCS [WorkerTime=1.314s], FAmbientOcclusionCS [WorkerTime=1.110s], FExponentialHeightFogPS [WorkerTime=0.588s], TPageTableUpdatePS<PF_R16_UINT> [WorkerTime=0.019s]
+[2024.12.13-04.37.32:572][  0]LogShaderCompilers: Display: Worker (2/5) finished batch of 10 jobs in 61.620s, FGSTwoForOneTransformCS [WorkerTime=23.734s], FRenderSingleScatteringWithPreshadingCS [WorkerTime=22.940s], FDistanceFieldShadowingCS [WorkerTime=7.016s], FGTAOHorizonSearchCS [WorkerTime=3.202s], FLightGridInjectionCS [WorkerTime=2.510s], FUpdateHistoryDepthRejectionPS [WorkerTime=1.041s], FObjectCullVS [WorkerTime=0.580s], FTonemapCS [WorkerTime=0.389s], FDeferredDecalVS [WorkerTime=0.010s], FShader_VirtualTextureCopy_VS [WorkerTime=0.008s]
+[2024.12.13-04.37.53:622][  0]LogShaderCompilers: Display: Worker (5/5) finished batch of 10 jobs in 64.121s, FScreenProbeIntegrateCS [WorkerTime=26.942s], FRenderSingleScatteringWithPreshadingCS [WorkerTime=13.241s], FReflectionEnvironmentSkyLightingPS [WorkerTime=11.381s], FDistanceFieldShadowingCS [WorkerTime=3.349s], FShader_VirtualTextureCompress_CS< ERuntimeVirtualTextureMaterialType::BaseColor_Normal_Specular_Mask_YCoCg > [WorkerTime=2.885s], FDistanceFieldShadowingCS [WorkerTime=1.740s], FDistanceFieldShadowingCS [WorkerTime=1.566s], FDistanceFieldShadowingCS [WorkerTime=1.471s], FDistanceFieldShadowingCS [WorkerTime=1.332s], FComputeDistanceFieldNormalCS [WorkerTime=0.115s]
+[2024.12.13-04.38.58:227][  0]LogShaderCompilers: Display: Worker (1/5) finished batch of 10 jobs in 214.669s, FClusteredShadingPS [WorkerTime=196.295s], FClusteredShadingPS [WorkerTime=11.287s], FGTAOHorizonSearchAndIntegrateCS [WorkerTime=2.378s], FAmbientOcclusionCS [WorkerTime=1.448s], FAmbientOcclusionPS [WorkerTime=1.227s], FAmbientOcclusionCS [WorkerTime=0.935s], FAmbientOcclusionPS [WorkerTime=0.745s], FCombineConeVisibilityCS [WorkerTime=0.063s], TPageTableUpdateVS<false> [WorkerTime=0.061s], FClusteredShadingVS [WorkerTime=0.025s]
+[2024.12.13-04.39.19:013][  0]LogShaderCompilers: Display: Worker (3/5) finished batch of 10 jobs in 245.410s, FClusteredShadingPS [WorkerTime=195.449s], FClusteredShadingPS [WorkerTime=17.724s], FScreenProbeIntegrateCS [WorkerTime=14.323s], FRenderSingleScatteringWithPreshadingCS [WorkerTime=12.757s], FAmbientOcclusionPS [WorkerTime=1.939s], FDistanceFieldShadowingCS [WorkerTime=1.382s], FExponentialHeightFogPS [WorkerTime=0.863s], FTranslucencyVolumeIntegrateCS [WorkerTime=0.563s], FCapsuleShadowingUpsampleVS [WorkerTime=0.196s], TPageTableUpdatePS<PF_R16G16_UINT> [WorkerTime=0.006s]
+[2024.12.13-04.39.30:762][  0]LogShaderCompilers: Display: Worker (2/5) finished batch of 10 jobs in 70.747s, FScreenProbeTraceVoxelsCS [WorkerTime=24.268s], FDeferredLightPS [WorkerTime=16.533s], FRenderSingleScatteringWithPreshadingCS [WorkerTime=12.638s], FDistanceFieldShadowingCS [WorkerTime=5.933s], FDistanceFieldShadowingCS [WorkerTime=4.035s], FDistanceFieldShadowingCS [WorkerTime=3.487s], FSubsurfaceIndirectDispatchCS [WorkerTime=2.524s], FComposeVolumetricRTOverScenePS [WorkerTime=0.796s], FGlobalDistanceFieldPageStatsCS [WorkerTime=0.229s], FDistortionMergeScreenPS [WorkerTime=0.122s]
+[2024.12.13-04.39.35:068][  0]LogShaderCompilers: Display: Worker (5/5) finished batch of 10 jobs in 70.225s, FScreenProbeIntegrateCS [WorkerTime=31.800s], FGSTwoForOneTransformCS [WorkerTime=15.728s], FDistanceFieldShadowingCS [WorkerTime=8.798s], FCompositeObjectsIntoObjectGridPagesCS [WorkerTime=2.701s], FDistanceFieldShadowingCS [WorkerTime=2.377s], FDistanceFieldShadowingCS [WorkerTime=2.089s], FExponentialHeightFogPS [WorkerTime=1.953s], FDistanceFieldShadowingCS [WorkerTime=1.714s], FDiffuseIndirectCompositePS [WorkerTime=1.508s], FComposeVolumetricRTOverScenePS [WorkerTime=1.404s]
+[2024.12.13-04.41.00:181][  0]LogShaderCompilers: Display: Worker (2/5) finished batch of 10 jobs in 89.419s, FRenderSingleScatteringWithPreshadingCS [WorkerTime=36.069s], FBuildInstanceIdBufferAndCommandsFromPrimitiveIdsCs [WorkerTime=16.429s], FReflectionEnvironmentSkyLightingPS [WorkerTime=13.907s], FReflectionTraceMeshSDFsCS [WorkerTime=12.936s], FScreenProbeTraceMeshSDFsCS [WorkerTime=3.547s], FDistanceFieldShadowingCS [WorkerTime=3.362s], FExponentialHeightFogPS [WorkerTime=1.409s], FComposeVolumetricRTOverScenePS [WorkerTime=1.170s], FPostProcessBenchmarkPS4 [WorkerTime=0.189s], FCompositeObjectsIntoPagesCS [WorkerTime=0.159s]
+[2024.12.13-04.41.29:504][  0]LogShaderCompilers: Display: Worker (3/5) finished batch of 10 jobs in 71.480s, FRenderSingleScatteringWithPreshadingCS [WorkerTime=32.849s], FRenderSingleScatteringWithPreshadingCS [WorkerTime=19.007s], FScreenProbeIntegrateCS [WorkerTime=11.100s], FDistanceFieldShadowingCS [WorkerTime=2.921s], FDistanceFieldShadowingCS [WorkerTime=2.622s], FGSComplexTransformCS [WorkerTime=1.840s], FVolumetricFogFinalIntegrationCS [WorkerTime=0.367s], FReflectionCompactTracesCS [WorkerTime=0.354s], FReflectionCompactTracesCS [WorkerTime=0.128s], FCopyDistanceFieldAtlasCS [WorkerTime=0.005s]
+[2024.12.13-04.41.33:615][  0]LogShaderCompilers: Display: Worker (1/5) finished batch of 10 jobs in 85.705s, FRenderSingleScatteringWithPreshadingCS [WorkerTime=31.071s], FReflectionEnvironmentSkyLightingPS [WorkerTime=16.896s], FScreenProbeIntegrateCS [WorkerTime=15.036s], FDeferredLightPS [WorkerTime=11.751s], FVisualizeMeshDistanceFieldCS [WorkerTime=3.743s], FDistanceFieldShadowingCS [WorkerTime=3.191s], FLumenSceneDirectLightingTraceDistanceFieldShadowsCS [WorkerTime=1.728s], FExponentialHeightFogPS [WorkerTime=1.309s], FReconstructVolumetricRenderTargetPS [WorkerTime=0.533s], FShadowTileVS [WorkerTime=0.117s]
+[2024.12.13-04.41.45:169][  0]LogShaderCompilers: Display: Worker (5/5) finished batch of 10 jobs in 104.852s, FGSConvolutionWithTextureCS [WorkerTime=36.713s], FGSTwoForOneTransformCS [WorkerTime=36.699s], FRenderSingleScatteringWithPreshadingCS [WorkerTime=16.453s], FDistanceFieldShadowingCS [WorkerTime=3.524s], FDistanceFieldShadowingCS [WorkerTime=3.297s], FDistanceFieldShadowingCS [WorkerTime=3.152s], FDistanceFieldShadowingCS [WorkerTime=1.815s], FComposeVolumetricRTOverScenePS [WorkerTime=1.566s], FVisualizeMeshDistanceFieldCS [WorkerTime=1.354s], FUpscaleVS [WorkerTime=0.126s]
+[2024.12.13-04.42.27:861][  0]LogShaderCompilers: Display: Worker (4/5) finished batch of 10 jobs in 109.078s, FRenderSingleScatteringWithPreshadingCS [WorkerTime=36.834s], FRenderSingleScatteringWithPreshadingCS [WorkerTime=29.462s], FBuildInstanceIdBufferAndCommandsFromPrimitiveIdsCs [WorkerTime=12.031s], FDistanceFieldShadowingCS [WorkerTime=12.015s], FVolumetricFogLightScatteringCS [WorkerTime=6.531s], FDistanceFieldShadowingCS [WorkerTime=3.424s], FDistanceFieldShadowingCS [WorkerTime=3.271s], FDistanceFieldShadowingCS [WorkerTime=3.221s], FTonemapPS [WorkerTime=2.025s], FComputeCulledObjectStartOffsetCS [WorkerTime=0.031s]
+[2024.12.13-04.42.53:152][  0]LogShaderCompilers: Display: Worker (2/5) finished batch of 10 jobs in 69.154s, FRenderSingleScatteringWithPreshadingCS [WorkerTime=26.461s], FReflectionEnvironmentSkyLightingPS [WorkerTime=20.771s], FReflectionEnvironmentSkyLightingPS [WorkerTime=9.264s], FVolumetricFogLightScatteringCS [WorkerTime=5.153s], FGSConvolutionWithTextureCS [WorkerTime=4.290s], FGSComplexTransformCS [WorkerTime=1.739s], FExponentialHeightFogPS [WorkerTime=0.600s], FExponentialHeightFogPS [WorkerTime=0.587s], FCopySceneColorTexturePS [WorkerTime=0.076s], FPostProcessBenchmarkVS0 [WorkerTime=0.014s]
+[2024.12.13-04.43.00:789][  0]LogShaderCompilers: Display: Worker (1/5) finished batch of 10 jobs in 87.173s, FDeferredLightPS [WorkerTime=32.674s], FRenderSingleScatteringWithPreshadingCS [WorkerTime=20.620s], FScreenProbeIntegrateCS [WorkerTime=19.491s], FVolumetricFogLightScatteringCS [WorkerTime=4.568s], FVisualizeMeshDistanceFieldCS [WorkerTime=3.544s], FReflectionEnvironmentSkyLightingPS [WorkerTime=3.425s], FReflectionTraceVoxelsCS [WorkerTime=2.360s], FCompositeObjectsIntoObjectGridPagesCS [WorkerTime=0.122s], FShadowTileVS [WorkerTime=0.089s], FDownsampleSceneColorCS [WorkerTime=0.010s]
+[2024.12.13-04.43.14:249][  0]LogShaderCompilers: Display: Worker (5/5) finished batch of 10 jobs in 89.077s, FScreenProbeIntegrateCS [WorkerTime=36.509s], FRenderSingleScatteringWithPreshadingCS [WorkerTime=20.224s], FDeferredLightPS [WorkerTime=9.759s], FRenderSingleScatteringWithPreshadingCS [WorkerTime=9.493s], FVolumetricFogLightScatteringCS [WorkerTime=8.524s], FDeferredLightPS [WorkerTime=2.176s], FReflectionTraceVoxelsCS [WorkerTime=1.364s], FComposeHeightfieldsIntoPagesCS [WorkerTime=0.506s], FGSConvolutionWithTextureCS [WorkerTime=0.263s], FVisualizeNanitePS [WorkerTime=0.050s]
+[2024.12.13-04.44.34:166][  0]LogShaderCompilers: Display: Worker (1/5) finished batch of 10 jobs in 67.203s, FGSConvolutionWithTextureCS [WorkerTime=32.197s], FRenderSingleScatteringWithPreshadingCS [WorkerTime=8.888s], FDeferredLightPS [WorkerTime=7.553s], FScreenProbeIntegrateCS [WorkerTime=7.148s], FRenderSingleScatteringWithPreshadingCS [WorkerTime=3.508s], FGSComplexTransformCS [WorkerTime=3.176s], FVolumetricFogLightScatteringCS [WorkerTime=2.315s], FLumenSceneDirectLightingTraceDistanceFieldShadowsCS [WorkerTime=1.372s], FGSComplexTransformCS [WorkerTime=0.910s], FHdrCustomResolveFMask4xPS [WorkerTime=0.021s]
+[2024.12.13-04.44.38:569][  0]LogShaderCompilers: Display: Worker (4/5) finished batch of 10 jobs in 86.006s, FRenderSingleScatteringWithPreshadingCS [WorkerTime=20.081s], FRenderSingleScatteringWithPreshadingCS [WorkerTime=18.736s], FRenderSingleScatteringWithPreshadingCS [WorkerTime=18.187s], FRenderSingleScatteringWithPreshadingCS [WorkerTime=9.924s], FReflectionEnvironmentSkyLightingPS [WorkerTime=8.015s], FRenderSingleScatteringWithPreshadingCS [WorkerTime=7.663s], FVolumetricFogLightScatteringCS [WorkerTime=3.060s], FGPUSceneSetInstancePrimitiveIdCS [WorkerTime=0.155s], FScreenProbeCompactTracesCS [WorkerTime=0.045s], FHdrCustomResolve2xPS [WorkerTime=0.014s]
+[2024.12.13-04.45.12:726][  0]LogShaderCompilers: Display: Worker (5/5) finished batch of 10 jobs in 69.781s, FRenderSingleScatteringWithPreshadingCS [WorkerTime=20.756s], FRenderSingleScatteringWithPreshadingCS [WorkerTime=11.337s], FReflectionEnvironmentSkyLightingPS [WorkerTime=9.327s], FGSComplexTransformCS [WorkerTime=9.095s], FBuildInstanceIdBufferAndCommandsFromPrimitiveIdsCs [WorkerTime=7.523s], FGSComplexTransformCS [WorkerTime=4.335s], FVolumetricFogLightScatteringCS [WorkerTime=2.837s], FSingleLayerWaterCompositePS [WorkerTime=2.299s], FDiffuseIndirectCompositePS [WorkerTime=1.286s], FGSTwoForOneTransformCS [WorkerTime=0.873s]
+[2024.12.13-04.45.49:099][  0]LogShaderCompilers: Display: Worker (1/5) finished batch of 10 jobs in 74.932s, FRenderSingleScatteringWithPreshadingCS [WorkerTime=21.221s], FRenderSingleScatteringWithPreshadingCS [WorkerTime=10.842s], FScreenProbeIntegrateCS [WorkerTime=10.398s], FRenderSingleScatteringWithPreshadingCS [WorkerTime=8.683s], FGSTwoForOneTransformCS [WorkerTime=6.710s], FGSTwoForOneTransformCS [WorkerTime=6.301s], FVolumetricFogLightScatteringCS [WorkerTime=6.014s], FRenderLightingCacheWithPreshadingCS [WorkerTime=2.371s], FDeferredLightPS [WorkerTime=2.204s], FHdrCustomResolveFMask8xPS [WorkerTime=0.030s]
+[2024.12.13-04.45.50:297][  0]LogShaderCompilers: Display: Worker (3/5) finished batch of 10 jobs in 105.057s, FRenderSingleScatteringWithPreshadingCS [WorkerTime=22.842s], FRenderSingleScatteringWithPreshadingCS [WorkerTime=21.808s], FRenderSingleScatteringWithPreshadingCS [WorkerTime=21.009s], FRenderSingleScatteringWithPreshadingCS [WorkerTime=20.820s], FRenderSingleScatteringWithPreshadingCS [WorkerTime=9.046s], FGSConvolutionWithTextureCS [WorkerTime=4.871s], FVolumetricFogLightScatteringCS [WorkerTime=2.884s], FReflectionTraceVoxelsCS [WorkerTime=1.579s], FHdrCustomResolve8xPS [WorkerTime=0.038s], FGenerateMips3D [WorkerTime=0.009s]
+[2024.12.13-04.46.38:885][  0]LogShaderCompilers: Display: Worker (5/5) finished batch of 10 jobs in 86.158s, FRenderSingleScatteringWithPreshadingCS [WorkerTime=20.819s], FRenderSingleScatteringWithPreshadingCS [WorkerTime=19.895s], FRenderSingleScatteringWithPreshadingCS [WorkerTime=11.326s], FRenderSingleScatteringWithPreshadingCS [WorkerTime=9.842s], FRenderSingleScatteringWithPreshadingCS [WorkerTime=7.390s], FScreenProbeIntegrateCS [WorkerTime=6.937s], FVolumetricFogLightScatteringCS [WorkerTime=4.440s], FReflectionTraceMeshSDFsCS [WorkerTime=3.678s], FBuildInstanceIdBufferAndCommandsFromPrimitiveIdsCs [WorkerTime=1.644s], FAllocateBottomLevelGrid [WorkerTime=0.068s]
+[2024.12.13-04.47.07:261][  0]LogShaderCompilers: Display: Worker (3/5) finished batch of 10 jobs in 76.963s, FRenderSingleScatteringWithPreshadingCS [WorkerTime=19.807s], FRenderSingleScatteringWithPreshadingCS [WorkerTime=18.680s], FRenderSingleScatteringWithPreshadingCS [WorkerTime=9.388s], FRenderSingleScatteringWithPreshadingCS [WorkerTime=9.004s], FVolumetricFogLightScatteringCS [WorkerTime=7.180s], FBuildInstanceIdBufferAndCommandsFromPrimitiveIdsCs [WorkerTime=5.141s], FReflectionEnvironmentSkyLightingPS [WorkerTime=4.592s], FRenderSingleScatteringWithPreshadingCS [WorkerTime=2.829s], FVisualizeShadingModelPS [WorkerTime=0.127s], FBuildMajorantVoxelGridCS [WorkerTime=0.047s]
+[2024.12.13-04.47.07:319][  0]LogShaderCompilers: Display: Worker (2/5) finished batch of 10 jobs in 62.678s, FRenderSingleScatteringWithPreshadingCS [WorkerTime=20.570s], FRenderSingleScatteringWithPreshadingCS [WorkerTime=10.596s], FRenderSingleScatteringWithPreshadingCS [WorkerTime=8.886s], FVolumetricFogLightScatteringCS [WorkerTime=6.262s], FRenderSingleScatteringWithPreshadingCS [WorkerTime=3.603s], FRenderSingleScatteringWithPreshadingCS [WorkerTime=3.427s], FRenderSingleScatteringWithPreshadingCS [WorkerTime=3.151s], FRenderSingleScatteringWithPreshadingCS [WorkerTime=2.900s], FDeferredLightPS [WorkerTime=2.226s], FDiffuseIndirectCompositePS [WorkerTime=0.973s]
+[2024.12.13-04.47.41:603][  0]LogShaderCompilers: Display: Worker (5/5) finished batch of 10 jobs in 62.717s, FRenderSingleScatteringWithPreshadingCS [WorkerTime=11.903s], FRenderSingleScatteringWithPreshadingCS [WorkerTime=9.656s], FRenderSingleScatteringWithPreshadingCS [WorkerTime=9.519s], FReflectionEnvironmentSkyLightingPS [WorkerTime=9.428s], FRenderSingleScatteringWithPreshadingCS [WorkerTime=8.970s], FScreenProbeTraceVoxelsCS [WorkerTime=6.055s], FVolumetricFogLightScatteringCS [WorkerTime=4.805s], FDeferredLightPS [WorkerTime=2.032s], FReflectionCompactTracesCS [WorkerTime=0.127s], FFilterVS [WorkerTime=0.029s]
+[2024.12.13-04.47.46:942][  0]LogShaderCompilers: Display: Worker (4/5) finished batch of 10 jobs in 188.372s, FSSDSpatialAccumulationCS [WorkerTime=66.713s], FRenderSingleScatteringWithPreshadingCS [WorkerTime=25.230s], FRenderSingleScatteringWithPreshadingCS [WorkerTime=21.608s], FRenderSingleScatteringWithPreshadingCS [WorkerTime=21.313s], FScreenProbeIntegrateCS [WorkerTime=12.563s], FRenderSingleScatteringWithPreshadingCS [WorkerTime=10.828s], FDeferredLightPS [WorkerTime=9.795s], FRenderSingleScatteringWithPreshadingCS [WorkerTime=9.783s], FVolumetricFogLightScatteringCS [WorkerTime=6.382s], FReflectionEnvironmentSkyLightingPS [WorkerTime=4.025s]
+[2024.12.13-04.47.57:107][  0]LogShaderCompilers: Display: Worker (1/5) finished batch of 10 jobs in 128.006s, FRenderSingleScatteringWithPreshadingCS [WorkerTime=25.998s], FRenderSingleScatteringWithPreshadingCS [WorkerTime=20.875s], FRenderSingleScatteringWithPreshadingCS [WorkerTime=20.075s], FRenderSingleScatteringWithPreshadingCS [WorkerTime=19.897s], FRenderSingleScatteringWithPreshadingCS [WorkerTime=10.004s], FRenderSingleScatteringWithPreshadingCS [WorkerTime=9.076s], FRenderSingleScatteringWithPreshadingCS [WorkerTime=9.017s], FVolumetricFogLightScatteringCS [WorkerTime=6.489s], FReflectionEnvironmentSkyLightingPS [WorkerTime=5.030s], FTemporalAACS [WorkerTime=1.408s]
+[2024.12.13-04.48.11:829][  0]LogShaderCompilers: Display: Worker (2/5) finished batch of 10 jobs in 64.509s, FReflectionEnvironmentSkyLightingPS [WorkerTime=10.165s], FReflectionEnvironmentSkyLightingPS [WorkerTime=9.451s], FReflectionEnvironmentSkyLightingPS [WorkerTime=8.571s], FScreenProbeIntegrateCS [WorkerTime=7.964s], FReflectionTraceVoxelsCS [WorkerTime=7.044s], FVolumetricFogLightScatteringCS [WorkerTime=5.574s], FReflectionEnvironmentSkyLightingPS [WorkerTime=5.546s], FReflectionEnvironmentSkyLightingPS [WorkerTime=5.149s], FReflectionEnvironmentSkyLightingPS [WorkerTime=3.626s], FDiffuseIndirectCompositePS [WorkerTime=1.279s]
+[2024.12.13-04.48.51:692][  0]LogShaderCompilers: Display: Worker (3/5) finished batch of 10 jobs in 104.429s, FRenderSingleScatteringWithPreshadingCS [WorkerTime=24.050s], FRenderSingleScatteringWithPreshadingCS [WorkerTime=22.254s], FRenderSingleScatteringWithPreshadingCS [WorkerTime=21.002s], FRenderSingleScatteringWithPreshadingCS [WorkerTime=20.956s], FRenderSingleScatteringWithPreshadingCS [WorkerTime=9.812s], FVolumetricFogLightScatteringCS [WorkerTime=4.044s], FDiffuseIndirectCompositePS [WorkerTime=1.295s], FLumenDirectLightingShadowMaskFromLightAttenuationCS [WorkerTime=0.793s], FFilterPS [WorkerTime=0.037s], FAllocateBottomLevelGrid [WorkerTime=0.029s]
+[2024.12.13-04.49.39:629][  0]LogShaderCompilers: Display: Worker (1/5) finished batch of 10 jobs in 102.520s, FRenderSingleScatteringWithPreshadingCS [WorkerTime=18.534s], FRenderSingleScatteringWithPreshadingCS [WorkerTime=18.425s], FRenderSingleScatteringWithPreshadingCS [WorkerTime=18.343s], FRenderSingleScatteringWithPreshadingCS [WorkerTime=18.248s], FScreenProbeIntegrateCS [WorkerTime=8.346s], FReflectionEnvironmentSkyLightingPS [WorkerTime=8.012s], FRenderTransmittanceWithVoxelGridCS [WorkerTime=7.927s], FVolumetricFogLightScatteringCS [WorkerTime=4.307s], FDownsampleLightShaftsVertexShader [WorkerTime=0.142s], FMarkTopLevelGridVoxelsForFrustumGrid [WorkerTime=0.109s]
+[2024.12.13-04.50.05:960][  0]LogShaderCompilers: Display: Worker (5/5) finished batch of 10 jobs in 97.813s, FRenderSingleScatteringWithPreshadingCS [WorkerTime=19.200s], FRenderSingleScatteringWithPreshadingCS [WorkerTime=18.698s], FRenderSingleScatteringWithPreshadingCS [WorkerTime=18.586s], FRenderSingleScatteringWithPreshadingCS [WorkerTime=9.234s], FRenderSingleScatteringWithPreshadingCS [WorkerTime=9.176s], FRenderSingleScatteringWithPreshadingCS [WorkerTime=8.117s], FScreenProbeTraceMeshSDFsCS [WorkerTime=7.320s], FVolumetricFogLightScatteringCS [WorkerTime=6.585s], FBuildInstanceIdBufferAndCommandsFromPrimitiveIdsCs [WorkerTime=0.548s], FTonemapPS [WorkerTime=0.239s]
+[2024.12.13-04.50.10:947][  0]LogShaderCompilers: Display: Worker (2/5) finished batch of 10 jobs in 73.348s, FRenderSingleScatteringWithPreshadingCS [WorkerTime=19.606s], FRenderSingleScatteringWithPreshadingCS [WorkerTime=18.010s], FBuildInstanceIdBufferAndCommandsFromPrimitiveIdsCs [WorkerTime=9.570s], FRenderSingleScatteringWithPreshadingCS [WorkerTime=7.869s], FReflectionEnvironmentSkyLightingPS [WorkerTime=4.936s], FReflectionEnvironmentSkyLightingPS [WorkerTime=4.671s], FVolumetricFogLightScatteringCS [WorkerTime=3.511s], FRenderTransmittanceWithVoxelGridCS [WorkerTime=2.976s], FMeshSDFObjectCullPS [WorkerTime=2.095s], FGenerateRasterTiles [WorkerTime=0.023s]
+[2024.12.13-05.02.11:711][  0]LogShaderCompilers: Display: Worker (5/5) finished batch of 10 jobs in 577.413s, FBuildInstanceIdBufferAndCommandsFromPrimitiveIdsCs [WorkerTime=554.743s], FDeferredLightPS [WorkerTime=6.746s], FScreenProbeIntegrateCS [WorkerTime=6.446s], FVolumetricFogLightScatteringCS [WorkerTime=4.163s], FBuildInstanceIdBufferAndCommandsFromPrimitiveIdsCs [WorkerTime=1.875s], FInstanceCullingOcclusionQueryCS [WorkerTime=1.133s], FBuildInstanceIdBufferAndCommandsFromPrimitiveIdsCs [WorkerTime=0.826s], FLumenRadiositySpatialFilterProbeRadiance [WorkerTime=0.807s], FBuildInstanceIdBufferAndCommandsFromPrimitiveIdsCs [WorkerTime=0.474s], FCompactVisibleInstancesCs [WorkerTime=0.113s]
+[2024.12.13-05.02.22:078][  0]LogShaderCompilers: Display: Worker (2/5) finished batch of 10 jobs in 600.557s, FBuildInstanceIdBufferAndCommandsFromPrimitiveIdsCs [WorkerTime=566.335s], FLumenRadiositySpatialFilterProbeRadiance [WorkerTime=8.112s], FDeferredLightPS [WorkerTime=7.009s], FDeferredLightPS [WorkerTime=6.097s], FVolumetricFogLightScatteringCS [WorkerTime=4.466s], FReflectionEnvironmentSkyLightingPS [WorkerTime=4.295s], FScreenProbeTraceMeshSDFsCS [WorkerTime=2.373s], FReflectionEnvironmentSkyLightingPS [WorkerTime=1.672s], FFilterPS [WorkerTime=0.027s], FCombineObjectIndexBuffersCS [WorkerTime=0.013s]
+[2024.12.13-05.02.32:431][  0]LogShaderCompilers: Display: Worker (4/5) finished batch of 10 jobs in 612.656s, FReflectionEnvironmentSkyLightingPS [WorkerTime=564.921s], FReflectionEnvironmentSkyLightingPS [WorkerTime=9.299s], FReflectionEnvironmentSkyLightingPS [WorkerTime=7.390s], FDeferredLightPS [WorkerTime=6.726s], FReflectionEnvironmentSkyLightingPS [WorkerTime=6.722s], FScreenProbeIntegrateCS [WorkerTime=6.553s], FVolumetricFogLightScatteringCS [WorkerTime=6.534s], FReflectionEnvironmentSkyLightingPS [WorkerTime=3.817s], FBuildInstanceIdBufferAndCommandsFromPrimitiveIdsCs [WorkerTime=0.534s], FComputeCulledObjectsStartOffsetCS [WorkerTime=0.014s]
+[2024.12.13-05.02.37:426][  0]LogShaderCompilers: Display: Worker (1/5) finished batch of 10 jobs in 599.157s, FBuildInstanceIdBufferAndCommandsFromPrimitiveIdsCs [WorkerTime=563.802s], FBuildInstanceIdBufferAndCommandsFromPrimitiveIdsCs [WorkerTime=8.129s], FDeferredLightPS [WorkerTime=6.382s], FVolumetricFogLightScatteringCS [WorkerTime=5.743s], FBuildInstanceIdBufferAndCommandsFromPrimitiveIdsCs [WorkerTime=4.795s], FBuildInstanceIdBufferAndCommandsFromPrimitiveIdsCs [WorkerTime=4.428s], FScreenProbeComputeLightingProbabilityDensityFunctionCS [WorkerTime=2.291s], FTSRDecimateHistoryCS [WorkerTime=1.736s], FBuildInstanceIdBufferAndCommandsFromPrimitiveIdsCs [WorkerTime=1.559s], FDeferredLightVS [WorkerTime=0.184s]
+[2024.12.13-05.02.45:802][  0]LogShaderCompilers: Display: Worker (3/5) finished batch of 10 jobs in 599.725s, FDeferredLightPS [WorkerTime=565.727s], FBuildInstanceIdBufferAndCommandsFromPrimitiveIdsCs [WorkerTime=8.572s], FDeferredLightPS [WorkerTime=7.970s], FBuildInstanceIdBufferAndCommandsFromPrimitiveIdsCs [WorkerTime=5.245s], FVolumetricFogLightScatteringCS [WorkerTime=4.719s], FDeferredLightPS [WorkerTime=2.813s], FBuildInstanceIdBufferAndCommandsFromPrimitiveIdsCs [WorkerTime=1.769s], FDeferredLightPS [WorkerTime=1.434s], FLocalFogVolumeTiledRenderPS [WorkerTime=0.853s], FBuildInstanceIdBufferAndCommandsFromPrimitiveIdsCs [WorkerTime=0.538s]
+[2024.12.13-05.04.36:123][  0]LogShaderCompilers: Display: Worker (1/5) finished batch of 10 jobs in 77.481s, FDeferredLightPS [WorkerTime=14.281s], FScreenProbeIntegrateCS [WorkerTime=12.529s], FDeferredLightPS [WorkerTime=11.142s], FScreenProbeIntegrateCS [WorkerTime=11.051s], FDeferredLightPS [WorkerTime=9.681s], FDeferredLightPS [WorkerTime=7.450s], FVolumetricFogLightScatteringCS [WorkerTime=7.196s], FReflectionResolveCS [WorkerTime=1.776s], FReflectionTraceMeshSDFsCS [WorkerTime=1.350s], FLumenSceneDirectLightingTraceDistanceFieldShadowsCS [WorkerTime=0.892s]
+[2024.12.13-05.04.44:209][  0]LogShaderCompilers: Display: Worker (3/5) finished batch of 10 jobs in 65.048s, FDeferredLightPS [WorkerTime=11.369s], FScreenProbeIntegrateCS [WorkerTime=11.073s], FDeferredLightPS [WorkerTime=9.225s], FReflectionTraceVoxelsCS [WorkerTime=8.622s], FDeferredLightPS [WorkerTime=8.521s], FVolumetricFogLightScatteringCS [WorkerTime=7.524s], FDeferredLightPS [WorkerTime=2.907s], FDeferredLightPS [WorkerTime=2.330s], FDeferredLightPS [WorkerTime=2.073s], FFilterProbeRadianceWithGatherCS [WorkerTime=1.265s]
+[2024.12.13-05.05.12:190][  0]LogShaderCompilers: Display: Worker (2/5) finished batch of 10 jobs in 82.158s, FDeferredLightPS [WorkerTime=14.215s], FDeferredLightPS [WorkerTime=10.287s], FDeferredLightPS [WorkerTime=10.141s], FDeferredLightPS [WorkerTime=9.537s], FDeferredLightPS [WorkerTime=9.458s], FDeferredLightPS [WorkerTime=9.036s], FDeferredLightPS [WorkerTime=8.264s], FVolumetricFogLightScatteringCS [WorkerTime=6.174s], FDeferredLightPS [WorkerTime=3.122s], FReflectionTraceVoxelsCS [WorkerTime=1.852s]
+[2024.12.13-05.05.15:084][  0]LogShaderCompilers: Display: Worker (5/5) finished batch of 10 jobs in 66.086s, FDeferredLightPS [WorkerTime=11.797s], FDeferredLightPS [WorkerTime=10.466s], FDeferredLightPS [WorkerTime=9.702s], FDeferredLightPS [WorkerTime=9.315s], FDeferredLightPS [WorkerTime=8.385s], FDeferredLightPS [WorkerTime=8.305s], FVolumetricFogLightScatteringCS [WorkerTime=5.170s], FDeferredLightPS [WorkerTime=2.478s], FFilterCS [WorkerTime=0.222s], FReflectionPassthroughCopyCS [WorkerTime=0.122s]
+[2024.12.13-05.05.37:532][  0]LogShaderCompilers: Display: Worker (4/5) finished batch of 10 jobs in 84.548s, FDeferredLightPS [WorkerTime=14.960s], FVolumetricFogLightScatteringCS [WorkerTime=12.123s], FDeferredLightPS [WorkerTime=11.009s], FDeferredLightPS [WorkerTime=9.880s], FDeferredLightPS [WorkerTime=8.940s], FDeferredLightPS [WorkerTime=8.606s], FDeferredLightPS [WorkerTime=8.234s], FVolumetricFogLightScatteringCS [WorkerTime=8.210s], FLumenCardBatchDirectLightingCS [WorkerTime=2.055s], FScreenProbeComputeLightingProbabilityDensityFunctionCS [WorkerTime=0.353s]
+[2024.12.13-05.05.38:696][  0]LogShaderCompilers: Display: Worker (1/5) finished batch of 10 jobs in 62.573s, FScreenProbeIntegrateCS [WorkerTime=13.193s], FScreenProbeIntegrateCS [WorkerTime=12.877s], FDeferredLightPS [WorkerTime=12.224s], FVolumetricFogLightScatteringCS [WorkerTime=8.538s], FReflectionTraceMeshSDFsCS [WorkerTime=4.048s], FReflectionTraceMeshSDFsCS [WorkerTime=3.928s], FDeferredLightPS [WorkerTime=3.815s], FDeferredLightPS [WorkerTime=2.777s], FDiaphragmDOFRecombineCS [WorkerTime=0.949s], FFilterPS [WorkerTime=0.069s]
+[2024.12.13-05.06.03:287][  0]LogShaderCompilers: Display: Worker (3/5) finished batch of 10 jobs in 79.077s, FDeferredLightPS [WorkerTime=16.495s], FScreenProbeIntegrateCS [WorkerTime=12.225s], FDeferredLightPS [WorkerTime=9.776s], FScreenProbeTraceMeshSDFsCS [WorkerTime=9.340s], FDeferredLightPS [WorkerTime=9.257s], FVolumetricFogLightScatteringCS [WorkerTime=7.559s], FScreenProbeTraceMeshSDFsCS [WorkerTime=6.006s], FRenderCameraAerialPerspectiveVolumeCS [WorkerTime=4.177s], FDeferredLightPS [WorkerTime=2.983s], FReflectionTemporalReprojectionCS [WorkerTime=1.104s]
+[2024.12.13-05.06.25:252][  0]LogShaderCompilers: Display: Worker (2/5) finished batch of 10 jobs in 73.061s, FDeferredLightPS [WorkerTime=17.878s], FDeferredLightPS [WorkerTime=12.881s], FDeferredLightPS [WorkerTime=8.926s], FDeferredLightPS [WorkerTime=8.623s], FDeferredLightPS [WorkerTime=7.856s], FVisualizeLumenSceneCS [WorkerTime=6.515s], FVolumetricFogLightScatteringCS [WorkerTime=6.396s], FDeferredLightPS [WorkerTime=2.491s], FLumenSceneDirectLightingTraceDistanceFieldShadowsCS [WorkerTime=1.063s], FScreenProbeGenerateRaysCS [WorkerTime=0.292s]
+[2024.12.13-05.06.50:898][  0]LogShaderCompilers: Display: Worker (4/5) finished batch of 10 jobs in 73.364s, FScreenProbeIntegrateCS [WorkerTime=14.324s], FDeferredLightPS [WorkerTime=12.715s], FDeferredLightPS [WorkerTime=11.884s], FVolumetricFogLightScatteringCS [WorkerTime=10.639s], FDeferredLightPS [WorkerTime=9.301s], FDeferredLightPS [WorkerTime=4.021s], FDeferredLightPS [WorkerTime=3.000s], FDeferredLightPS [WorkerTime=2.949s], FDeferredLightPS [WorkerTime=2.441s], FMeshSDFObjectCullPS [WorkerTime=1.908s]
+[2024.12.13-05.06.57:666][  0]LogShaderCompilers: Display: Worker (1/5) finished batch of 10 jobs in 78.970s, FDeferredLightPS [WorkerTime=14.176s], FScreenProbeIntegrateCS [WorkerTime=13.341s], FDeferredLightPS [WorkerTime=13.102s], FReflectionTraceVoxelsCS [WorkerTime=12.070s], FVolumetricFogLightScatteringCS [WorkerTime=11.020s], FReflectionTraceVoxelsCS [WorkerTime=8.292s], FScreenProbeTraceScreenTexturesCS [WorkerTime=2.521s], FScreenProbeTraceVoxelsCS [WorkerTime=2.247s], FDiaphragmDOFGatherCS [WorkerTime=1.960s], FDiaphragmDOFDownsampleCS [WorkerTime=0.114s]
+[2024.12.13-05.07.00:364][  0]LogShaderCompilers: Display: Worker (5/5) finished batch of 10 jobs in 74.051s, FDeferredLightPS [WorkerTime=19.229s], FDeferredLightPS [WorkerTime=17.779s], FDeferredLightPS [WorkerTime=9.547s], FDeferredLightPS [WorkerTime=7.551s], FVolumetricFogLightScatteringCS [WorkerTime=7.009s], FReflectionTraceVoxelsCS [WorkerTime=3.607s], FDeferredLightPS [WorkerTime=3.568s], FDeferredLightPS [WorkerTime=3.343s], FReflectionResolveCS [WorkerTime=1.808s], FLocalFogVolumeTiledCullingCS [WorkerTime=0.443s]
+[2024.12.13-05.08.01:774][  0]LogShaderCompilers: Display: Worker (2/5) finished batch of 10 jobs in 96.522s, FDeferredLightPS [WorkerTime=27.067s], FDeferredLightPS [WorkerTime=22.458s], FReflectionTraceVoxelsCS [WorkerTime=14.332s], FVolumetricFogLightScatteringCS [WorkerTime=13.932s], FDeferredLightPS [WorkerTime=10.516s], FDeferredLightPS [WorkerTime=3.553s], FReflectionTraceVoxelsCS [WorkerTime=2.195s], FLocalFogVolumeTiledCullingCS [WorkerTime=2.032s], FBuildRadiosityTilesCS [WorkerTime=0.162s], FScreenProbeCompactTracesCS [WorkerTime=0.100s]
+[2024.12.13-05.08.09:134][  0]LogShaderCompilers: Display: Worker (5/5) finished batch of 10 jobs in 68.769s, FScreenProbeIntegrateCS [WorkerTime=22.187s], FScreenProbeIntegrateCS [WorkerTime=21.665s], FVolumetricFogLightScatteringCS [WorkerTime=12.183s], FReflectionTraceVoxelsCS [WorkerTime=6.232s], FTSRDecimateHistoryCS [WorkerTime=4.986s], FMarkRadianceProbesUsedByGBufferCS [WorkerTime=0.566s], FAllocateUsedProbesCS [WorkerTime=0.425s], FFilterCS [WorkerTime=0.186s], FBlurLightShaftsPixelShader [WorkerTime=0.117s], FDeferredLightOverlapPS [WorkerTime=0.075s]
+[2024.12.13-05.08.19:184][  0]LogShaderCompilers: Display: Worker (3/5) finished batch of 10 jobs in 135.897s, FDeferredLightPS [WorkerTime=24.095s], FDeferredLightPS [WorkerTime=19.159s], FDeferredLightPS [WorkerTime=19.065s], FDeferredLightPS [WorkerTime=13.971s], FDeferredLightPS [WorkerTime=13.108s], FDeferredLightPS [WorkerTime=13.066s], FDeferredLightPS [WorkerTime=11.604s], FVolumetricFogLightScatteringCS [WorkerTime=11.585s], FDeferredLightPS [WorkerTime=9.023s], FLumenRadiositySpatialFilterProbeRadiance [WorkerTime=1.141s]
+[2024.12.13-05.08.37:128][  0]LogShaderCompilers: Display: Worker (4/5) finished batch of 10 jobs in 106.229s, FScreenProbeIntegrateCS [WorkerTime=22.151s], FDeferredLightPS [WorkerTime=17.908s], FReflectionTraceVoxelsCS [WorkerTime=17.852s], FVolumetricFogLightScatteringCS [WorkerTime=15.974s], FDeferredLightPS [WorkerTime=12.414s], FDeferredLightPS [WorkerTime=11.979s], FScreenProbeTraceScreenTexturesCS [WorkerTime=6.665s], FCullMeshSDFObjectsForViewCS [WorkerTime=0.837s], FDeferredLightOverlapPS [WorkerTime=0.259s], FScrollingShadowMaps2DPS [WorkerTime=0.011s]
+[2024.12.13-05.09.59:869][  0]LogShaderCompilers: Display: Worker (4/5) finished batch of 10 jobs in 82.741s, FScreenProbeIntegrateCS [WorkerTime=22.548s], FVolumetricFogLightScatteringCS [WorkerTime=16.061s], FReflectionTraceVoxelsCS [WorkerTime=14.512s], FScreenProbeIntegrateCS [WorkerTime=14.497s], FReflectionTraceVoxelsCS [WorkerTime=13.828s], FTonemapPS [WorkerTime=0.667s], FReflectionTileClassificationMarkCS [WorkerTime=0.396s], FUpdateCacheForUsedProbesCS [WorkerTime=0.080s], FClearProbeFreeList [WorkerTime=0.017s], FCompactCulledObjectsCS [WorkerTime=0.010s]
+[2024.12.13-05.10.53:959][  0]LogShaderCompilers: Display: Worker (3/5) finished batch of 10 jobs in 66.137s, FReflectionTraceVoxelsCS [WorkerTime=15.236s], FReflectionTraceMeshSDFsCS [WorkerTime=14.268s], FReflectionTraceVoxelsCS [WorkerTime=13.873s], FVolumetricFogLightScatteringCS [WorkerTime=11.060s], FReflectionTraceVoxelsCS [WorkerTime=4.735s], FReflectionResolveCS [WorkerTime=3.295s], FLumenSceneDirectLightingTraceDistanceFieldShadowsCS [WorkerTime=1.602s], FReflectionGenerateRaysCS [WorkerTime=0.865s], FReflectionResolveCS [WorkerTime=0.634s], FVisualizeRadiosityProbesVS [WorkerTime=0.464s]
+[2024.12.13-05.10.57:259][  0]LogShaderCompilers: Display: Worker (1/5) finished batch of 10 jobs in 65.927s, FScreenProbeIntegrateCS [WorkerTime=19.490s], FScreenProbeIntegrateCS [WorkerTime=16.321s], FVolumetricFogLightScatteringCS [WorkerTime=11.113s], FReflectionTraceMeshSDFsCS [WorkerTime=7.430s], FReflectionResolveCS [WorkerTime=3.312s], FReflectionBilateralFilterCS [WorkerTime=3.101s], FScreenProbeConvertToIrradianceCS [WorkerTime=1.677s], FReflectionTemporalReprojectionCS [WorkerTime=1.482s], FLumenDirectLightingShadowMaskFromLightAttenuationCS [WorkerTime=1.426s], FReflectionTileClassificationMarkCS [WorkerTime=0.496s]
+[2024.12.13-05.11.17:042][  0]LogShaderCompilers: Display: Worker (5/5) finished batch of 10 jobs in 89.888s, FScreenProbeIntegrateCS [WorkerTime=23.979s], FScreenProbeIntegrateCS [WorkerTime=18.060s], FVolumetricFogLightScatteringCS [WorkerTime=16.853s], FReflectionTraceVoxelsCS [WorkerTime=15.673s], FReflectionTraceVoxelsCS [WorkerTime=4.142s], FReflectionResolveCS [WorkerTime=3.501s], FScreenProbeFilterGatherTracesCS [WorkerTime=2.800s], FReflectionResolveCS [WorkerTime=2.575s], FLumenDirectLightingShadowMaskFromLightAttenuationCS [WorkerTime=1.141s], FLUTBlenderCS [WorkerTime=1.010s]
+[2024.12.13-05.11.19:842][  0]LogShaderCompilers: Display: Worker (4/5) finished batch of 10 jobs in 79.973s, FScreenProbeIntegrateCS [WorkerTime=19.510s], FReflectionTraceMeshSDFsCS [WorkerTime=16.887s], FReflectionTraceMeshSDFsCS [WorkerTime=15.809s], FScreenProbeTraceMeshSDFsCS [WorkerTime=12.746s], FVolumetricFogLightScatteringCS [WorkerTime=8.993s], FReflectionResolveCS [WorkerTime=3.428s], FReflectionTemporalReprojectionCS [WorkerTime=1.658s], FTonemapPS [WorkerTime=0.562s], FFilterPS [WorkerTime=0.232s], FCopyCardCaptureLightingToAtlasPS [WorkerTime=0.055s]
+[2024.12.13-05.12.07:542][  0]LogShaderCompilers: Display: Worker (1/5) finished batch of 10 jobs in 70.282s, FVolumetricFogLightScatteringCS [WorkerTime=14.736s], FReflectionTraceVoxelsCS [WorkerTime=10.042s], FReflectionTraceVoxelsCS [WorkerTime=9.961s], FScreenProbeTraceVoxelsCS [WorkerTime=8.393s], FReflectionTraceVoxelsCS [WorkerTime=7.380s], FTranslucencyVolumeTraceVoxelsCS [WorkerTime=6.298s], FReflectionTraceMeshSDFsCS [WorkerTime=6.207s], FBuildLightTilesCS [WorkerTime=3.498s], FReflectionTraceVoxelsCS [WorkerTime=2.729s], FVisualizePrimitiveGroupsCS [WorkerTime=0.853s]
+[2024.12.13-05.12.12:154][  0]LogShaderCompilers: Display: Worker (3/5) finished batch of 10 jobs in 78.194s, FReflectionTraceMeshSDFsCS [WorkerTime=16.132s], FVolumetricFogLightScatteringCS [WorkerTime=15.412s], FReflectionTraceMeshSDFsCS [WorkerTime=12.887s], FReflectionTraceMeshSDFsCS [WorkerTime=12.713s], FReflectionTraceMeshSDFsCS [WorkerTime=8.287s], FReflectionTraceMeshSDFsCS [WorkerTime=8.027s], FLumenSceneDirectLightingTraceDistanceFieldShadowsCS [WorkerTime=1.781s], FLumenDirectLightingShadowMaskFromLightAttenuationCS [WorkerTime=1.392s], FReflectionTraceMeshSDFsCS [WorkerTime=1.277s], FSetupLogLuminanceCS [WorkerTime=0.136s]
+[2024.12.13-05.12.13:009][  0]LogShaderCompilers: Display: Worker (2/5) finished batch of 10 jobs in 82.859s, FReflectionTraceMeshSDFsCS [WorkerTime=15.847s], FReflectionTraceMeshSDFsCS [WorkerTime=15.762s], FVolumetricFogLightScatteringCS [WorkerTime=14.092s], FReflectionTraceMeshSDFsCS [WorkerTime=12.520s], FReflectionTraceVoxelsCS [WorkerTime=9.621s], FReflectionTraceMeshSDFsCS [WorkerTime=7.096s], FReflectionTraceScreenTexturesCS [WorkerTime=5.254s], FLumenDirectLightingShadowMaskFromLightAttenuationCS [WorkerTime=1.574s], FReflectionResolveCS [WorkerTime=0.473s], FReflectionResolveCS [WorkerTime=0.469s]
+[2024.12.13-05.13.05:051][  0]LogShaderCompilers: Display: Worker (4/5) finished batch of 10 jobs in 105.208s, FReflectionTraceVoxelsCS [WorkerTime=17.729s], FReflectionTraceVoxelsCS [WorkerTime=15.086s], FReflectionTraceVoxelsCS [WorkerTime=14.815s], FScreenProbeIntegrateCS [WorkerTime=12.438s], FVolumetricFogLightScatteringCS [WorkerTime=11.411s], FReflectionTraceVoxelsCS [WorkerTime=10.808s], FReflectionTraceVoxelsCS [WorkerTime=8.858s], FReflectionTraceVoxelsCS [WorkerTime=5.702s], FReflectionTraceVoxelsCS [WorkerTime=4.422s], FReflectionTraceVoxelsCS [WorkerTime=3.812s]
+[2024.12.13-05.13.20:030][  0]LogShaderCompilers: Display: Worker (1/5) finished batch of 10 jobs in 72.487s, FScreenProbeIntegrateCS [WorkerTime=16.449s], FScreenProbeIntegrateCS [WorkerTime=15.676s], FVolumetricFogLightScatteringCS [WorkerTime=13.127s], FScreenProbeIntegrateCS [WorkerTime=12.469s], FReflectionTraceVoxelsCS [WorkerTime=11.126s], FLumenDirectLightingShadowMaskFromLightAttenuationCS [WorkerTime=1.326s], FTonemapPS [WorkerTime=0.996s], FTonemapCS [WorkerTime=0.897s], FHZBBuildCS [WorkerTime=0.199s], FLumenSceneUpdateCS [WorkerTime=0.088s]
+[2024.12.13-05.14.02:487][  0]LogShaderCompilers: Display: Worker (2/5) finished batch of 10 jobs in 109.477s, FScreenProbeIntegrateCS [WorkerTime=15.841s], FVolumetricFogLightScatteringCS [WorkerTime=14.407s], FReflectionTraceVoxelsCS [WorkerTime=14.236s], FReflectionTraceVoxelsCS [WorkerTime=12.930s], FReflectionTraceVoxelsCS [WorkerTime=11.904s], FReflectionTraceVoxelsCS [WorkerTime=10.184s], FReflectionTraceVoxelsCS [WorkerTime=9.979s], FReflectionTraceMeshSDFsCS [WorkerTime=9.064s], FReflectionTraceVoxelsCS [WorkerTime=6.707s], FReflectionTraceVoxelsCS [WorkerTime=4.059s]
+[2024.12.13-05.14.15:537][  0]LogShaderCompilers: Display: Worker (3/5) finished batch of 10 jobs in 123.383s, FScreenProbeIntegrateCS [WorkerTime=19.703s], FScreenProbeIntegrateCS [WorkerTime=18.531s], FScreenProbeIntegrateCS [WorkerTime=16.017s], FScreenProbeIntegrateCS [WorkerTime=15.188s], FReflectionTraceVoxelsCS [WorkerTime=12.777s], FVolumetricFogLightScatteringCS [WorkerTime=11.897s], FReflectionTraceVoxelsCS [WorkerTime=11.618s], FReflectionTraceVoxelsCS [WorkerTime=9.084s], FReflectionTraceVoxelsCS [WorkerTime=4.440s], FReflectionTraceVoxelsCS [WorkerTime=4.005s]
+[2024.12.13-05.14.28:306][  0]LogShaderCompilers: Display: Worker (4/5) finished batch of 10 jobs in 83.255s, FScreenProbeIntegrateCS [WorkerTime=18.544s], FReflectionTraceVoxelsCS [WorkerTime=15.580s], FVolumetricFogLightScatteringCS [WorkerTime=11.885s], FReflectionTraceVoxelsCS [WorkerTime=11.397s], FReflectionTraceVoxelsCS [WorkerTime=9.861s], FReflectionTraceVoxelsCS [WorkerTime=9.649s], FReflectionTraceVoxelsCS [WorkerTime=2.442s], FTemporalAACS [WorkerTime=1.892s], FDiaphragmDOFRecombineCS [WorkerTime=1.362s], FScreenSpaceShadowsBendCS [WorkerTime=0.488s]
+[2024.12.13-05.14.44:421][  0]LogShaderCompilers: Display: Worker (1/5) finished batch of 10 jobs in 84.390s, FVisualizeLumenSceneCS [WorkerTime=27.027s], FScreenProbeIntegrateCS [WorkerTime=15.695s], FReflectionTraceVoxelsCS [WorkerTime=14.235s], FReflectionTraceVoxelsCS [WorkerTime=12.115s], FVolumetricFogLightScatteringCS [WorkerTime=8.995s], FReflectionTraceVoxelsCS [WorkerTime=2.938s], FReflectionTraceVoxelsCS [WorkerTime=2.202s], FScreenProbeDownsampleDepthUniformCS [WorkerTime=0.969s], FCopyCardCaptureLightingToAtlasPS [WorkerTime=0.058s], FFilterVS [WorkerTime=0.035s]
+[2024.12.13-05.15.35:293][  0]LogShaderCompilers: Display: Worker (3/5) finished batch of 10 jobs in 79.755s, FReflectionTraceVoxelsCS [WorkerTime=13.338s], FReflectionTraceVoxelsCS [WorkerTime=13.068s], FVolumetricFogLightScatteringCS [WorkerTime=12.732s], FReflectionTraceVoxelsCS [WorkerTime=11.139s], FReflectionTraceVoxelsCS [WorkerTime=10.932s], FBuildLightTilesCS [WorkerTime=6.838s], FDiaphragmDOFGatherCS [WorkerTime=5.916s], FReflectionTraceVoxelsCS [WorkerTime=3.096s], FLumenDirectLightingShadowMaskFromLightAttenuationCS [WorkerTime=1.354s], FReflectionTraceVoxelsCS [WorkerTime=1.244s]
+[2024.12.13-05.15.59:023][  0]LogShaderCompilers: Display: Worker (2/5) finished batch of 10 jobs in 116.535s, FScreenProbeIntegrateCS [WorkerTime=26.053s], FScreenProbeIntegrateCS [WorkerTime=23.874s], FScreenProbeIntegrateCS [WorkerTime=21.736s], FScreenProbeIntegrateCS [WorkerTime=17.146s], FVolumetricFogLightScatteringCS [WorkerTime=12.331s], FReflectionTraceVoxelsCS [WorkerTime=8.428s], FVisualizeLumenSceneCS [WorkerTime=3.540s], FLumenDirectLightingShadowMaskFromLightAttenuationCS [WorkerTime=1.810s], FLumenDirectLightingShadowMaskFromLightAttenuationCS [WorkerTime=1.332s], FSpliceCardPagesIntoTilesCS [WorkerTime=0.188s]
+[2024.12.13-05.16.13:609][  0]LogShaderCompilers: Display: Worker (4/5) finished batch of 10 jobs in 66.585s, FScreenProbeIntegrateCS [WorkerTime=27.542s], FVolumetricFogLightScatteringCS [WorkerTime=19.855s], FScreenProbeTraceMeshSDFsCS [WorkerTime=6.591s], FScreenProbeTraceMeshSDFsCS [WorkerTime=3.655s], FLumenCardBatchDirectLightingCS [WorkerTime=2.312s], FLumenDirectLightingShadowMaskFromLightAttenuationCS [WorkerTime=1.996s], FLumenDirectLightingShadowMaskFromLightAttenuationCS [WorkerTime=1.922s], FLumenDirectLightingShadowMaskFromLightAttenuationCS [WorkerTime=1.294s], FLumenCardBatchDirectLightingCS [WorkerTime=0.915s], FFilterCS [WorkerTime=0.358s]
+[2024.12.13-05.16.23:108][  0]LogShaderCompilers: Display: Worker (5/5) finished batch of 10 jobs in 306.066s, FTSRRejectShadingCS [WorkerTime=214.066s], FScreenProbeIntegrateCS [WorkerTime=17.016s], FReflectionTraceVoxelsCS [WorkerTime=15.438s], FReflectionTraceVoxelsCS [WorkerTime=14.750s], FReflectionTraceVoxelsCS [WorkerTime=10.742s], FVolumetricFogLightScatteringCS [WorkerTime=10.364s], FReflectionTraceMeshSDFsCS [WorkerTime=9.551s], FReflectionTraceMeshSDFsCS [WorkerTime=9.550s], FInjectShadowedLocalLightPS [WorkerTime=3.464s], FLumenCardBatchDirectLightingCS [WorkerTime=1.018s]
+[2024.12.13-05.16.32:484][  0]LogShaderCompilers: Display: Worker (1/5) finished batch of 10 jobs in 63.453s, FVolumetricFogLightScatteringCS [WorkerTime=20.339s], FScreenProbeIntegrateCS [WorkerTime=20.127s], FReflectionTraceVoxelsCS [WorkerTime=9.248s], FScreenProbeTraceMeshSDFsCS [WorkerTime=9.151s], FLumenDirectLightingShadowMaskFromLightAttenuationCS [WorkerTime=1.963s], FLumenDirectLightingShadowMaskFromLightAttenuationCS [WorkerTime=1.409s], FMotionBlurFilterCS [WorkerTime=0.791s], FScreenProbeCalculateMovingCS [WorkerTime=0.123s], FRasterizeToLightTilesVS [WorkerTime=0.093s], FCompactLightTilesCS [WorkerTime=0.067s]
+[2024.12.13-05.16.35:474][  0]LogShaderCompilers: Display: Worker (3/5) finished batch of 10 jobs in 60.180s, FScreenProbeIntegrateCS [WorkerTime=17.392s], FScreenProbeIntegrateCS [WorkerTime=17.310s], FVolumetricFogLightScatteringCS [WorkerTime=15.043s], FLumenSceneDirectLightingTraceDistanceFieldShadowsCS [WorkerTime=5.955s], FLumenDirectLightingShadowMaskFromLightAttenuationCS [WorkerTime=1.611s], FLumenDirectLightingShadowMaskFromLightAttenuationCS [WorkerTime=1.543s], FScreenProbeGenerateRaysCS [WorkerTime=0.708s], FLumenSceneDirectLightingTraceDistanceFieldShadowsCS [WorkerTime=0.490s], FInitShadowTraceIndirectArgsCS [WorkerTime=0.022s], FLumenDirectLightingHardwareRayTracingIndirectArgsCS [WorkerTime=0.016s]
+[2024.12.13-05.17.58:270][  0]LogShaderCompilers: Display: Worker (5/5) finished batch of 10 jobs in 95.158s, FScreenProbeIntegrateCS [WorkerTime=24.226s], FScreenProbeIntegrateCS [WorkerTime=22.649s], FScreenProbeIntegrateCS [WorkerTime=20.153s], FVolumetricFogLightScatteringCS [WorkerTime=19.988s], FScreenProbeTemporallyAccumulateTraceRadianceCS [WorkerTime=4.347s], FTSRSpatialAntiAliasingCS [WorkerTime=1.513s], FMarkRadianceProbesUsedByScreenProbesCS [WorkerTime=1.067s], FSSDInjestCS [WorkerTime=0.675s], FTonemapPS [WorkerTime=0.395s], FFilterVS [WorkerTime=0.020s]
+[2024.12.13-05.18.05:318][  0]LogShaderCompilers: Display: Worker (4/5) finished batch of 10 jobs in 111.708s, FScreenProbeIntegrateCS [WorkerTime=25.272s], FVolumetricFogLightScatteringCS [WorkerTime=20.056s], FScreenProbeIntegrateCS [WorkerTime=18.642s], FScreenProbeIntegrateCS [WorkerTime=18.214s], FScreenProbeIntegrateCS [WorkerTime=17.461s], FScreenProbeTraceScreenTexturesCS [WorkerTime=6.110s], FLumenDirectLightingShadowMaskFromLightAttenuationCS [WorkerTime=1.647s], FLumenDirectLightingShadowMaskFromLightAttenuationCS [WorkerTime=1.639s], FLumenDirectLightingShadowMaskFromLightAttenuationCS [WorkerTime=1.354s], FLumenDirectLightingShadowMaskFromLightAttenuationCS [WorkerTime=1.226s]
+[2024.12.13-05.18.20:316][  0]LogShaderCompilers: Display: Worker (3/5) finished batch of 10 jobs in 104.841s, FScreenProbeIntegrateCS [WorkerTime=21.014s], FScreenProbeIntegrateCS [WorkerTime=19.740s], FVolumetricFogLightScatteringCS [WorkerTime=19.436s], FScreenProbeIntegrateCS [WorkerTime=18.041s], FLumenSceneDirectLightingTraceDistanceFieldShadowsCS [WorkerTime=8.812s], FLumenSceneDirectLightingTraceDistanceFieldShadowsCS [WorkerTime=8.602s], FScreenProbeTraceMeshSDFsCS [WorkerTime=4.826s], FLumenSceneDirectLightingTraceDistanceFieldShadowsCS [WorkerTime=1.673s], FLumenSceneDirectLightingTraceDistanceFieldShadowsCS [WorkerTime=1.580s], FSelectionOutlinePS [WorkerTime=1.019s]
+[2024.12.13-05.18.32:188][  0]LogShaderCompilers: Display: Worker (2/5) finished batch of 10 jobs in 77.373s, FScreenProbeIntegrateCS [WorkerTime=33.228s], FVolumetricFogLightScatteringCS [WorkerTime=21.217s], FScreenProbeIntegrateCS [WorkerTime=14.598s], FTSRUpdateHistoryCS [WorkerTime=5.402s], FBuildCardsUpdateListCS [WorkerTime=0.865s], FPlanarReflectionPS [WorkerTime=0.856s], FTonemapPS [WorkerTime=0.609s], FTonemapCS [WorkerTime=0.394s], FFilterCS [WorkerTime=0.076s], FClearLumenCardsPS [WorkerTime=0.020s]
+[2024.12.13-05.19.26:177][  0]LogShaderCompilers: Display: Worker (5/5) finished batch of 10 jobs in 87.909s, FScreenProbeIntegrateCS [WorkerTime=26.699s], FScreenProbeIntegrateCS [WorkerTime=18.676s], FVolumetricFogLightScatteringCS [WorkerTime=18.077s], FScreenProbeIntegrateCS [WorkerTime=15.475s], FScreenProbeGenerateLightSamplesCS [WorkerTime=5.303s], FScreenProbeCompositeTracesWithScatterCS [WorkerTime=3.240s], FFilterPS [WorkerTime=0.245s], FSetCardPageIndexIndirectArgsCS [WorkerTime=0.041s], FScreenProbeGenerateMipLevelCS [WorkerTime=0.041s], FCopyCardCaptureLightingToAtlasPS [WorkerTime=0.028s]
+[2024.12.13-05.19.29:258][  0]LogShaderCompilers: Display: Worker (1/5) finished batch of 10 jobs in 71.846s, FScreenProbeIntegrateCS [WorkerTime=26.455s], FScreenProbeIntegrateCS [WorkerTime=19.282s], FMarkRadianceProbesUsedByHairStrandsCS [WorkerTime=18.555s], FInjectShadowedLocalLightPS [WorkerTime=4.848s], FScreenProbeCompositeTracesWithScatterCS [WorkerTime=0.931s], FScreenProbeCompositeTracesWithScatterCS [WorkerTime=0.762s], FDiaphragmDOFPostfilterCS [WorkerTime=0.417s], FFilterCS [WorkerTime=0.369s], FSetupAdaptiveProbeIndirectArgsCS [WorkerTime=0.133s], FClearLumenCardsPS [WorkerTime=0.009s]
+[2024.12.13-05.19.57:565][  0]LogShaderCompilers: Display: Worker (2/5) finished batch of 10 jobs in 85.377s, FScreenProbeIntegrateCS [WorkerTime=22.572s], FScreenProbeIntegrateCS [WorkerTime=18.535s], FScreenProbeIntegrateCS [WorkerTime=18.496s], FSingleLayerWaterCompositePS [WorkerTime=9.753s], FScreenProbeTraceMeshSDFsCS [WorkerTime=6.388s], FScreenProbeTraceScreenTexturesCS [WorkerTime=3.895s], FInjectShadowedLocalLightPS [WorkerTime=3.529s], FScreenProbeTraceVoxelsCS [WorkerTime=0.866s], FTonemapCS [WorkerTime=0.650s], FTonemapCS [WorkerTime=0.545s]
+[2024.12.13-05.20.28:296][  0]LogShaderCompilers: Display: Worker (3/5) finished batch of 10 jobs in 127.980s, FScreenProbeIntegrateCS [WorkerTime=27.074s], FScreenProbeIntegrateCS [WorkerTime=23.617s], FScreenProbeIntegrateCS [WorkerTime=21.146s], FScreenProbeIntegrateCS [WorkerTime=20.356s], FScreenProbeIntegrateCS [WorkerTime=19.399s], FScreenProbeAdaptivePlacementCS [WorkerTime=11.061s], FInjectShadowedLocalLightPS [WorkerTime=4.034s], FTonemapPS [WorkerTime=0.700s], FScreenProbeTileClassificationMarkCS [WorkerTime=0.418s], FDiaphragmDOFPostfilterCS [WorkerTime=0.087s]
+[2024.12.13-05.21.04:980][  0]LogShaderCompilers: Display: Worker (1/5) finished batch of 10 jobs in 95.721s, FScreenProbeIntegrateCS [WorkerTime=24.821s], FScreenProbeIntegrateCS [WorkerTime=22.402s], FScreenProbeIntegrateCS [WorkerTime=17.320s], FScreenProbeIntegrateCS [WorkerTime=14.029s], FScreenProbeTraceScreenTexturesCS [WorkerTime=7.787s], FDiaphragmDOFGatherCS [WorkerTime=3.907s], FInjectShadowedLocalLightPS [WorkerTime=2.835s], FDiaphragmDOFRecombineCS [WorkerTime=2.153s], FFilterCS [WorkerTime=0.221s], FFilterCS [WorkerTime=0.078s]
+[2024.12.13-05.21.29:266][  0]LogShaderCompilers: Display: Worker (4/5) finished batch of 10 jobs in 146.136s, FScreenProbeIntegrateCS [WorkerTime=26.116s], FScreenProbeIntegrateCS [WorkerTime=24.923s], FScreenProbeIntegrateCS [WorkerTime=24.714s], FScreenProbeIntegrateCS [WorkerTime=22.910s], FScreenProbeIntegrateCS [WorkerTime=21.288s], FScreenProbeIntegrateCS [WorkerTime=19.583s], FRenderCameraAerialPerspectiveVolumeCS [WorkerTime=2.968s], FInjectShadowedLocalLightPS [WorkerTime=2.409s], FTonemapCS [WorkerTime=0.673s], FTonemapPS [WorkerTime=0.345s]
+[2024.12.13-05.22.09:126][  0]LogShaderCompilers: Display: Worker (5/5) finished batch of 10 jobs in 162.948s, FScreenProbeIntegrateCS [WorkerTime=22.261s], FScreenProbeIntegrateCS [WorkerTime=22.233s], FScreenProbeIntegrateCS [WorkerTime=21.129s], FScreenProbeIntegrateCS [WorkerTime=21.005s], FScreenProbeIntegrateCS [WorkerTime=18.277s], FScreenProbeIntegrateCS [WorkerTime=16.507s], FScreenProbeIntegrateCS [WorkerTime=15.923s], FScreenProbeIntegrateCS [WorkerTime=15.332s], FInjectShadowedLocalLightPS [WorkerTime=9.456s], FTonemapPS [WorkerTime=0.659s]
+[2024.12.13-05.22.31:797][  0]LogShaderCompilers: Display: Worker (3/5) finished batch of 10 jobs in 123.500s, FScreenProbeIntegrateCS [WorkerTime=27.370s], FScreenProbeIntegrateCS [WorkerTime=23.464s], FScreenProbeIntegrateCS [WorkerTime=23.095s], FScreenProbeIntegrateCS [WorkerTime=18.909s], FScreenProbeIntegrateCS [WorkerTime=16.834s], FScreenProbeTraceMeshSDFsCS [WorkerTime=8.725s], FInjectShadowedLocalLightPS [WorkerTime=4.022s], FFilterCS [WorkerTime=0.467s], FTonemapCS [WorkerTime=0.407s], FDiaphragmDOFBuildBokehLUTCS [WorkerTime=0.041s]
+[2024.12.13-05.22.43:082][  0]LogShaderCompilers: Display: Worker (2/5) finished batch of 10 jobs in 165.517s, FScreenProbeIntegrateCS [WorkerTime=27.184s], FScreenProbeIntegrateCS [WorkerTime=26.582s], FScreenProbeIntegrateCS [WorkerTime=25.088s], FScreenProbeIntegrateCS [WorkerTime=24.357s], FScreenProbeIntegrateCS [WorkerTime=23.632s], FScreenProbeIntegrateCS [WorkerTime=15.564s], FScreenProbeIntegrateCS [WorkerTime=14.133s], FDiaphragmDOFGatherCS [WorkerTime=5.243s], FInjectShadowedLocalLightPS [WorkerTime=2.856s], FFilterCS [WorkerTime=0.779s]
+[2024.12.13-05.23.18:816][  0]LogShaderCompilers: Display: Worker (1/5) finished batch of 10 jobs in 133.834s, FScreenProbeIntegrateCS [WorkerTime=26.091s], FScreenProbeIntegrateCS [WorkerTime=23.315s], FScreenProbeIntegrateCS [WorkerTime=21.496s], FScreenProbeIntegrateCS [WorkerTime=21.475s], FScreenProbeIntegrateCS [WorkerTime=15.245s], FSubsurfaceIndirectDispatchCS [WorkerTime=10.795s], FScreenProbeTraceMeshSDFsCS [WorkerTime=10.551s], FInjectShadowedLocalLightPS [WorkerTime=3.891s], FLumenVisualizeBucketRaysByMaterialIdCS [WorkerTime=0.688s], FFilterVS [WorkerTime=0.149s]
+[2024.12.13-05.23.42:110][  0]LogShaderCompilers: Display: Worker (5/5) finished batch of 10 jobs in 92.983s, FScreenProbeIntegrateCS [WorkerTime=23.690s], FScreenProbeIntegrateCS [WorkerTime=23.407s], FScreenProbeIntegrateCS [WorkerTime=15.284s], FScreenProbeTraceMeshSDFsCS [WorkerTime=8.626s], FDiaphragmDOFGatherCS [WorkerTime=8.011s], FScreenProbeTraceScreenTexturesCS [WorkerTime=7.960s], FInjectShadowedLocalLightPS [WorkerTime=4.233s], FScreenProbeTemporalReprojectionCS [WorkerTime=0.814s], FTonemapPS [WorkerTime=0.665s], FDiaphragmDOFScatterGroupPackCS [WorkerTime=0.086s]
+[2024.12.13-05.23.49:814][  0]LogShaderCompilers: Display: Worker (3/5) finished batch of 10 jobs in 78.016s, FScreenProbeIntegrateCS [WorkerTime=22.671s], FScreenProbeIntegrateCS [WorkerTime=16.512s], FScreenProbeIntegrateCS [WorkerTime=16.241s], FScreenProbeTraceMeshSDFsCS [WorkerTime=9.080s], FDiaphragmDOFGatherCS [WorkerTime=7.646s], FInjectShadowedLocalLightPS [WorkerTime=4.858s], FSubsurfaceIndirectDispatchSetupCS [WorkerTime=0.527s], FFilterCS [WorkerTime=0.276s], FDiaphragmDOFPostfilterCS [WorkerTime=0.090s], FSceneCapturePS [WorkerTime=0.021s]
+[2024.12.13-05.23.55:098][  0]LogShaderCompilers: Display: Worker (4/5) finished batch of 10 jobs in 145.831s, FScreenProbeIntegrateCS [WorkerTime=23.191s], FScreenProbeIntegrateCS [WorkerTime=23.089s], FScreenProbeIntegrateCS [WorkerTime=19.795s], FScreenProbeTraceMeshSDFsCS [WorkerTime=18.764s], FScreenProbeIntegrateCS [WorkerTime=18.225s], FScreenProbeIntegrateCS [WorkerTime=16.787s], FScreenProbeIntegrateCS [WorkerTime=16.516s], FLUTBlenderPS [WorkerTime=5.054s], FInjectShadowedLocalLightPS [WorkerTime=3.544s], FTonemapCS [WorkerTime=0.685s]
+[2024.12.13-05.25.37:798][  0]LogShaderCompilers: Display: Worker (3/5) finished batch of 10 jobs in 107.983s, FVisualizeLumenSceneCS [WorkerTime=66.455s], FScreenProbeIntegrateCS [WorkerTime=22.485s], FScreenProbeTraceMeshSDFsCS [WorkerTime=7.508s], FInjectShadowedLocalLightPS [WorkerTime=6.467s], FTonemapPS [WorkerTime=1.301s], FLUTBlenderPS [WorkerTime=1.283s], FClearCompressedAtlasCS [WorkerTime=1.080s], FMotionBlurFilterTileClassifyCS [WorkerTime=0.526s], FTonemapCS [WorkerTime=0.412s], FFilterCS [WorkerTime=0.293s]
+[2024.12.13-05.25.47:371][  0]LogShaderCompilers: Display: Worker (5/5) finished batch of 10 jobs in 125.260s, FVisualizeLumenSceneCS [WorkerTime=29.077s], FScreenProbeIntegrateCS [WorkerTime=24.847s], FScreenProbeTraceMeshSDFsCS [WorkerTime=19.174s], FScreenProbeIntegrateCS [WorkerTime=18.151s], FScreenProbeIntegrateCS [WorkerTime=17.445s], FSubsurfaceIndirectDispatchCS [WorkerTime=8.157s], FInjectShadowedLocalLightPS [WorkerTime=5.914s], FScreenProbeTraceVoxelsCS [WorkerTime=2.223s], FFilterPS [WorkerTime=0.120s], FHMDDistortionPS [WorkerTime=0.027s]
+[2024.12.13-05.25.52:641][  0]LogShaderCompilers: Display: Worker (1/5) finished batch of 10 jobs in 153.823s, FScreenProbeIntegrateCS [WorkerTime=29.721s], FScreenProbeIntegrateCS [WorkerTime=22.712s], FScreenProbeIntegrateCS [WorkerTime=18.278s], FScreenProbeIntegrateCS [WorkerTime=18.118s], FScreenProbeTraceMeshSDFsCS [WorkerTime=17.793s], FScreenProbeIntegrateCS [WorkerTime=17.750s], FScreenProbeIntegrateCS [WorkerTime=16.758s], FSubsurfaceIndirectDispatchCS [WorkerTime=7.704s], FInjectShadowedLocalLightPS [WorkerTime=4.786s], FFilterPS [WorkerTime=0.037s]
+[2024.12.13-05.26.09:969][  0]LogShaderCompilers: Display: Worker (2/5) finished batch of 10 jobs in 206.886s, FScreenProbeIntegrateCS [WorkerTime=34.192s], FScreenProbeIntegrateCS [WorkerTime=27.714s], FScreenProbeIntegrateCS [WorkerTime=26.405s], FScreenProbeIntegrateCS [WorkerTime=24.984s], FScreenProbeIntegrateCS [WorkerTime=23.742s], FScreenProbeIntegrateCS [WorkerTime=20.233s], FScreenProbeIntegrateCS [WorkerTime=19.890s], FScreenProbeIntegrateCS [WorkerTime=15.627s], FScreenProbeTraceMeshSDFsCS [WorkerTime=10.719s], FInjectShadowedLocalLightPS [WorkerTime=3.258s]
+[2024.12.13-05.26.20:661][  0]LogShaderCompilers: Display: Worker (4/5) finished batch of 10 jobs in 145.562s, FScreenProbeIntegrateCS [WorkerTime=29.428s], FScreenProbeIntegrateCS [WorkerTime=22.603s], FScreenProbeIntegrateCS [WorkerTime=21.903s], FScreenProbeIntegrateCS [WorkerTime=21.897s], FScreenProbeIntegrateCS [WorkerTime=19.115s], FScreenProbeIntegrateCS [WorkerTime=18.212s], FInjectShadowedLocalLightPS [WorkerTime=10.232s], FScreenProbeTemporalReprojectionCS [WorkerTime=1.363s], FScreenProbeGenerateRaysCS [WorkerTime=0.599s], FFilterVS [WorkerTime=0.128s]
+[2024.12.13-05.28.13:256][  0]LogShaderCompilers: Display: Worker (1/5) finished batch of 10 jobs in 140.615s, FScreenProbeIntegrateCS [WorkerTime=40.660s], FScreenProbeIntegrateCS [WorkerTime=33.787s], FScreenProbeTraceMeshSDFsCS [WorkerTime=20.191s], FRenderSkyAtmospherePS [WorkerTime=15.798s], FScreenProbeComputeLightingProbabilityDensityFunctionCS [WorkerTime=12.519s], FInjectShadowedLocalLightPS [WorkerTime=9.109s], FScreenProbeTraceScreenTexturesCS [WorkerTime=4.781s], FFilterCS [WorkerTime=1.469s], FMarkRadianceProbesUsedByTranslucencyVolumeCS [WorkerTime=1.435s], FTonemapPS [WorkerTime=0.679s]
+[2024.12.13-05.29.13:255][  0]LogShaderCompilers: Display: Worker (3/5) finished batch of 10 jobs in 215.457s, FScreenProbeIntegrateCS [WorkerTime=41.022s], FScreenProbeIntegrateCS [WorkerTime=31.562s], FScreenProbeIntegrateCS [WorkerTime=28.480s], FScreenProbeIntegrateCS [WorkerTime=28.058s], FScreenProbeIntegrateCS [WorkerTime=25.680s], FScreenProbeIntegrateCS [WorkerTime=22.724s], FScreenProbeTraceMeshSDFsCS [WorkerTime=22.371s], FInjectShadowedLocalLightPS [WorkerTime=12.283s], FTemporalAACS [WorkerTime=2.415s], FTonemapCS [WorkerTime=0.717s]
+[2024.12.13-05.29.14:535][  0]LogShaderCompilers: Display: Worker (5/5) finished batch of 10 jobs in 207.163s, FScreenProbeIntegrateCS [WorkerTime=36.241s], FScreenProbeIntegrateCS [WorkerTime=30.312s], FScreenProbeIntegrateCS [WorkerTime=29.059s], FScreenProbeIntegrateCS [WorkerTime=26.910s], FScreenProbeIntegrateCS [WorkerTime=25.786s], FScreenProbeIntegrateCS [WorkerTime=25.455s], FScreenProbeIntegrateCS [WorkerTime=19.618s], FInjectShadowedLocalLightPS [WorkerTime=8.124s], FScreenProbeTraceMeshSDFsCS [WorkerTime=4.735s], FLumenCardCopyPS [WorkerTime=0.718s]
+[2024.12.13-05.29.50:222][  0]LogShaderCompilers: Display: Worker (4/5) finished batch of 10 jobs in 209.561s, FScreenProbeIntegrateCS [WorkerTime=35.260s], FScreenProbeIntegrateCS [WorkerTime=31.800s], FScreenProbeIntegrateCS [WorkerTime=29.285s], FScreenProbeIntegrateCS [WorkerTime=29.258s], FScreenProbeIntegrateCS [WorkerTime=26.531s], FScreenProbeTraceMeshSDFsCS [WorkerTime=23.981s], FScreenProbeIntegrateCS [WorkerTime=21.142s], FInjectShadowedLocalLightPS [WorkerTime=9.070s], FScreenProbeSetupVisualizeTracesCS [WorkerTime=1.733s], FVisualizeRadianceCachePS [WorkerTime=1.347s]
+[2024.12.13-05.30.26:739][  0]LogShaderCompilers: Display: Worker (1/5) finished batch of 10 jobs in 133.482s, FScreenProbeIntegrateCS [WorkerTime=59.615s], FScreenProbeIntegrateCS [WorkerTime=24.822s], FInjectShadowedLocalLightPS [WorkerTime=19.138s], FDiaphragmDOFCocDilateCS [WorkerTime=15.274s], FTranslucencyVolumeTraceVoxelsCS [WorkerTime=8.902s], FDiaphragmDOFRecombineCS [WorkerTime=2.517s], FTonemapPS [WorkerTime=1.190s], FTonemapCS [WorkerTime=0.933s], FTonemapPS [WorkerTime=0.754s], FBloomSurveyMaxScatterDispersionCS [WorkerTime=0.110s]
+[2024.12.13-05.30.40:805][  0]LogShaderCompilers: Display: Worker (2/5) finished batch of 10 jobs in 270.833s, FScreenProbeIntegrateCS [WorkerTime=66.424s], FScreenProbeIntegrateCS [WorkerTime=39.302s], FScreenProbeIntegrateCS [WorkerTime=38.181s], FScreenProbeIntegrateCS [WorkerTime=27.342s], FScreenProbeIntegrateCS [WorkerTime=25.105s], FScreenProbeIntegrateCS [WorkerTime=24.820s], FScreenProbeIntegrateCS [WorkerTime=24.190s], FInjectShadowedLocalLightPS [WorkerTime=14.813s], FScreenProbeTraceMeshSDFsCS [WorkerTime=10.383s], FSetupCompactedTracesIndirectArgsCS [WorkerTime=0.059s]
+[2024.12.13-05.33.16:867][  0]LogShaderCompilers: Display: Worker (2/5) finished batch of 10 jobs in 156.020s, FScreenProbeTraceMeshSDFsCS [WorkerTime=82.117s], FScreenProbeTraceScreenTexturesCS [WorkerTime=21.035s], FScreenProbeComputeLightingProbabilityDensityFunctionCS [WorkerTime=11.806s], FScreenProbeTemporalReprojectionCS [WorkerTime=11.479s], FTemporalAACS [WorkerTime=9.510s], FScreenProbeTemporalReprojectionCS [WorkerTime=6.609s], FTonemapCS [WorkerTime=4.654s], FTonemapCS [WorkerTime=3.935s], FVisualizeVolumetricLightmapVS [WorkerTime=2.207s], FStoreLumenDepthCS [WorkerTime=2.099s]
+[2024.12.13-05.34.43:740][  0]LogShaderCompilers: Display: Worker (5/5) finished batch of 10 jobs in 329.204s, FScreenProbeIntegrateCS [WorkerTime=103.942s], FScreenProbeIntegrateCS [WorkerTime=90.127s], FScreenProbeIntegrateCS [WorkerTime=50.509s], FScreenProbeIntegrateCS [WorkerTime=33.896s], FScreenProbeTraceVoxelsCS [WorkerTime=23.532s], FScreenProbeTraceVoxelsCS [WorkerTime=12.187s], FScreenProbeTemporalReprojectionCS [WorkerTime=7.448s], FScreenSpaceShortRangeAOCS [WorkerTime=4.573s], FVolumetricFogMaterialSetupCS [WorkerTime=2.452s], FOITSortTriangleIndex_ScanCS [WorkerTime=0.253s]
+[2024.12.13-05.35.22:703][  0]LogShaderCompilers: Display: Worker (4/5) finished batch of 10 jobs in 332.480s, FScreenProbeIntegrateCS [WorkerTime=105.479s], FScreenProbeIntegrateCS [WorkerTime=75.350s], FScreenProbeIntegrateCS [WorkerTime=55.766s], FScreenProbeIntegrateCS [WorkerTime=47.640s], FLumenScreenProbeSubstrateDebugPass [WorkerTime=25.799s], FScreenProbeComputeLightingProbabilityDensityFunctionCS [WorkerTime=19.489s], FTonemapPS [WorkerTime=1.156s], FCloudShadowTemporalProcessCS [WorkerTime=1.096s], FFilterPS [WorkerTime=0.343s], FTranslucencyVolumeSpatialFilterCS [WorkerTime=0.130s]
+[2024.12.13-05.35.50:857][  0]LogShaderCompilers: Display: Worker (3/5) finished batch of 10 jobs in 397.602s, FScreenProbeIntegrateCS [WorkerTime=112.019s], FScreenProbeIntegrateCS [WorkerTime=86.618s], FScreenProbeIntegrateCS [WorkerTime=54.175s], FScreenProbeIntegrateCS [WorkerTime=51.675s], FScreenProbeIntegrateCS [WorkerTime=42.051s], FScreenProbeIntegrateCS [WorkerTime=36.890s], FScreenProbeTraceMeshSDFsCS [WorkerTime=12.494s], FVolumetricFogMaterialSetupCS [WorkerTime=0.893s], FBloomSetupCS [WorkerTime=0.281s], FFilterCS [WorkerTime=0.253s]
+[2024.12.13-05.36.24:888][  0]LogShaderCompilers: Display: Worker (5/5) finished batch of 10 jobs in 101.145s, FTranslucencyVolumeTraceVoxelsCS [WorkerTime=29.711s], FScreenProbeComputeLightingProbabilityDensityFunctionCS [WorkerTime=24.811s], FScreenProbeTraceMeshSDFsCS [WorkerTime=20.974s], FScreenProbeTraceScreenTexturesCS [WorkerTime=12.365s], FScreenProbeTraceVoxelsCS [WorkerTime=6.642s], FScreenProbeTemporalReprojectionCS [WorkerTime=2.698s], FTonemapCS [WorkerTime=1.633s], FScreenProbeGenerateRaysCS [WorkerTime=1.468s], FHZBBuildCS [WorkerTime=0.280s], FDebugVariableRateShadingCS [WorkerTime=0.143s]
+[2024.12.13-05.36.48:419][  0]LogShaderCompilers: Display: Worker (1/5) finished batch of 10 jobs in 381.678s, FScreenProbeTraceMeshSDFsCS [WorkerTime=102.151s], FScreenProbeIntegrateCS [WorkerTime=77.617s], FScreenProbeIntegrateCS [WorkerTime=55.794s], FScreenProbeIntegrateCS [WorkerTime=52.851s], FScreenProbeIntegrateCS [WorkerTime=41.469s], FScreenProbeIntegrateCS [WorkerTime=36.397s], FVisualizeVolumetricLightmapPS [WorkerTime=5.848s], FDiaphragmDOFRecombineCS [WorkerTime=5.416s], FScreenProbeComputeLightingProbabilityDensityFunctionCS [WorkerTime=2.398s], FStoreLumenDepthCS [WorkerTime=1.337s]
+[2024.12.13-05.37.42:954][  0]LogShaderCompilers: Display: Worker (5/5) finished batch of 10 jobs in 78.061s, FScreenProbeTraceScreenTexturesCS [WorkerTime=18.680s], FScreenProbeTraceMeshSDFsCS [WorkerTime=16.704s], FTSRDecimateHistoryCS [WorkerTime=11.863s], FScreenProbeComputeLightingProbabilityDensityFunctionCS [WorkerTime=11.769s], FScreenProbeTraceScreenTexturesCS [WorkerTime=8.524s], FScreenProbeTemporalReprojectionCS [WorkerTime=5.059s], FScreenProbeTraceScreenTexturesCS [WorkerTime=4.378s], FScreenProbeGenerateRaysCS [WorkerTime=0.612s], FComputeVariableRateShadingImageGeneration [WorkerTime=0.097s], FLumenScreenProbeGatherHardwareRayTracingIndirectArgsCS [WorkerTime=0.046s]
+[2024.12.13-05.37.44:944][  0]LogShaderCompilers: Display: Worker (4/5) finished batch of 10 jobs in 142.239s, FScreenProbeTraceMeshSDFsCS [WorkerTime=44.394s], FScreenProbeTraceScreenTexturesCS [WorkerTime=16.960s], FScreenProbeTraceMeshSDFsCS [WorkerTime=15.426s], FScreenProbeTraceScreenTexturesCS [WorkerTime=14.112s], FScreenProbeTraceScreenTexturesCS [WorkerTime=13.945s], FEyeAdaptationCS [WorkerTime=13.423s], FSubsurfaceIndirectDispatchCS [WorkerTime=11.988s], FScreenProbeTraceScreenTexturesCS [WorkerTime=5.418s], FScreenProbeTraceScreenTexturesCS [WorkerTime=5.039s], FCloudShadowFilterCS [WorkerTime=1.114s]
+[2024.12.13-05.37.50:256][  0]LogShaderCompilers: Display: Worker (1/5) finished batch of 10 jobs in 61.836s, FScreenProbeTraceScreenTexturesCS [WorkerTime=20.280s], FScreenProbeTraceMeshSDFsCS [WorkerTime=14.644s], FScreenProbeTraceMeshSDFsCS [WorkerTime=9.533s], FScreenProbeTraceMeshSDFsCS [WorkerTime=7.532s], FScreenProbeTraceScreenTexturesCS [WorkerTime=4.412s], FVisualizeRadianceCachePS [WorkerTime=1.709s], FTonemapPS [WorkerTime=1.128s], FFilterPS [WorkerTime=1.103s], FCloudShadowFilterCS [WorkerTime=1.061s], FMotionBlurVelocityDilateScatterVS [WorkerTime=0.141s]
+[2024.12.13-05.38.15:865][  0]LogShaderCompilers: Display: Worker (2/5) finished batch of 10 jobs in 298.926s, FVisualizeLumenSceneCS [WorkerTime=104.209s], FScreenProbeIntegrateCS [WorkerTime=54.353s], FScreenProbeIntegrateCS [WorkerTime=45.736s], FScreenProbeIntegrateCS [WorkerTime=38.728s], FScreenProbeTraceMeshSDFsCS [WorkerTime=19.050s], FScreenProbeTraceVoxelsCS [WorkerTime=16.613s], FScreenProbeTraceMeshSDFsCS [WorkerTime=14.298s], FScreenProbeComputeBRDFProbabilityDensityFunctionCS [WorkerTime=4.711s], FDebugVariableRateShadingPS [WorkerTime=0.291s], FClearLightSampleTracesCS [WorkerTime=0.025s]
+[2024.12.13-05.39.20:851][  0]LogShaderCompilers: Display: Worker (5/5) finished batch of 10 jobs in 97.895s, FScreenProbeTraceMeshSDFsCS [WorkerTime=21.041s], FScreenProbeTraceScreenTexturesCS [WorkerTime=16.777s], FScreenProbeTraceMeshSDFsCS [WorkerTime=13.307s], FScreenProbeTraceMeshSDFsCS [WorkerTime=11.950s], FScreenProbeTraceScreenTexturesCS [WorkerTime=11.670s], FScreenProbeTraceMeshSDFsCS [WorkerTime=10.693s], FScreenProbeTraceScreenTexturesCS [WorkerTime=4.944s], FScreenProbeTraceScreenTexturesCS [WorkerTime=4.341s], FTonemapCS [WorkerTime=1.832s], FRescaleVariableRateShadingCS [WorkerTime=1.040s]
+[2024.12.13-05.39.22:482][  0]LogShaderCompilers: Display: Worker (4/5) finished batch of 10 jobs in 97.537s, FScreenProbeTraceMeshSDFsCS [WorkerTime=18.837s], FScreenProbeTraceMeshSDFsCS [WorkerTime=17.295s], FScreenProbeTraceMeshSDFsCS [WorkerTime=16.760s], FScreenProbeTraceMeshSDFsCS [WorkerTime=11.226s], FScreenProbeTraceVoxelsCS [WorkerTime=11.155s], FScreenProbeTraceScreenTexturesCS [WorkerTime=9.622s], FScreenProbeTraceMeshSDFsCS [WorkerTime=9.612s], FTonemapCS [WorkerTime=1.854s], FCalculateShadingRateImageCS [WorkerTime=0.830s], FSubsurfaceRecombineCopyPS [WorkerTime=0.036s]
+[2024.12.13-05.40.16:823][  0]LogShaderCompilers: Display: Worker (2/5) finished batch of 10 jobs in 120.956s, FScreenProbeTraceMeshSDFsCS [WorkerTime=29.613s], FScreenProbeTraceVoxelsCS [WorkerTime=29.542s], FScreenProbeTraceMeshSDFsCS [WorkerTime=17.838s], FScreenProbeTraceVoxelsCS [WorkerTime=15.080s], FScreenProbeTraceVoxelsCS [WorkerTime=13.375s], FScreenProbeTraceVoxelsCS [WorkerTime=6.608s], FScreenProbeTraceVoxelsCS [WorkerTime=6.572s], FMotionBlurFilterTileClassifyCS [WorkerTime=1.371s], FTonemapCS [WorkerTime=0.734s], FCopySceneColorPS [WorkerTime=0.024s]
+[2024.12.13-05.41.12:693][  0]LogShaderCompilers: Display: Worker (5/5) finished batch of 10 jobs in 111.839s, FScreenProbeTraceMeshSDFsCS [WorkerTime=48.863s], FScreenProbeTraceMeshSDFsCS [WorkerTime=32.516s], FScreenProbeTraceMeshSDFsCS [WorkerTime=10.281s], FDiaphragmDOFGatherCS [WorkerTime=7.845s], FScreenProbeTraceScreenTexturesCS [WorkerTime=6.670s], FScreenProbeTraceMeshSDFsCS [WorkerTime=4.114s], FTonemapPS [WorkerTime=0.730s], FBloomSetupCS [WorkerTime=0.397s], FBuildFeedbackHashTableCS [WorkerTime=0.182s], FInjectAmbientCubemapPS [WorkerTime=0.013s]
+[2024.12.13-05.41.32:293][  0]LogShaderCompilers: Display: Worker (3/5) finished batch of 10 jobs in 341.433s, FScreenSpaceShortRangeAOCS [WorkerTime=249.820s], FVisualizeLumenSceneCS [WorkerTime=79.512s], FScreenProbeTraceMeshSDFsCS [WorkerTime=6.675s], FTonemapPS [WorkerTime=1.615s], FTonemapCS [WorkerTime=1.328s], FTonemapPS [WorkerTime=1.015s], FBloomSumScatterDispersionEnergyCS [WorkerTime=0.523s], FDebugAlphaChannelCS [WorkerTime=0.350s], FCompositeEditorPrimitivesPS [WorkerTime=0.274s], FCombineShadingRateTexturesCS [WorkerTime=0.034s]
+[2024.12.13-05.41.42:411][  0]LogShaderCompilers: Display: Worker (4/5) finished batch of 10 jobs in 139.929s, FScreenProbeTraceMeshSDFsCS [WorkerTime=66.635s], FScreenProbeTraceMeshSDFsCS [WorkerTime=20.102s], FScreenProbeTraceMeshSDFsCS [WorkerTime=19.720s], FScreenProbeTraceMeshSDFsCS [WorkerTime=15.865s], FScreenProbeTraceMeshSDFsCS [WorkerTime=14.339s], FSelectionOutlinePS [WorkerTime=2.603s], FFilterPS [WorkerTime=0.282s], FFilterCS [WorkerTime=0.149s], FClearTranslucentLightingVolumeCS [WorkerTime=0.020s], FFillMipsConditionBufferCS [WorkerTime=0.011s]
+[2024.12.13-05.41.57:310][  0]LogShaderCompilers: Display: Worker (1/5) finished batch of 10 jobs in 247.053s, FVisualizeLumenSceneCS [WorkerTime=72.744s], FScreenProbeTraceMeshSDFsCS [WorkerTime=56.772s], FScreenProbeTraceMeshSDFsCS [WorkerTime=49.591s], FScreenProbeTraceMeshSDFsCS [WorkerTime=25.901s], FScreenProbeTraceMeshSDFsCS [WorkerTime=14.221s], FScreenProbeTraceMeshSDFsCS [WorkerTime=12.678s], FScreenProbeTraceScreenTexturesCS [WorkerTime=9.593s], FScreenProbeTraceMeshSDFsCS [WorkerTime=5.133s], FFilterCS [WorkerTime=0.123s], FTranslucencyUpsampleResponsiveAAPS [WorkerTime=0.045s]
+[2024.12.13-05.42.04:202][  0]LogShaderCompilers: Display: Worker (2/5) finished batch of 10 jobs in 107.376s, FScreenProbeTraceMeshSDFsCS [WorkerTime=53.323s], FScreenProbeTraceMeshSDFsCS [WorkerTime=21.654s], FScreenProbeTraceMeshSDFsCS [WorkerTime=10.883s], FScreenProbeTraceMeshSDFsCS [WorkerTime=6.786s], FScreenProbeTraceMeshSDFsCS [WorkerTime=6.555s], FTonemapCS [WorkerTime=3.112s], FLUTBlenderPS [WorkerTime=2.602s], FTonemapPS [WorkerTime=1.178s], FTonemapPS [WorkerTime=0.890s], FComposeSeparateTranslucencyPS [WorkerTime=0.051s]
+[2024.12.13-05.42.24:994][  0]LogShaderCompilers: Display: Worker (5/5) finished batch of 10 jobs in 72.298s, FScreenSpaceShortRangeAOCS [WorkerTime=25.122s], FScreenProbeTraceVoxelsCS [WorkerTime=18.546s], FScreenProbeTraceVoxelsCS [WorkerTime=8.327s], FLUTBlenderCS [WorkerTime=8.206s], FDiaphragmDOFGatherCS [WorkerTime=6.593s], FScreenProbeTraceMeshSDFsCS [WorkerTime=2.401s], FTonemapPS [WorkerTime=1.203s], FFilterPS [WorkerTime=0.839s], FSimpleLightTranslucentLightingInjectPS [WorkerTime=0.723s], FWaterRefractionCopyPS [WorkerTime=0.028s]
+[2024.12.13-05.43.10:312][  0]LogShaderCompilers: Display: Worker (4/5) finished batch of 10 jobs in 87.900s, FScreenProbeTraceMeshSDFsCS [WorkerTime=41.909s], FScreenProbeTraceVoxelsCS [WorkerTime=25.082s], FLUTBlenderPS [WorkerTime=8.550s], FScreenProbeTraceVoxelsCS [WorkerTime=6.921s], FScreenProbeTraceMeshSDFsCS [WorkerTime=4.073s], FFilterPS [WorkerTime=0.626s], FScreenSpaceReflectionsStencilPS [WorkerTime=0.332s], FFilterCS [WorkerTime=0.071s], FFilterPS [WorkerTime=0.057s], FClearUAVCS [WorkerTime=0.024s]
+[2024.12.13-05.43.56:754][  0]LogShaderCompilers: Display: Worker (2/5) finished batch of 10 jobs in 112.546s, FScreenProbeTraceMeshSDFsCS [WorkerTime=34.433s], FScreenProbeTraceMeshSDFsCS [WorkerTime=29.104s], FScreenProbeTraceVoxelsCS [WorkerTime=18.893s], FScreenProbeTraceVoxelsCS [WorkerTime=15.792s], FScreenProbeTraceMeshSDFsCS [WorkerTime=12.945s], FFilterCS [WorkerTime=0.666s], FPopulateCompositeDepthPS [WorkerTime=0.228s], FLumenVisualizeCompactRaysCS [WorkerTime=0.109s], FClearUAVBuildIndirectDispatchBufferCS [WorkerTime=0.074s], FCompactFeedbackHashTableCS [WorkerTime=0.044s]
+[2024.12.13-05.44.55:780][  0]LogShaderCompilers: Display: Worker (4/5) finished batch of 10 jobs in 105.461s, FScreenProbeTraceVoxelsCS [WorkerTime=34.936s], FScreenProbeTraceVoxelsCS [WorkerTime=29.031s], FTSRUpdateHistoryCS [WorkerTime=21.540s], FLUTBlenderPS [WorkerTime=11.770s], FTonemapPS [WorkerTime=2.339s], FSubsurfaceIndirectDispatchSetupCS [WorkerTime=1.748s], FFilterCS [WorkerTime=1.220s], FTranslucencyVolumeTraceVoxelsCS [WorkerTime=1.204s], FDiaphragmDOFHybridScatterVS [WorkerTime=0.151s], FSubstrateTilePassVS [WorkerTime=0.141s]
+[2024.12.13-05.44.57:041][  0]LogDerivedDataCache: C:/Users/Асер/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.025 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2024.12.13-05.45.18:599][  0]LogShaderCompilers: Error: ShaderCompileWorker terminated unexpectedly!  Falling back to directly compiling which will be very slow.  Thread 3.
+[2024.12.13-05.45.18:600][  0]LogShaderCompilers: Error: SCW 10 Queued Jobs, Unknown number of processed jobs!
+[2024.12.13-05.45.18:600][  0]LogShaderCompilers: Error: Job 0 [Single] Failed: Global/FSubstrateTilePassVS/2:/Engine/Private/Substrate/SubstrateTile.usf|SubstrateTilePassVS Type 'FSubstrateTilePassVS' '/Engine/Private/Substrate/SubstrateTile.usf' Entry 'SubstrateTilePassVS' Permutation 2 
+[2024.12.13-05.45.18:601][  0]LogShaderCompilers: Error: Job 1 [Single] Failed: Global/FHZBBuildCS/39:/Engine/Private/HZB.usf|HZBBuildCS Type 'FHZBBuildCS' '/Engine/Private/HZB.usf' Entry 'HZBBuildCS' Permutation 39 
+[2024.12.13-05.45.18:601][  0]LogShaderCompilers: Error: Job 2 [Single] Failed: Global/FFilterPS/29:/Engine/Private/FilterPixelShader.usf|MainPS Type 'FFilterPS' '/Engine/Private/FilterPixelShader.usf' Entry 'MainPS' Permutation 29 
+[2024.12.13-05.45.18:602][  0]LogShaderCompilers: Error: Job 3 [Single] Failed: Global/FSubsurfaceIndirectDispatchCS/63:/Engine/Private/PostProcessSubsurface.usf|MainIndirectDispatchCS Type 'FSubsurfaceIndirectDispatchCS' '/Engine/Private/PostProcessSubsurface.usf' Entry 'MainIndirectDispatchCS' Permutation 63 
+[2024.12.13-05.45.18:603][  0]LogShaderCompilers: Error: Job 4 [Single] Failed: Global/FDiaphragmDOFSetupCS/1:/Engine/Private/DiaphragmDOF/DOFSetup.usf|SetupCS Type 'FDiaphragmDOFSetupCS' '/Engine/Private/DiaphragmDOF/DOFSetup.usf' Entry 'SetupCS' Permutation 1 
+[2024.12.13-05.45.18:603][  0]LogShaderCompilers: Error: Job 5 [Single] Failed: Global/FClearCompressedAtlasCS/3:/Engine/Private/Lumen/SurfaceCache/LumenSurfaceCache.usf|ClearCompressedAtlasCS Type 'FClearCompressedAtlasCS' '/Engine/Private/Lumen/SurfaceCache/LumenSurfaceCache.usf' Entry 'ClearCompressedAtlasCS' Permutation 3 
+[2024.12.13-05.45.18:603][  0]LogShaderCompilers: Error: Job 6 [Single] Failed: Global/FLumenCardCopyPS/9:/Engine/Private/Lumen/SurfaceCache/LumenSurfaceCache.usf|LumenCardCopyPS Type 'FLumenCardCopyPS' '/Engine/Private/Lumen/SurfaceCache/LumenSurfaceCache.usf' Entry 'LumenCardCopyPS' Permutation 9 
+[2024.12.13-05.45.18:605][  0]LogShaderCompilers: Error: Job 7 [Single] Failed: Global/FScreenProbeTraceVoxelsCS/26:/Engine/Private/Lumen/LumenScreenProbeTracing.usf|ScreenProbeTraceVoxelsCS Type 'FScreenProbeTraceVoxelsCS' '/Engine/Private/Lumen/LumenScreenProbeTracing.usf' Entry 'ScreenProbeTraceVoxelsCS' Permutation 26 
+[2024.12.13-05.45.18:605][  0]LogShaderCompilers: Error: Job 8 [Single] Failed: Global/FScreenProbeTraceVoxelsCS/50:/Engine/Private/Lumen/LumenScreenProbeTracing.usf|ScreenProbeTraceVoxelsCS Type 'FScreenProbeTraceVoxelsCS' '/Engine/Private/Lumen/LumenScreenProbeTracing.usf' Entry 'ScreenProbeTraceVoxelsCS' Permutation 50 
+[2024.12.13-05.45.18:605][  0]LogShaderCompilers: Error: Job 9 [Single] Failed: Global/FScreenProbeTraceVoxelsCS/72:/Engine/Private/Lumen/LumenScreenProbeTracing.usf|ScreenProbeTraceVoxelsCS Type 'FScreenProbeTraceVoxelsCS' '/Engine/Private/Lumen/LumenScreenProbeTracing.usf' Entry 'ScreenProbeTraceVoxelsCS' Permutation 72 
